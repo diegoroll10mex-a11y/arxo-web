@@ -1,0 +1,21 @@
+{
+  "northStar": "La sala de espera vacía",
+  "shadows": {
+    "button-primary": "0 6px 16px rgb(212 32 22 / .28)",
+    "panel": "0 30px 60px rgb(17 20 24 / .28)",
+    "ticket": "drop-shadow(0 8px 18px rgb(17 20 24 / .12))",
+    "plan-featured": "0 24px 50px rgb(0 0 0 / .45)"
+  },
+  "motion": {
+    "ease-out": "cubic-bezier(.16, 1, .3, 1)",
+    "turn-interval-ms": 3600,
+    "board-row-in": "clip-path reveal 700ms ease-out",
+    "reduced-motion": "all animation and transitions off; panel does not advance"
+  },
+  "breakpoints": { "stack": "960px", "phone": "720px" },
+  "focus": "3px solid signal-red, 3px offset",
+  "components": {
+    "button-primary": { "html": "<a class=\"btn btn-red\" data-wa=\"...\" href=\"#\">Pedir demo gratis</a>" },
+    "ticket": { "html": "<article class=\"ticket\"><div class=\"ticket-stub\"><span>Turno</span><strong>A01</strong></div><div class=\"ticket-body\"><h3>Título</h3><p>Descripción</p></div></article>" }
+  }
+}
