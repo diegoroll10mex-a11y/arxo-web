@@ -1,113 +1,91 @@
 ---
 name: ARXO Automatizaciones
-description: Sala de espera donde nadie espera; señalética institucional, pantalla LED de turnos y boletos de papel.
+description: Presentación de producto estilo Apple; negro, blanco y un solo azul tecnológico, con movimiento guiado por el scroll.
 colors:
-  wall: "#F3F5F7"
-  wall-2: "#E6EAEE"
-  ink: "#111418"
-  ink-2: "#3B434C"
-  signal-red: "#D42016"
-  signal-red-deep: "#B81A12"
-  panel: "#0D0F12"
-  panel-2: "#1A1E23"
-  led-amber: "#FFB020"
-  served-green: "#1FA35C"
-  paper: "#FFFFFF"
+  black: "#000000"
+  ink: "#1D1D1F"
+  mist: "#F5F5F7"
+  white: "#FFFFFF"
+  gray-on-dark: "#A1A1A6"
+  gray-on-light: "#6E6E73"
+  body-on-light: "#424245"
+  blue: "#0071E3"
+  blue-hover: "#0062C4"
+  blue-press: "#0058B0"
+  blue-bright: "#2997FF"
+  device: "#1C1C1E"
+  whatsapp: "#25D366"
 typography:
   display:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(3.4rem, 8.6vw, 6rem)"
-    fontWeight: 800
-    lineHeight: 0.95
-    letterSpacing: "-0.01em"
+    fontFamily: "Geist, -apple-system, SF Pro Display, sans-serif"
+    fontSize: "clamp(3rem, 9vw, 6rem)"
+    fontWeight: 700
+    lineHeight: 1.02
+    letterSpacing: "-0.045em"
   headline:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(2.2rem, 5vw, 3.6rem)"
-    fontWeight: 800
-    lineHeight: 0.95
-  title:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "1.6rem"
-    fontWeight: 800
-    lineHeight: 1
-  label:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "1.15rem"
-    fontWeight: 600
-    letterSpacing: "0.04em"
+    fontFamily: "Geist, -apple-system, SF Pro Display, sans-serif"
+    fontSize: "clamp(2.2rem, 5vw, 3.8rem)"
+    fontWeight: 700
+    lineHeight: 1.05
+    letterSpacing: "-0.035em"
   body:
-    fontFamily: "Barlow, system-ui, sans-serif"
-    fontSize: "1.0625rem"
+    fontFamily: "Geist, -apple-system, SF Pro Text, sans-serif"
+    fontSize: "clamp(1.05rem, 1.6vw, 1.25rem)"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.5
 rounded:
-  sm: "4px"
-  md: "6px"
-  lg: "10px"
-  panel: "14px"
+  control: "999px"
+  card: "16px"
+  device: "46px"
 spacing:
-  section: "clamp(4rem, 9vw, 7.5rem)"
+  section: "clamp(6rem, 14vw, 11rem)"
   gutter: "16px"
 components:
   button-primary:
-    backgroundColor: "{colors.signal-red}"
-    textColor: "{colors.paper}"
-    typography: "{typography.label}"
-    rounded: "{rounded.md}"
-    height: "48px"
+    backgroundColor: "{colors.blue}"
+    textColor: "{colors.white}"
+    rounded: "{rounded.control}"
+    height: "44px"
   button-primary-hover:
-    backgroundColor: "{colors.signal-red-deep}"
-  button-on-dark:
+    backgroundColor: "{colors.blue-hover}"
+  button-outline:
     backgroundColor: "transparent"
-    textColor: "{colors.paper}"
-    rounded: "{rounded.md}"
-  turn-panel:
-    backgroundColor: "{colors.panel}"
-    textColor: "{colors.led-amber}"
-    rounded: "{rounded.panel}"
-  ticket-stub:
-    backgroundColor: "{colors.signal-red}"
-    textColor: "{colors.paper}"
+    textColor: "{colors.blue-bright}"
+    rounded: "{rounded.control}"
 ---
 
 ## Overview
 
-North star: **la sala de espera vacía**. ARXO se presenta como el sistema de turnos de una clínica o un banco, pero uno donde nadie espera porque el bot atiende en segundos. Todo sale de ese mundo: señalética institucional en mayúsculas condensadas, una pantalla LED con dígitos de siete segmentos, boletos de papel con perforación y un dispensador de turnos como cierre. Superficie de persuasión: cada sección termina en WhatsApp.
+North star: **una keynote de producto**. ARXO se presenta como Apple presenta un iPhone: una idea por pantalla, titulares enormes, mucho aire y el producto (un asistente de WhatsApp) mostrado dentro de un teléfono que se mueve con el scroll. Superficie de persuasión: cada sección termina en WhatsApp.
 
 ## Colors
 
-Pared blanca fría (`wall`) con tinta casi negra para la señalética. El rojo de dispensador (`signal-red`) es el color comprometido: titular principal, bandas completas (el problema y el cierre), talones de boleto y el plan destacado. La pantalla (`panel`) es el único campo oscuro grande junto con la tabla de tarifas; ahí vive el ámbar LED (`led-amber`) para números. El verde (`served-green`) significa "atendido" y solo marca estados y palomitas. Texto sobre rojo va en blanco puro.
+Tres campos: negro puro (héroe, manifiesto, precios, cierre), blanco (funciones, pasos, preguntas) y gris niebla `mist` (giros). Un solo acento: azul. `blue` (#0071E3) rellena botones y burbujas con texto blanco (4.7:1). `blue-bright` (#2997FF) es el azul para texto y enlaces sobre negro. El verde de WhatsApp solo vive en el botón flotante.
 
 ## Typography
 
-Barlow Condensed (800) para toda la señalética: titulares, nombres de servicios, números de turno y botones, siempre en mayúsculas. Barlow regular para leer, en caja normal. Números con `tabular-nums`. Las preguntas frecuentes van en Barlow 600 en caja normal para que se lean de corrido. Fuentes servidas desde `/fonts` (OFL).
+Geist variable, servida desde `/fonts` (OFL). Titulares en 700 con tracking negativo fuerte; la segunda línea del héroe va en azul. Texto en 400. Números con `tabular-nums`.
 
 ## Layout
 
-Contenedor de 1200px con 16px de margen lateral. Secciones con ritmo `spacing.section`. Héroe en dos columnas (texto y pantalla) que pasan a una sola columna bajo 960px, con la pantalla después del botón. Los boletos van en dos columnas en escritorio y una en celular. La ruta de tres pasos es un solo letrero dividido en tres, que se apila en celular con las flechas giradas.
+Contenedor de 1024px con 16px de margen. Secciones muy altas (`spacing.section`) y centradas. Funciones es un scrollytelling: texto a la izquierda y teléfono fijo a la derecha; en celular (<860px) el teléfono queda fijo arriba y el texto activo se lee debajo.
 
-## Elevation & Depth
+## Motion
 
-Sombras suaves con desplazamiento vertical, nunca bloques duros. La pantalla lleva un marco de 8px y sombra profunda como objeto colgado en la pared. El brillo ámbar de los dígitos y el LED verde son luz del objeto, no decoración.
-
-## Shapes
-
-Esquinas chicas (4 a 6px) en botones y placas; 10px en paneles de contenido; 14px en la pantalla. Los boletos usan muescas circulares a los lados y línea punteada entre talón y cuerpo. Los títulos de sección llevan una barra roja inferior de 6px como placa de señalética (ámbar sobre fondo oscuro).
-
-## Components
-
-- **Pantalla de turnos**: número de tres dígitos de siete segmentos (SVG generado en `script.js`), estado "Atendiendo", velocidad de atención y tablero de los tres últimos turnos. Avanza cada 3.6 s solo cuando está a la vista y se detiene con movimiento reducido. Siempre lleva la leyenda de simulación.
-- **Boleto de servicio**: talón rojo con "Turno A0n" y cuerpo blanco con título y descripción.
-- **Ventanillas**: pestañas accesibles (flechas del teclado) con conversación de ejemplo marcada como "ejemplo".
-- **Tarifas**: tablero oscuro; el plan destacado es el campo rojo con bandera ámbar.
-- **Dispensador**: caja negra con boleto blanco que es el enlace a WhatsApp; se jala al hacer clic.
-- **Botones**: rojo sólido para la acción principal; en fondos oscuros, contorno blanco o blanco sólido.
+Easing `cubic-bezier(.23,1,.32,1)`. Todo lo que depende del scroll corre en un solo `requestAnimationFrame`.
+- Héroe: el texto se aleja con blur y el teléfono se acerca al bajar.
+- Manifiesto: las palabras se encienden conforme se hace scroll; la última frase se enciende en azul.
+- Funciones: cada paso cambia la pantalla del teléfono.
+- Giros: control segmentado con pulgar que se desliza.
+- Entradas: `.fade` con blur y desplazamiento, una sola vez.
+- Chat del héroe: se escribe solo mientras está a la vista.
+Con `prefers-reduced-motion` todo queda estático y visible.
 
 ## Do's and Don'ts
 
 - Do: cada llamado a la acción usa `data-wa` para armar el enlace de WhatsApp.
-- Do: marcar como ejemplo cualquier negocio, turno o chat simulado.
-- Do: reservar el ámbar para números en campos oscuros.
+- Do: marcar como ejemplo cualquier negocio, chat o pantalla simulada.
+- Do: una idea por sección; si hay que explicar más, va en Preguntas.
 - Don't: inventar clientes, testimonios, métricas ni logos.
-- Don't: etiquetas pequeñas sobre los títulos (kickers) ni tarjetas genéricas de ícono más texto.
-- Don't: animaciones sueltas; el único movimiento propio es el avance de la pantalla y el boleto del dispensador.
+- Don't: kickers sobre los títulos, texto con degradado, tarjetas de ícono más texto.
+- Don't: un segundo color de acento.

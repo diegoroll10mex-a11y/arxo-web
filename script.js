@@ -14,103 +14,122 @@ document.querySelectorAll("[data-wa]").forEach((link) => {
 });
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const pad = (n) => String(n).padStart(3, "0");
+const clamp = (v, min = 0, max = 1) => Math.min(max, Math.max(min, v));
 
-// ---------- Pantalla de turnos: dígitos de siete segmentos ----------
-const SEGMENTS = {
-  a: "12,0 44,0 48,4 44,8 12,8 8,4",
-  b: "48,8 52,12 52,42 48,46 44,42 44,12",
-  c: "48,50 52,54 52,84 48,88 44,84 44,54",
-  d: "12,88 44,88 48,92 44,96 12,96 8,92",
-  e: "8,50 12,54 12,84 8,88 4,84 4,54",
-  f: "8,8 12,12 12,42 8,46 4,42 4,12",
-  g: "12,44 44,44 48,48 44,52 12,52 8,48",
-};
-const DIGITS = ["abcdef", "bc", "abged", "abgcd", "fgbc", "afgcd", "afgedc", "abc", "abcdefg", "abcfgd"];
+// ---------- Entrada del héroe ----------
+requestAnimationFrame(() => requestAnimationFrame(() => document.documentElement.classList.add("is-loaded")));
 
-function digitSvg() {
-  const ns = "http://www.w3.org/2000/svg";
-  const svg = document.createElementNS(ns, "svg");
-  svg.setAttribute("viewBox", "0 0 56 96");
-  svg.setAttribute("class", "digit");
-  svg.setAttribute("aria-hidden", "true");
-  const g = document.createElementNS(ns, "g");
-  g.setAttribute("transform", "skewX(-6) translate(5 0)");
-  for (const [name, points] of Object.entries(SEGMENTS)) {
-    const p = document.createElementNS(ns, "polygon");
-    p.setAttribute("points", points);
-    p.setAttribute("class", "seg");
-    p.dataset.seg = name;
-    g.appendChild(p);
-  }
-  svg.appendChild(g);
-  return svg;
-}
+// ---------- Todo lo que depende del scroll, en un solo cuadro ----------
+const nav = document.getElementById("nav");
+const heroCopy = document.querySelector("[data-hero-copy]");
+const heroStage = document.querySelector("[data-hero-stage]");
+const manifesto = document.querySelector(".manifesto");
+const revealText = document.querySelector("[data-reveal-text]");
 
-const numberEl = document.getElementById("turno");
-const srNumber = numberEl.querySelector(".sr-only");
-const digitEls = [digitSvg(), digitSvg(), digitSvg()];
-digitEls.forEach((d) => numberEl.appendChild(d));
-
-function showNumber(n) {
-  pad(n).split("").forEach((ch, i) => {
-    const on = DIGITS[Number(ch)];
-    digitEls[i].querySelectorAll(".seg").forEach((s) => s.classList.toggle("on", on.includes(s.dataset.seg)));
+// Parte el manifiesto en palabras; la última frase se enciende en azul.
+const words = [];
+if (revealText) {
+  const text = revealText.textContent.trim();
+  const blueFrom = text.indexOf("ese siempre eres tú.");
+  revealText.textContent = "";
+  let cursor = 0;
+  text.split(" ").forEach((word, i, all) => {
+    const span = document.createElement("span");
+    span.className = "w" + (cursor >= blueFrom ? " blue" : "");
+    span.textContent = word;
+    revealText.appendChild(span);
+    if (i < all.length - 1) revealText.appendChild(document.createTextNode(" "));
+    words.push(span);
+    cursor += word.length + 1;
   });
-  srNumber.textContent = `Turno ${pad(n)}`;
 }
 
-// Turnos de ejemplo que va atendiendo el bot.
-const EVENTS = [
-  ["Clínica Sonrisa", "Recordatorio enviado · mañana 10:30"],
-  ["Barbería El Güero", "Precio y horario respondidos"],
-  ["Inmobiliaria Norte", "Prospecto calificado · crédito Infonavit"],
-  ["Consultorio Dra. Ruiz", "Pago recordado · liga enviada"],
-  ["Barbería El Güero", "Lugar liberado · cliente avisado"],
-  ["Inmobiliaria Norte", "Visita agendada · casa en venta"],
-  ["Clínica Sonrisa", "Cita agendada · jueves 17:30"],
-];
+let ticking = false;
+function onScroll() {
+  const y = window.scrollY;
+  const vh = window.innerHeight;
+  nav.classList.toggle("is-scrolled", y > 8);
 
-let turn = 24;
-let eventIndex = 0;
-const board = document.getElementById("board");
-const speed = document.getElementById("speed");
-const takeNum = document.getElementById("take-num");
-showNumber(turn);
+  if (!reduceMotion) {
+    // El texto del héroe se aleja y el teléfono se acerca.
+    const p = clamp(y / (vh * 0.9));
+    heroCopy.style.transform = `translate3d(0, ${-p * 90}px, 0) scale(${1 - p * 0.06})`;
+    heroCopy.style.opacity = String(1 - p * 1.25);
+    heroCopy.style.filter = `blur(${p * 10}px)`;
+    heroStage.style.transform = `translate3d(0, ${-p * 110}px, 0) scale(${1 + p * 0.1})`;
+  }
 
-function serveNext() {
-  const [who, what] = EVENTS[eventIndex % EVENTS.length];
-  eventIndex += 1;
+  if (manifesto && words.length) {
+    const rect = manifesto.getBoundingClientRect();
+    const progress = clamp(-rect.top / (rect.height - vh));
+    const lit = reduceMotion ? words.length : Math.round(progress * 1.15 * words.length);
+    words.forEach((w, i) => w.classList.toggle("on", i < lit));
+  }
+  ticking = false;
+}
+window.addEventListener("scroll", () => {
+  if (!ticking) { ticking = true; requestAnimationFrame(onScroll); }
+}, { passive: true });
+window.addEventListener("resize", onScroll);
+onScroll();
 
-  const row = document.createElement("li");
-  row.className = "is-new";
-  row.innerHTML = `<span class="b-num">${pad(turn)}</span><span class="b-who"></span><span class="b-what"></span>`;
-  row.querySelector(".b-who").textContent = who;
-  row.querySelector(".b-what").textContent = what;
-  board.prepend(row);
-  while (board.children.length > 3) board.lastElementChild.remove();
+// ---------- Conversación que se escribe sola en el héroe ----------
+const thread = document.querySelector("[data-live-thread]");
+if (thread && !reduceMotion) {
+  const items = [...thread.querySelectorAll("[data-step]")];
+  const typing = thread.querySelector("[data-typing]");
+  // [momento en ms, acción]
+  const script = [
+    [500, () => show(0)],
+    [1300, () => typing.classList.add("is-on")],
+    [2500, () => { typing.classList.remove("is-on"); show(2); }],
+    [4000, () => show(3)],
+    [4700, () => typing.classList.add("is-on")],
+    [5800, () => { typing.classList.remove("is-on"); show(5); }],
+    [6500, () => show(6)],
+  ];
+  const show = (step) => items.find((el) => el.dataset.step === String(step))?.classList.add("is-shown");
+  let timers = [];
+  let running = false;
 
-  turn += 1;
-  showNumber(turn);
-  speed.textContent = `${2 + (eventIndex % 3)} s`;
-  takeNum.textContent = pad(turn + 1);
+  function play() {
+    thread.classList.add("is-playing");
+    items.forEach((el) => el.classList.remove("is-shown"));
+    typing.classList.remove("is-on");
+    timers = script.map(([t, fn]) => setTimeout(fn, t));
+    timers.push(setTimeout(play, 11000));
+  }
+  function stop() { timers.forEach(clearTimeout); timers = []; }
+
+  new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting && !running) { running = true; play(); }
+    if (!entry.isIntersecting && running) { running = false; stop(); }
+  }, { threshold: 0.1 }).observe(thread);
 }
 
-if (!reduceMotion) {
-  let timer = null;
-  const start = () => { if (!timer) timer = setInterval(serveNext, 3600); };
-  const stop = () => { clearInterval(timer); timer = null; };
-  // Solo avanza cuando la pantalla está a la vista.
-  new IntersectionObserver(([entry]) => (entry.isIntersecting ? start() : stop())).observe(numberEl);
-  document.addEventListener("visibilitychange", () => (document.hidden ? stop() : null));
+// ---------- Funciones: el paso activo cambia la pantalla del teléfono ----------
+const steps = [...document.querySelectorAll("[data-step-index]")];
+const screens = [...document.querySelectorAll("[data-screen]")];
+function activate(index) {
+  steps.forEach((s) => s.classList.toggle("is-active", s.dataset.stepIndex === String(index)));
+  screens.forEach((s) => s.classList.toggle("is-active", s.dataset.screen === String(index)));
 }
+const stepObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => { if (entry.isIntersecting) activate(entry.target.dataset.stepIndex); });
+}, {
+  // En celular el teléfono ocupa la parte de arriba; el texto activo se lee debajo.
+  rootMargin: window.matchMedia("(max-width: 860px)").matches ? "-66% 0px -22% 0px" : "-45% 0px -45% 0px",
+});
+steps.forEach((s) => stepObserver.observe(s));
 
-// ---------- Ventanillas por giro ----------
-const tabs = [...document.querySelectorAll(".window-tab")];
+// ---------- Giros: control segmentado ----------
+const segmented = document.querySelector("[data-segmented]");
+const tabs = [...segmented.querySelectorAll('[role="tab"]')];
 function selectTab(tab) {
+  const index = tabs.indexOf(tab);
+  segmented.style.setProperty("--i", index);
   tabs.forEach((t) => {
     const active = t === tab;
-    t.classList.toggle("is-active", active);
     t.setAttribute("aria-selected", String(active));
     t.tabIndex = active ? 0 : -1;
     const panel = document.getElementById(t.getAttribute("aria-controls"));
@@ -125,20 +144,24 @@ function selectTab(tab) {
 tabs.forEach((tab, i) => {
   tab.addEventListener("click", () => selectTab(tab));
   tab.addEventListener("keydown", (e) => {
-    const keys = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
-    if (!(e.key in keys)) return;
+    const dir = { ArrowRight: 1, ArrowLeft: -1 }[e.key];
+    if (!dir) return;
     e.preventDefault();
-    const next = tabs[(i + keys[e.key] + tabs.length) % tabs.length];
+    const next = tabs[(i + dir + tabs.length) % tabs.length];
     selectTab(next);
     next.focus();
   });
 });
 
-// ---------- Dispensador: el boleto se arranca al tomarlo ----------
-const ticket = document.getElementById("take-turn");
-ticket.addEventListener("click", () => {
-  ticket.classList.add("is-pulled");
-  setTimeout(() => ticket.classList.remove("is-pulled"), 1200);
-});
+// ---------- Entradas suaves al aparecer en pantalla ----------
+const fadeObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("is-in");
+      fadeObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15, rootMargin: "0px 0px -8% 0px" });
+document.querySelectorAll(".fade").forEach((el) => fadeObserver.observe(el));
 
 document.getElementById("year").textContent = new Date().getFullYear();
