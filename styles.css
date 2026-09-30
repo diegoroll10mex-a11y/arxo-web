@@ -37,6 +37,7 @@ body {
 ::selection { background: var(--blue); color: #fff; }
 h1, h2, h3, p { margin: 0; }
 h1, h2, h3 { font-weight: 600; text-wrap: balance; }
+p, li, dd, summary { text-wrap: pretty; }
 a { color: var(--blue-bright); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: .18em; }
 :focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 8px; }
@@ -76,14 +77,14 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 /* Sections */
 .section-head { text-align: center; padding-inline: 16px; margin-bottom: clamp(3rem, 7vw, 5.5rem); }
 .section-head h2 { font-size: clamp(2.5rem, 6.4vw, 5rem); line-height: 1.04; letter-spacing: -.035em; }
-.section-sub { margin-top: 1.2rem; font-size: clamp(1.1rem, 1.8vw, 1.35rem); color: var(--gray-on-light); }
+.section-sub { margin-top: 1.2rem; font-size: clamp(1.1rem, 1.8vw, 1.35rem); color: var(--gray-on-light); text-wrap: balance; }
 
 /* HERO */
 .hero { position: relative; min-height: 100svh; padding: calc(52px + clamp(4rem, 10vh, 7rem)) 16px 0; overflow: clip; text-align: center; }
 .hero-copy { position: relative; z-index: 2; max-width: 980px; margin-inline: auto; will-change: transform, opacity, filter; }
 .hero-title { font-size: clamp(3rem, 9vw, 6rem); line-height: 1; letter-spacing: -.045em; font-weight: 700; }
 .hero-title .line { display: block; }
-.hero-sub { max-width: 34rem; margin: 1.6rem auto 0; font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.4; color: var(--gray-on-dark); letter-spacing: -.015em; }
+.hero-sub { max-width: 34rem; margin: 1.6rem auto 0; font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.4; color: var(--gray-on-dark); letter-spacing: -.015em; text-wrap: balance; }
 .hero-cta { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem 2rem; margin-top: 2.2rem; }
 
 .js .hero-title .line, .js .hero-sub, .js .hero-cta { opacity: 0; transform: translateY(24px); filter: blur(10px); }
