@@ -146,12 +146,14 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 .scrolly-steps { padding: 18vh 0 22vh; }
 .step { min-height: 62vh; display: flex; flex-direction: column; justify-content: center; opacity: .22; transition: opacity .5s var(--ease-out); }
 .step.is-active { opacity: 1; }
-.step h3 { font-size: clamp(2rem, 3.8vw, 3rem); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 1rem; }
-.step p { font-size: clamp(1.05rem, 1.5vw, 1.2rem); line-height: 1.5; color: var(--gray-on-light); max-width: 30rem; }
-.step.is-active p { color: #424245; }
+.step > h3 { font-size: clamp(2rem, 3.8vw, 3rem); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 1rem; }
+.step > p { font-size: clamp(1.05rem, 1.5vw, 1.2rem); line-height: 1.5; color: var(--gray-on-light); max-width: 30rem; }
+.step.is-active > p { color: #424245; }
 .scrolly-stage { position: sticky; top: calc(52px + 7vh); height: calc(100svh - 52px - 14vh); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .9rem; }
 .device-sm { width: auto; height: min(100%, 640px); max-width: 100%; }
 .stage-note { font-size: .78rem; color: var(--gray-on-light); }
+.step-device, .swipe-hint { display: none; }
+.swipe-hint { margin: 1rem 16px 0; text-align: center; font-size: .78rem; color: var(--gray-on-light); }
 .screen { position: absolute; inset: 0; display: flex; flex-direction: column; gap: 10px; padding: 58px 14px 20px; opacity: 0; transform: scale(.97); filter: blur(6px); transition: opacity .55s var(--ease-out), transform .7s var(--ease-out), filter .55s var(--ease-out); }
 .screen.is-active { opacity: 1; transform: none; filter: none; }
 .screen-title { font-size: 1.55rem; font-weight: 700; letter-spacing: -.03em; color: #fff; margin-bottom: 6px; }
@@ -252,11 +254,24 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 /* Responsive */
 @media (max-width: 860px) {
   .nav-links { display: none; }
-  .scrolly { grid-template-columns: 1fr; gap: 0; }
-  .scrolly-stage { order: -1; top: 52px; height: 56svh; z-index: 2; padding: 1rem 0 .5rem; background: linear-gradient(var(--white) 88%, rgb(255 255 255 / 0)); }
-  .device-sm { height: 100%; }
-  .scrolly-steps { padding: 4vh 0 10vh; }
-  .step { min-height: 55svh; justify-content: flex-start; padding-top: 2rem; }
+  :root { --section: 4.5rem; }
+  /* Celular: sin blur animado ni secciones largas; se desliza ligero. */
+  .halo { filter: none; }
+  .js .fade { filter: none; transform: translateY(20px); }
+  .js .fade.is-in { transition: opacity .6s var(--ease-out) var(--d, 0s), transform .7s var(--ease-out) var(--d, 0s); }
+  .manifesto { height: 150svh; }
+  /* Funciones: tarjetas que se deslizan de lado, cada una con su pantalla. */
+  .scrolly { display: block; width: 100%; }
+  .scrolly-stage { display: none; }
+  .scrolly-steps { display: flex; gap: 12px; padding: 0 16px 8px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 16px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .scrolly-steps::-webkit-scrollbar { display: none; }
+  .step { flex: 0 0 min(84%, 340px); min-height: 0; justify-content: flex-start; gap: 1.1rem; opacity: 1; scroll-snap-align: start; padding: 1.2rem 1.2rem 1.5rem; border-radius: 24px; background: var(--mist); }
+  .step > h3 { margin-bottom: .4rem; font-size: 1.7rem; }
+  .step > p, .step.is-active > p { color: #424245; font-size: 1rem; }
+  .step-device { display: flex; justify-content: center; height: 330px; overflow: hidden; -webkit-mask-image: linear-gradient(#000 78%, transparent); mask-image: linear-gradient(#000 78%, transparent); }
+  .step-device .device-sm { width: 250px; height: auto; flex: none; box-shadow: none; }
+  .step-device .screen { transition: none; }
+  .swipe-hint { display: block; }
   .how-list { grid-template-columns: 1fr; }
   .plans { grid-template-columns: 1fr; border-top: 0; }
   .plan { border-top: 1px solid var(--line-dark); }

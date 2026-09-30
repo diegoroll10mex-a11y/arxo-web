@@ -14,6 +14,7 @@ document.querySelectorAll("[data-wa]").forEach((link) => {
 });
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const isPhone = window.matchMedia("(max-width: 860px)").matches;
 const clamp = (v, min = 0, max = 1) => Math.min(max, Math.max(min, v));
 
 // ---------- Entrada del héroe ----------
@@ -50,7 +51,7 @@ function onScroll() {
   const vh = window.innerHeight;
   nav.classList.toggle("is-scrolled", y > 8);
 
-  if (!reduceMotion) {
+  if (!reduceMotion && !isPhone) {
     // El texto del héroe se aleja y el teléfono se acerca.
     const p = clamp(y / (vh * 0.9));
     heroCopy.style.transform = `translate3d(0, ${-p * 90}px, 0) scale(${1 - p * 0.06})`;
@@ -114,13 +115,29 @@ function activate(index) {
   steps.forEach((s) => s.classList.toggle("is-active", s.dataset.stepIndex === String(index)));
   screens.forEach((s) => s.classList.toggle("is-active", s.dataset.screen === String(index)));
 }
-const stepObserver = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => { if (entry.isIntersecting) activate(entry.target.dataset.stepIndex); });
-}, {
-  // En celular el teléfono ocupa la parte de arriba; el texto activo se lee debajo.
-  rootMargin: window.matchMedia("(max-width: 860px)").matches ? "-66% 0px -22% 0px" : "-45% 0px -45% 0px",
-});
-steps.forEach((s) => stepObserver.observe(s));
+if (isPhone) {
+  // En celular cada tarjeta lleva su propio teléfono con su pantalla.
+  const device = document.querySelector(".scrolly-stage .device");
+  steps.forEach((step) => {
+    const clone = device.cloneNode(true);
+    clone.removeAttribute("role");
+    clone.removeAttribute("aria-label");
+    clone.setAttribute("aria-hidden", "true");
+    clone.querySelectorAll("[data-screen]").forEach((sc) => {
+      if (sc.dataset.screen === step.dataset.stepIndex) sc.classList.add("is-active");
+      else sc.remove();
+    });
+    const wrap = document.createElement("div");
+    wrap.className = "step-device";
+    wrap.appendChild(clone);
+    step.prepend(wrap);
+  });
+} else {
+  const stepObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => { if (entry.isIntersecting) activate(entry.target.dataset.stepIndex); });
+  }, { rootMargin: "-45% 0px -45% 0px" });
+  steps.forEach((s) => stepObserver.observe(s));
+}
 
 // ---------- Giros: control segmentado ----------
 const segmented = document.querySelector("[data-segmented]");
