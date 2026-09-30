@@ -142,9 +142,15 @@ if (isPhone) {
 // ---------- Giros: control segmentado ----------
 const segmented = document.querySelector("[data-segmented]");
 const tabs = [...segmented.querySelectorAll('[role="tab"]')];
+function placeThumb(tab) {
+  segmented.style.setProperty("--x", `${tab.offsetLeft}px`);
+  segmented.style.setProperty("--w", `${tab.offsetWidth}px`);
+}
 function selectTab(tab) {
   const index = tabs.indexOf(tab);
-  segmented.style.setProperty("--i", index);
+  placeThumb(tab);
+  // En celular el selector se desliza de lado; el giro elegido queda a la vista.
+  segmented.scrollTo({ left: tab.offsetLeft - (segmented.clientWidth - tab.offsetWidth) / 2, behavior: reduceMotion ? "auto" : "smooth" });
   tabs.forEach((t) => {
     const active = t === tab;
     t.setAttribute("aria-selected", String(active));
@@ -158,6 +164,10 @@ function selectTab(tab) {
     }
   });
 }
+const selectedTab = () => tabs.find((t) => t.getAttribute("aria-selected") === "true");
+placeThumb(selectedTab());
+window.addEventListener("resize", () => placeThumb(selectedTab()));
+document.fonts?.ready.then(() => placeThumb(selectedTab()));
 tabs.forEach((tab, i) => {
   tab.addEventListener("click", () => selectTab(tab));
   tab.addEventListener("keydown", (e) => {

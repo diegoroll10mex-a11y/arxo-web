@@ -174,11 +174,12 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 
 /* GIROS (mist) */
 .giros { background: var(--mist); color: var(--ink); padding: var(--section) 16px; text-align: center; }
-.segmented { position: relative; display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; padding: 4px; border-radius: 999px; background: #E3E3E8; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+.segmented { position: relative; display: inline-grid; grid-auto-flow: column; grid-auto-columns: max-content; max-width: 100%; overflow-x: auto; scrollbar-width: none; padding: 4px; border-radius: 999px; background: #E3E3E8; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
 .segmented button { position: relative; z-index: 1; min-height: 40px; padding: .5rem clamp(1rem, 3vw, 1.8rem); border: 0; border-radius: 999px; background: transparent; color: var(--gray-on-light); font: 500 .98rem/1 var(--font); letter-spacing: -.01em; cursor: pointer; transition: color .25s ease; }
 .segmented button[aria-selected="true"] { color: var(--ink); }
 .segmented button:active { transform: scale(.97); }
-.seg-thumb { position: absolute; top: 4px; bottom: 4px; left: 4px; width: calc((100% - 8px) / 3); border-radius: 999px; background: var(--white); box-shadow: 0 3px 10px rgb(0 0 0 / .08), 0 1px 2px rgb(0 0 0 / .06); transform: translateX(calc(var(--i, 0) * 100%)); transition: transform .5s cubic-bezier(.32, .72, 0, 1); }
+.seg-thumb { position: absolute; top: 4px; bottom: 4px; left: 0; width: var(--w, 0); border-radius: 999px; background: var(--white); box-shadow: 0 3px 10px rgb(0 0 0 / .08), 0 1px 2px rgb(0 0 0 / .06); transform: translateX(var(--x, 4px)); transition: transform .5s cubic-bezier(.32, .72, 0, 1), width .5s cubic-bezier(.32, .72, 0, 1); }
+.segmented::-webkit-scrollbar { display: none; }
 .giro-panels { display: grid; max-width: 760px; margin-inline: auto; }
 .giro { grid-area: 1 / 1; }
 .giro h3 { font-size: clamp(2.2rem, 5vw, 3.8rem); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 2rem; }
@@ -281,7 +282,7 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 @media (max-width: 480px) {
   .device { border-radius: 46px; padding: 9px; }
   .device-screen { border-radius: 38px; }
-  .segmented button { padding-inline: .8rem; font-size: .9rem; }
+  .segmented button { padding-inline: .9rem; font-size: .9rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .js .fade, .js .hero-title .line, .js .hero-sub, .js .hero-cta, .js .stage .device { opacity: 1 !important; transform: none !important; filter: none !important; }

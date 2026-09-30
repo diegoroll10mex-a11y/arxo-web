@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>ARXO · Tu negocio, siempre contestando</title>
-  <meta name="description" content="ARXO instala un asistente de WhatsApp que contesta en segundos, agenda citas, recuerda pagos y lleva el registro de tus clientes. Para clínicas, barberías, inmobiliarias y más.">
+  <meta name="description" content="ARXO instala un asistente de WhatsApp que contesta en segundos, agenda citas, recuerda pagos y lleva el registro de tus clientes. Para restaurantes, clínicas, tiendas, gimnasios y cualquier negocio que atienda por WhatsApp.">
   <meta property="og:title" content="ARXO · Tu negocio, siempre contestando">
   <meta property="og:description" content="Un asistente de WhatsApp que atiende, agenda y cobra por ti, las 24 horas.">
   <meta property="og:type" content="website">
@@ -157,13 +157,25 @@
 
       <div class="segmented fade" role="tablist" aria-label="Giros" data-segmented>
         <span class="seg-thumb" aria-hidden="true"></span>
-        <button role="tab" id="t-clinicas" aria-controls="p-clinicas" aria-selected="true">Clínicas</button>
+        <button role="tab" id="t-restaurantes" aria-controls="p-restaurantes" aria-selected="true">Restaurantes</button>
+        <button role="tab" id="t-clinicas" aria-controls="p-clinicas" aria-selected="false" tabindex="-1">Clínicas</button>
         <button role="tab" id="t-barberias" aria-controls="p-barberias" aria-selected="false" tabindex="-1">Barberías</button>
         <button role="tab" id="t-inmobiliarias" aria-controls="p-inmobiliarias" aria-selected="false" tabindex="-1">Inmobiliarias</button>
+        <button role="tab" id="t-gimnasios" aria-controls="p-gimnasios" aria-selected="false" tabindex="-1">Gimnasios</button>
+        <button role="tab" id="t-tiendas" aria-controls="p-tiendas" aria-selected="false" tabindex="-1">Tiendas</button>
+        <button role="tab" id="t-otros" aria-controls="p-otros" aria-selected="false" tabindex="-1">Otros</button>
       </div>
 
       <div class="giro-panels">
-        <div class="giro" id="p-clinicas" role="tabpanel" aria-labelledby="t-clinicas">
+        <div class="giro" id="p-restaurantes" role="tabpanel" aria-labelledby="t-restaurantes">
+          <h3>Pedidos y reservas,<br>sin soltar la cocina.</h3>
+          <ul>
+            <li>Toma pedidos para llevar y a domicilio con el menú del día</li>
+            <li>Reserva mesas y confirma un día antes</li>
+            <li>Pide la reseña en Google después de la visita</li>
+          </ul>
+        </div>
+        <div class="giro" id="p-clinicas" role="tabpanel" aria-labelledby="t-clinicas" hidden>
           <h3>Menos faltas.<br>Más pacientes.</h3>
           <ul>
             <li>Agenda con los horarios reales de cada doctor</li>
@@ -187,8 +199,32 @@
             <li>Agenda visitas en el calendario del asesor</li>
           </ul>
         </div>
+        <div class="giro" id="p-gimnasios" role="tabpanel" aria-labelledby="t-gimnasios" hidden>
+          <h3>Más inscritos.<br>Menos bajas.</h3>
+          <ul>
+            <li>Contesta horarios, clases y precios al instante</li>
+            <li>Recuerda la mensualidad antes de que venza</li>
+            <li>Escribe a quien dejó de venir para que regrese</li>
+          </ul>
+        </div>
+        <div class="giro" id="p-tiendas" role="tabpanel" aria-labelledby="t-tiendas" hidden>
+          <h3>Vende aunque<br>esté cerrado.</h3>
+          <ul>
+            <li>Enseña catálogo, precios y existencias</li>
+            <li>Toma el pedido y manda la liga de pago</li>
+            <li>Avisa cuando llega lo que el cliente buscaba</li>
+          </ul>
+        </div>
+        <div class="giro" id="p-otros" role="tabpanel" aria-labelledby="t-otros" hidden>
+          <h3>Si te escriben,<br>te sirve.</h3>
+          <ul>
+            <li>Talleres, escuelas, hoteles, spas, despachos y más</li>
+            <li>Lo armamos con tus preguntas, precios y horarios</li>
+            <li>Tú nos cuentas cómo trabajas y nosotros lo automatizamos</li>
+          </ul>
+        </div>
       </div>
-      <p class="giro-more fade">¿Otro giro? Restaurantes, gimnasios, talleres, escuelas. <a data-wa="Hola ARXO, tengo un negocio de otro giro y quiero automatizarlo" href="https://wa.me/524495458788">Cuéntanos</a></p>
+      <p class="giro-more fade"><a data-wa="Hola ARXO, tengo un negocio de otro giro y quiero automatizarlo" href="https://wa.me/524495458788">Cuéntanos de tu negocio</a></p>
     </section>
 
     <!-- CÓMO FUNCIONA -->
