@@ -11,9 +11,9 @@ Proof: no customers or metrics exist; demonstrate with labeled example turns and
 
 ## Direction contract
 
-THESIS: The page is a waiting-room turn system where nobody waits: an LED turn display that advances by itself because the bot answers in seconds. Refuses the dark-tech SaaS hero with a phone mockup and a feature-card grid.
-OWN-WORLD: Cool institutional wall white (#F3F5F7) with ink (#111418) signage, turn-dispenser red (#E1251B) as the committed brand field, a near-black display panel (#0D0F12) with amber seven-segment digits (#FFB020) and "atendido" green (#1FA35C); Barlow Condensed signage caps, Barlow for reading; paper turn tickets with perforated edges; wayfinding arrows.
-STORY: The visitor sees their customers' turns being served instantly at three example businesses, reads what the bot does as tickets, picks their business window (ventanilla) to see an example chat, and takes a turn: a ticket that opens WhatsApp for a free demo.
-FIRST VIEWPORT: Left, red signage headline "Aquí nadie espera turno." with a red ticket-style WhatsApp button; right, the black display panel with a large amber seven-segment turn number ticking up and a board of the last three served turns (clinic, barbershop, real estate) with "atendido en 3 s". Mobile: headline, button, then the panel full width.
-FORM: Waiting-room turn display (Turnomatic), user-chosen on the direction card; seed key 69c7894b (degraded roll).
-FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+THESIS: An Apple-style product keynote for a WhatsApp assistant: one idea per screen, huge type, the product shown inside a phone that reacts to scroll. Replaces the waiting-room turn display, which the owner rejected as off-brand ("parece una página más").
+OWN-WORLD: Pure black (#000) and white fields with Apple mist (#F5F5F7); a single tech blue (#0071E3 fills, #2997FF on black); Geist variable 700 with tight tracking; a CSS iPhone as the only object.
+STORY: Hero promise with a live self-typing chat, a scroll-lit manifesto, four jobs told as sticky scrollytelling on the phone, a segmented control per business type, three steps, pricing on black, FAQ, and a blue-glow closer that opens WhatsApp.
+FIRST VIEWPORT: Centered two-line headline "Tu negocio. / Siempre contestando." (second line blue), subtitle, blue pill "Pedir demo gratis" and "Ver cómo funciona" link, with the phone rising below with a blue halo.
+FORM: Apple product page, owner-specified (black, white, tech blue; spectacular transitions; not crowded).
+FINISH: reviewed at 1440 and 390 with Playwright; detector clean except intentional typing dots and display leading.

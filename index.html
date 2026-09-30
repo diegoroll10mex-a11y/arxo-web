@@ -2,325 +2,304 @@
 <html lang="es-MX">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ARXO Automatizaciones | Aquí nadie espera turno</title>
-  <meta name="description" content="ARXO instala bots de WhatsApp que atienden en segundos, 24/7: responden, agendan citas, recuerdan pagos y ordenan a tus clientes. Instalación única y mensualidad.">
-  <meta property="og:title" content="ARXO Automatizaciones · Aquí nadie espera turno">
-  <meta property="og:description" content="Tu negocio atiende, agenda y cobra solo por WhatsApp, las 24 horas.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ARXO · Tu negocio, siempre contestando</title>
+  <meta name="description" content="ARXO instala un asistente de WhatsApp que contesta en segundos, agenda citas, recuerda pagos y ordena a tus clientes. Para clínicas, barberías, inmobiliarias y más.">
+  <meta property="og:title" content="ARXO · Tu negocio, siempre contestando">
+  <meta property="og:description" content="Un asistente de WhatsApp que atiende, agenda y cobra por ti, las 24 horas.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#D42016">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23D42016'/%3E%3Cpath d='M20 50 30 14h4l10 36h-7l-2-8h-7l-2 8zm10-14h4l-2-9z' fill='%23fff'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Cpath d='M19 47 30 17h4l11 30h-6l-2.6-7.4H27.6L25 47zm10.4-12.6h7.2L33 24.2z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <a class="skip" href="#main">Saltar al contenido</a>
 
-  <header class="nav">
-    <div class="wrap nav-inner">
-      <a href="#" class="brand" aria-label="ARXO, inicio">
-        <span class="brand-mark" aria-hidden="true">A</span>
-        <span class="brand-name">ARXO</span>
-      </a>
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="wordmark" aria-label="ARXO, inicio">ARXO</a>
       <nav class="nav-links" aria-label="Secciones">
-        <a href="#servicios">Servicios</a>
-        <a href="#ventanillas">Por giro</a>
-        <a href="#planes">Planes</a>
-        <a href="#info">Preguntas</a>
+        <a href="#funciones">Funciones</a>
+        <a href="#giros">Para tu giro</a>
+        <a href="#precios">Precios</a>
+        <a href="#preguntas">Preguntas</a>
       </nav>
-      <a class="btn btn-red btn-sm" data-wa="Hola ARXO, quiero información sobre automatizar mi negocio" href="https://wa.me/524495458788">Tomar turno</a>
+      <a class="pill pill-sm" data-wa="Hola ARXO, quiero información sobre automatizar mi negocio" href="https://wa.me/524495458788">Pedir demo</a>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO: la pantalla de turnos -->
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div class="hero-copy">
-          <h1>Aquí nadie espera turno.</h1>
-          <p class="lead">Instalamos un bot de WhatsApp que atiende a tus clientes en segundos, de día y de noche: responde, agenda citas, recuerda pagos y te pasa la conversación cuando hace falta una persona.</p>
-          <div class="hero-cta">
-            <a class="btn btn-red btn-lg" data-wa="Hola ARXO, quiero una demo gratis para mi negocio" href="https://wa.me/524495458788">
-              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16l-2.3-1.5L14.3 20 12 18.5 9.7 20l-2.4-1.5L5 20z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 9h6M9 13h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              Pedir demo gratis
-            </a>
-            <a class="link-arrow" href="#planes">Ver planes y precios</a>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-copy" data-hero-copy>
+        <h1 class="hero-title">
+          <span class="line">Tu negocio.</span>
+          <span class="line line-blue">Siempre contestando.</span>
+        </h1>
+        <p class="hero-sub">Un asistente de WhatsApp que responde en segundos, agenda, cobra y ordena a tus clientes. De día y de noche.</p>
+        <div class="hero-cta">
+          <a class="pill pill-lg" data-wa="Hola ARXO, quiero una demo gratis para mi negocio" href="https://wa.me/524495458788">Pedir demo gratis</a>
+          <a class="chev" href="#funciones">Ver cómo funciona</a>
+        </div>
+      </div>
+
+      <div class="stage" data-hero-stage>
+        <div class="halo" aria-hidden="true"></div>
+        <div class="device" role="img" aria-label="Conversación de ejemplo: un cliente pide una cita y el asistente la agenda en segundos">
+          <div class="device-screen">
+            <div class="island" aria-hidden="true"></div>
+            <div class="app-bar">
+              <span class="avatar" aria-hidden="true">S</span>
+              <span class="app-name">Clínica Sonrisa<small>ejemplo</small></span>
+            </div>
+            <div class="thread" data-live-thread aria-hidden="true">
+              <p class="b in" data-step="0">Hola, ¿tienen cita para limpieza dental el jueves?</p>
+              <p class="b out" data-step="2">¡Hola! El jueves tengo 10:30, 13:00 y 17:30. ¿Cuál te acomoda?</p>
+              <p class="b in" data-step="3">17:30 porfa</p>
+              <p class="b out" data-step="5">Listo. Jueves 17:30 con la Dra. López. Te recuerdo un día antes.</p>
+              <p class="typing" data-typing><span></span><span></span><span></span></p>
+              <p class="stamp" data-step="6">Respondido en 2 segundos · 11:48 p.m.</p>
+            </div>
           </div>
-          <ul class="facts" aria-label="Condiciones">
-            <li>Listo en 7 a 14 días</li>
-            <li>Sin plazo forzoso</li>
-            <li>Soporte en español</li>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANIFIESTO: el texto se enciende al hacer scroll -->
+    <section class="manifesto" aria-label="Por qué ARXO">
+      <div class="reveal-text"><p data-reveal-text>Mientras tú duermes, atiendes a un paciente, cortas el pelo o enseñas una casa, tus clientes siguen escribiendo. El que contesta primero se queda con la venta. Con ARXO, ese siempre eres tú.</p></div>
+    </section>
+
+    <!-- FUNCIONES: scroll con teléfono fijo -->
+    <section class="features" id="funciones">
+      <header class="section-head fade">
+        <h2>Cuatro trabajos.<br>Cero pendientes.</h2>
+      </header>
+
+      <div class="scrolly">
+        <div class="scrolly-steps">
+          <article class="step is-active" data-step-index="0">
+            <h3>Contesta al instante.</h3>
+            <p>Precios, horarios, ubicación y preguntas frecuentes, respondidos en segundos. Cuando el cliente quiere hablar con una persona, te pasa la conversación.</p>
+          </article>
+          <article class="step" data-step-index="1">
+            <h3>Agenda solo.</h3>
+            <p>Tu cliente elige un horario libre desde WhatsApp y recibe recordatorio un día antes para confirmar o cambiar. Menos faltas, agenda llena.</p>
+          </article>
+          <article class="step" data-step-index="2">
+            <h3>Cobra sin perseguir.</h3>
+            <p>Recordatorios amables con la liga de pago o tus datos de transferencia, en el momento justo. El dinero llega sin incomodar a nadie.</p>
+          </article>
+          <article class="step" data-step-index="3">
+            <h3>Recuerda a todos.</h3>
+            <p>Cada cliente, cita y pago en un solo lugar. Sabes quién no ha regresado y le mandas una promoción con un clic.</p>
+          </article>
+        </div>
+
+        <div class="scrolly-stage">
+          <div class="device device-sm" role="img" aria-label="Pantallas de ejemplo de cada función">
+            <div class="device-screen">
+              <div class="island" aria-hidden="true"></div>
+
+              <div class="screen is-active" data-screen="0" aria-hidden="true">
+                <p class="screen-title">Mensajes</p>
+                <p class="b in">¿Cuánto cuesta la limpieza?</p>
+                <p class="b out">$650 e incluye revisión. ¿Te aparto un lugar esta semana?</p>
+                <p class="meta"><span class="dot-live"></span>Respondido en 2 s</p>
+              </div>
+
+              <div class="screen" data-screen="1" aria-hidden="true">
+                <p class="screen-title">Jueves 3</p>
+                <ul class="slots">
+                  <li>10:30<span>Ocupado</span></li>
+                  <li>13:00<span>Libre</span></li>
+                  <li class="is-picked">17:30<span>Confirmada</span></li>
+                  <li>19:00<span>Libre</span></li>
+                </ul>
+                <p class="b out small">Recordatorio: mañana a las 17:30 con la Dra. López.</p>
+              </div>
+
+              <div class="screen" data-screen="2" aria-hidden="true">
+                <p class="screen-title">Pagos</p>
+                <p class="b out">Hola Ana, te recuerdo tu pago de ortodoncia de este mes.</p>
+                <div class="pay">
+                  <span class="pay-amt">$1,200</span>
+                  <span class="pay-btn">Pagar ahora</span>
+                </div>
+                <p class="meta"><span class="dot-live"></span>Pagado · 9:14 a.m.</p>
+              </div>
+
+              <div class="screen" data-screen="3" aria-hidden="true">
+                <p class="screen-title">Clientes</p>
+                <ul class="people">
+                  <li><span class="ava">AR</span>Ana Ruiz<em>Pagó</em></li>
+                  <li><span class="ava">LM</span>Luis Mora<em class="warn">Sin volver 6 sem.</em></li>
+                  <li><span class="ava">CG</span>Carla Gil<em>Cita jueves</em></li>
+                  <li><span class="ava">JT</span>Jorge Tapia<em>Nuevo</em></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="stage-note">Pantallas de ejemplo</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GIROS -->
+    <section class="giros" id="giros">
+      <header class="section-head fade">
+        <h2>Hecho a la medida<br>de tu giro.</h2>
+      </header>
+
+      <div class="segmented fade" role="tablist" aria-label="Giros" data-segmented>
+        <span class="seg-thumb" aria-hidden="true"></span>
+        <button role="tab" id="t-clinicas" aria-controls="p-clinicas" aria-selected="true">Clínicas</button>
+        <button role="tab" id="t-barberias" aria-controls="p-barberias" aria-selected="false" tabindex="-1">Barberías</button>
+        <button role="tab" id="t-inmobiliarias" aria-controls="p-inmobiliarias" aria-selected="false" tabindex="-1">Inmobiliarias</button>
+      </div>
+
+      <div class="giro-panels">
+        <div class="giro" id="p-clinicas" role="tabpanel" aria-labelledby="t-clinicas">
+          <h3>Menos faltas.<br>Más pacientes.</h3>
+          <ul>
+            <li>Agenda con los horarios reales de cada doctor</li>
+            <li>Recordatorio 24 horas antes para confirmar o reagendar</li>
+            <li>Seguimiento después de la consulta</li>
           </ul>
         </div>
+        <div class="giro" id="p-barberias" role="tabpanel" aria-labelledby="t-barberias" hidden>
+          <h3>La silla,<br>siempre ocupada.</h3>
+          <ul>
+            <li>Apartan con su barbero favorito desde WhatsApp</li>
+            <li>Aviso cuando se libera un lugar</li>
+            <li>"Ya te toca corte" a las tres semanas</li>
+          </ul>
+        </div>
+        <div class="giro" id="p-inmobiliarias" role="tabpanel" aria-labelledby="t-inmobiliarias" hidden>
+          <h3>Ningún prospecto<br>se enfría.</h3>
+          <ul>
+            <li>Respuesta inmediata a leads de portales y Facebook</li>
+            <li>Pregunta presupuesto, zona y tipo de crédito</li>
+            <li>Agenda visitas en el calendario del asesor</li>
+          </ul>
+        </div>
+      </div>
+      <p class="giro-more fade">¿Otro giro? Restaurantes, gimnasios, talleres, escuelas. <a data-wa="Hola ARXO, tengo un negocio de otro giro y quiero automatizarlo" href="https://wa.me/524495458788">Cuéntanos</a></p>
+    </section>
 
-        <figure class="panel" aria-labelledby="panel-cap">
-          <div class="panel-top">
-            <span class="panel-label">Turno</span>
-            <span class="panel-status"><span class="led" aria-hidden="true"></span>Atendiendo</span>
-          </div>
-          <div class="panel-number" id="turno" aria-live="off" data-value="24">
-            <span class="sr-only">Turno 024</span>
-          </div>
-          <div class="panel-speed">Atendido en <strong id="speed">3 s</strong></div>
-          <ol class="board" id="board" aria-label="Últimos turnos atendidos">
-            <li><span class="b-num">023</span><span class="b-who">Inmobiliaria Norte</span><span class="b-what">Visita agendada · depto. en renta</span></li>
-            <li><span class="b-num">022</span><span class="b-who">Barbería El Güero</span><span class="b-what">Corte apartado · sábado 11:00</span></li>
-            <li><span class="b-num">021</span><span class="b-who">Clínica Sonrisa</span><span class="b-what">Cita agendada · jueves 17:30</span></li>
-          </ol>
-          <figcaption id="panel-cap" class="panel-cap">Simulación con negocios de ejemplo</figcaption>
-        </figure>
+    <!-- CÓMO FUNCIONA -->
+    <section class="how">
+      <header class="section-head fade">
+        <h2>Listo en dos semanas.<br><span class="muted">Sin que muevas un dedo.</span></h2>
+      </header>
+      <ol class="how-list">
+        <li class="fade"><span class="how-n">1</span><h3>Demo gratis</h3><p>Te enseñamos el asistente funcionando con los datos de tu negocio en 20 minutos.</p></li>
+        <li class="fade"><span class="how-n">2</span><h3>Instalación</h3><p>En 7 a 14 días configuramos mensajes, horarios, precios y tu WhatsApp.</p></li>
+        <li class="fade"><span class="how-n">3</span><h3>Mejora cada mes</h3><p>Lo mantenemos, lo ajustamos y te mandamos un reporte de lo que atendió.</p></li>
+      </ol>
+    </section>
+
+    <!-- PRECIOS -->
+    <section class="pricing" id="precios">
+      <header class="section-head fade">
+        <h2>Elige tu plan.</h2>
+        <p class="section-sub">Un pago de instalación y una mensualidad. Cancela cuando quieras.</p>
+      </header>
+      <div class="plans">
+        <article class="plan fade">
+          <h3>Arranque</h3>
+          <p class="plan-for">Para dejar de perder clientes por no contestar.</p>
+          <p class="plan-price">$3,500</p>
+          <p class="plan-then">instalación, luego $990 al mes</p>
+          <a class="pill pill-outline" data-wa="Hola ARXO, me interesa el plan Arranque" href="https://wa.me/524495458788">Elegir Arranque</a>
+          <ul class="plan-list">
+            <li>Asistente con preguntas frecuentes</li>
+            <li>Hasta 1,000 conversaciones al mes</li>
+            <li>Soporte por WhatsApp</li>
+          </ul>
+        </article>
+        <article class="plan plan-hl fade">
+          <p class="plan-badge">Recomendado</p>
+          <h3>Negocio</h3>
+          <p class="plan-for">Atiende, agenda y cobra en automático.</p>
+          <p class="plan-price">$7,500</p>
+          <p class="plan-then">instalación, luego $1,990 al mes</p>
+          <a class="pill" data-wa="Hola ARXO, me interesa el plan Negocio" href="https://wa.me/524495458788">Elegir Negocio</a>
+          <ul class="plan-list">
+            <li>Todo lo de Arranque</li>
+            <li>Agenda con recordatorios</li>
+            <li>Recordatorios de pago</li>
+            <li>Clientes y reporte mensual</li>
+          </ul>
+        </article>
+        <article class="plan fade">
+          <h3>A la medida</h3>
+          <p class="plan-for">Varias sucursales o procesos especiales.</p>
+          <p class="plan-price">Desde $15,000</p>
+          <p class="plan-then">instalación, mensualidad según alcance</p>
+          <a class="pill pill-outline" data-wa="Hola ARXO, quiero cotizar un proyecto a la medida" href="https://wa.me/524495458788">Cotizar</a>
+          <ul class="plan-list">
+            <li>Conexión con tu sistema actual</li>
+            <li>Facturación, inventario y reportes</li>
+            <li>Atención prioritaria</li>
+          </ul>
+        </article>
+      </div>
+      <p class="fine">Precios en pesos mexicanos, más IVA si requieres factura. Si tu negocio necesita línea de WhatsApp Business API, su costo va aparte.</p>
+    </section>
+
+    <!-- PREGUNTAS -->
+    <section class="faq" id="preguntas">
+      <header class="section-head fade">
+        <h2>Preguntas frecuentes.</h2>
+      </header>
+      <div class="faq-list fade">
+        <details>
+          <summary>¿Necesito saber de tecnología?</summary>
+          <div class="faq-a"><p>No. Nosotros instalamos y mantenemos todo. Tú solo nos cuentas cómo trabaja tu negocio.</p></div>
+        </details>
+        <details>
+          <summary>¿Puedo usar mi número de WhatsApp actual?</summary>
+          <div class="faq-a"><p>En la mayoría de los casos sí. En la demo revisamos tu número y te decimos la mejor opción.</p></div>
+        </details>
+        <details>
+          <summary>¿Qué pasa si el asistente no sabe contestar algo?</summary>
+          <div class="faq-a"><p>Te pasa la conversación a ti o a tu equipo en ese momento, para que nadie se quede sin respuesta.</p></div>
+        </details>
+        <details>
+          <summary>¿Hay plazo forzoso?</summary>
+          <div class="faq-a"><p>No. La mensualidad es mes a mes y puedes cancelar cuando quieras.</p></div>
+        </details>
+        <details>
+          <summary>¿Cuánto tarda en estar listo?</summary>
+          <div class="faq-a"><p>Entre 7 y 14 días, según el plan y qué tan rápido nos compartas la información de tu negocio.</p></div>
+        </details>
       </div>
     </section>
 
-    <!-- EL PROBLEMA -->
-    <section class="wait">
-      <div class="wrap wait-grid">
-        <h2>Cada cliente que espera, se va con el que contestó primero.</h2>
-        <p>El mensaje llega a las 11 de la noche, en plena consulta o mientras cortas el pelo. Nadie contesta, y en la mañana ese cliente ya apartó en otro lado. Tu bot contesta en segundos, siempre, y tú solo entras cuando de verdad te necesitan.</p>
-      </div>
-    </section>
-
-    <!-- SERVICIOS como boletos de turno -->
-    <section id="servicios" class="section">
-      <div class="wrap">
-        <h2 class="h-sign">Lo que atiende tu bot</h2>
-        <div class="tickets">
-          <article class="ticket">
-            <div class="ticket-stub"><span>Turno</span><strong>A01</strong></div>
-            <div class="ticket-body">
-              <h3>Contesta al instante</h3>
-              <p>Precios, horarios, ubicación y preguntas frecuentes, respondidos en segundos por WhatsApp. Si el cliente pide una persona, te lo pasa.</p>
-            </div>
-          </article>
-          <article class="ticket">
-            <div class="ticket-stub"><span>Turno</span><strong>A02</strong></div>
-            <div class="ticket-body">
-              <h3>Agenda citas solo</h3>
-              <p>El cliente elige un horario libre y recibe recordatorio un día antes, con opción de confirmar o cambiar. Menos faltas, agenda llena.</p>
-            </div>
-          </article>
-          <article class="ticket">
-            <div class="ticket-stub"><span>Turno</span><strong>A03</strong></div>
-            <div class="ticket-body">
-              <h3>Recuerda los pagos</h3>
-              <p>Mensajes amables con la liga de pago o tus datos de transferencia. Cobras a tiempo sin andar persiguiendo a nadie.</p>
-            </div>
-          </article>
-          <article class="ticket">
-            <div class="ticket-stub"><span>Turno</span><strong>A04</strong></div>
-            <div class="ticket-body">
-              <h3>Ordena a tus clientes</h3>
-              <p>Un CRM sencillo con citas, compras y conversaciones. Sabes quién no ha regresado y le mandas una promoción con un clic.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- VENTANILLAS por giro -->
-    <section id="ventanillas" class="section section-wall">
-      <div class="wrap">
-        <h2 class="h-sign">Pasa a tu ventanilla</h2>
-        <div class="windows" role="tablist" aria-label="Giros">
-          <button class="window-tab is-active" role="tab" id="t-clinicas" aria-selected="true" aria-controls="p-clinicas"><span>Ventanilla 1</span>Clínicas y consultorios</button>
-          <button class="window-tab" role="tab" id="t-barberias" aria-selected="false" aria-controls="p-barberias" tabindex="-1"><span>Ventanilla 2</span>Barberías y estéticas</button>
-          <button class="window-tab" role="tab" id="t-inmobiliarias" aria-selected="false" aria-controls="p-inmobiliarias" tabindex="-1"><span>Ventanilla 3</span>Inmobiliarias</button>
-        </div>
-
-        <div class="window-panel" id="p-clinicas" role="tabpanel" aria-labelledby="t-clinicas">
-          <div class="chat" aria-label="Conversación de ejemplo">
-            <p class="chat-head">Clínica Sonrisa <span>ejemplo</span></p>
-            <p class="msg in">Hola, ¿tienen cita para limpieza dental este jueves?</p>
-            <p class="msg out">¡Hola! Para el jueves tengo 10:30, 13:00 y 17:30. ¿Cuál te acomoda?</p>
-            <p class="msg in">17:30 porfa</p>
-            <p class="msg out">Listo, jueves 17:30 con la Dra. López. Te mando recordatorio un día antes.</p>
-          </div>
-          <div class="window-copy">
-            <h3>Menos faltas, más pacientes atendidos</h3>
-            <ul class="checks">
-              <li>Agenda por WhatsApp con los horarios reales de cada doctor</li>
-              <li>Recordatorio 24 horas antes para confirmar o reagendar</li>
-              <li>Seguimiento después de la consulta y aviso de la siguiente revisión</li>
-              <li>Recordatorios de pago de tratamientos en parcialidades</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="window-panel" id="p-barberias" role="tabpanel" aria-labelledby="t-barberias" hidden>
-          <div class="chat" aria-label="Conversación de ejemplo">
-            <p class="chat-head">Barbería El Güero <span>ejemplo</span></p>
-            <p class="msg in">¿Tienen lugar hoy con el Güero?</p>
-            <p class="msg out">¡Qué onda! Hoy el Güero tiene 18:00 y 19:30. ¿Te lo aparto?</p>
-            <p class="msg in">A las 6</p>
-            <p class="msg out">Apartado, hoy 18:00 con el Güero. Si se te complica, avísame por aquí y lo movemos.</p>
-          </div>
-          <div class="window-copy">
-            <h3>Silla ocupada todo el día</h3>
-            <ul class="checks">
-              <li>Tus clientes apartan con su barbero favorito desde WhatsApp</li>
-              <li>Aviso automático cuando se libera un lugar</li>
-              <li>Mensaje de "ya te toca corte" a las tres semanas</li>
-              <li>Programa de lealtad sin tarjetitas: el sexto corte con descuento</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="window-panel" id="p-inmobiliarias" role="tabpanel" aria-labelledby="t-inmobiliarias" hidden>
-          <div class="chat" aria-label="Conversación de ejemplo">
-            <p class="chat-head">Inmobiliaria Norte <span>ejemplo</span></p>
-            <p class="msg in">Vi el depa en renta de la zona norte, ¿sigue disponible?</p>
-            <p class="msg out">¡Sí sigue! Son $9,500 al mes. ¿Para cuántas personas y en qué fecha te quieres cambiar?</p>
-            <p class="msg in">Somos 2, para el próximo mes</p>
-            <p class="msg out">Perfecto. ¿Te agendo una visita? Mañana hay lugar a las 12:00 o a las 16:00.</p>
-          </div>
-          <div class="window-copy">
-            <h3>Ningún prospecto se enfría</h3>
-            <ul class="checks">
-              <li>Respuesta inmediata a los leads de Facebook, Inmuebles24 y portales</li>
-              <li>El bot pregunta presupuesto, zona y tipo de crédito</li>
-              <li>Agenda visitas directo en el calendario del asesor</li>
-              <li>Seguimiento automático a quien no contestó</li>
-            </ul>
-          </div>
-        </div>
-
-        <p class="more">¿Tu giro no está aquí? Restaurantes, gimnasios, talleres, escuelas: <a data-wa="Hola ARXO, tengo un negocio de otro giro y quiero automatizarlo" href="https://wa.me/524495458788">cuéntanos por WhatsApp</a> y lo armamos.</p>
-      </div>
-    </section>
-
-    <!-- CÓMO FUNCIONA: señalética -->
-    <section class="section">
-      <div class="wrap">
-        <h2 class="h-sign">Cómo llegas a tenerlo</h2>
-        <ol class="route">
-          <li>
-            <span class="route-n">1</span>
-            <h3>Demo gratis</h3>
-            <p>Platicamos 20 minutos por WhatsApp o llamada y te enseñamos el bot funcionando con los datos de tu negocio.</p>
-          </li>
-          <li>
-            <span class="route-n">2</span>
-            <h3>Instalación</h3>
-            <p>En 7 a 14 días configuramos mensajes, horarios, precios y la conexión con tu WhatsApp.</p>
-          </li>
-          <li>
-            <span class="route-n">3</span>
-            <h3>Operación y mejora</h3>
-            <p>Lo mantenemos, lo ajustamos cada mes y te mandamos un reporte de lo que atendió.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- PLANES: tablero de tarifas -->
-    <section id="planes" class="section section-ink">
-      <div class="wrap">
-        <h2 class="h-sign">Tarifas</h2>
-        <p class="plans-intro">Un pago de instalación y una mensualidad. Sin plazo forzoso.</p>
-        <div class="plans">
-          <article class="plan">
-            <h3>Arranque</h3>
-            <p class="plan-desc">Para dejar de perder clientes por no contestar.</p>
-            <p class="price"><span class="amount">$3,500</span> instalación</p>
-            <p class="price-mo">+ $990 al mes</p>
-            <ul class="checks">
-              <li>Bot de WhatsApp con preguntas frecuentes</li>
-              <li>Hasta 1,000 conversaciones al mes</li>
-              <li>Soporte por WhatsApp</li>
-            </ul>
-            <a class="btn btn-line" data-wa="Hola ARXO, me interesa el plan Arranque" href="https://wa.me/524495458788">Quiero Arranque</a>
-          </article>
-          <article class="plan plan-featured">
-            <p class="plan-flag">El más pedido</p>
-            <h3>Negocio</h3>
-            <p class="plan-desc">Atiende, agenda y cobra en automático.</p>
-            <p class="price"><span class="amount">$7,500</span> instalación</p>
-            <p class="price-mo">+ $1,990 al mes</p>
-            <ul class="checks">
-              <li>Todo lo de Arranque</li>
-              <li>Agenda de citas con recordatorios</li>
-              <li>Recordatorios de pago</li>
-              <li>CRM y reporte mensual</li>
-            </ul>
-            <a class="btn btn-white" data-wa="Hola ARXO, me interesa el plan Negocio" href="https://wa.me/524495458788">Quiero Negocio</a>
-          </article>
-          <article class="plan">
-            <h3>A la medida</h3>
-            <p class="plan-desc">Varias sucursales o procesos especiales.</p>
-            <p class="price"><span class="amount">Desde $15,000</span> instalación</p>
-            <p class="price-mo">Mensualidad según alcance</p>
-            <ul class="checks">
-              <li>Conexión con tu sistema actual</li>
-              <li>Facturación, inventario y reportes</li>
-              <li>Atención prioritaria</li>
-            </ul>
-            <a class="btn btn-line" data-wa="Hola ARXO, quiero cotizar un proyecto a la medida" href="https://wa.me/524495458788">Cotizar</a>
-          </article>
-        </div>
-        <p class="fine">Precios en pesos mexicanos, más IVA si requieres factura. Si tu negocio necesita línea de WhatsApp Business API, su costo se paga aparte.</p>
-      </div>
-    </section>
-
-    <!-- PREGUNTAS: módulo de información -->
-    <section id="info" class="section">
-      <div class="wrap info">
-        <h2 class="h-sign">Información</h2>
-        <div class="faq">
-          <details>
-            <summary>¿Necesito saber de tecnología?</summary>
-            <p>No. Nosotros instalamos y mantenemos todo. Tú solo nos cuentas cómo trabaja tu negocio.</p>
-          </details>
-          <details>
-            <summary>¿Puedo usar mi número de WhatsApp actual?</summary>
-            <p>En la mayoría de los casos sí. En la demo revisamos tu número y te decimos la mejor opción.</p>
-          </details>
-          <details>
-            <summary>¿Qué pasa si el bot no sabe contestar algo?</summary>
-            <p>Te pasa la conversación a ti o a tu equipo en ese momento, para que el cliente nunca se quede sin respuesta.</p>
-          </details>
-          <details>
-            <summary>¿Hay plazo forzoso?</summary>
-            <p>No. La mensualidad es mes a mes y puedes cancelar cuando quieras.</p>
-          </details>
-          <details>
-            <summary>¿Cuánto tarda en estar listo?</summary>
-            <p>Entre 7 y 14 días, según el plan y qué tan rápido nos compartas la información de tu negocio.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- CIERRE: el dispensador de turnos -->
-    <section class="final">
-      <div class="wrap final-grid">
-        <div>
-          <h2>Tome su turno.<br>Lo atendemos ya.</h2>
-          <p>La demo es gratis: ves tu bot funcionando con tu negocio antes de pagar un peso.</p>
-        </div>
-        <div class="dispenser">
-          <div class="dispenser-box">
-            <span class="dispenser-label">Tome su turno</span>
-            <span class="dispenser-slot" aria-hidden="true"></span>
-          </div>
-          <a class="dispenser-ticket" id="take-turn" data-wa="Hola ARXO, quiero agendar mi demo gratis" href="https://wa.me/524495458788">
-            <span class="dt-label">Su turno</span>
-            <span class="dt-num" id="take-num">025</span>
-            <span class="dt-cta">Agendar demo por WhatsApp</span>
-          </a>
-        </div>
+    <!-- CIERRE -->
+    <section class="closer">
+      <div class="closer-inner fade">
+        <h2>Contesta primero.<br><span class="line-blue">Siempre.</span></h2>
+        <p>Ve tu asistente funcionando con tu negocio antes de pagar un peso.</p>
+        <a class="pill pill-lg" data-wa="Hola ARXO, quiero agendar mi demo gratis" href="https://wa.me/524495458788">Pedir demo gratis</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="wrap footer-inner">
-      <a href="#" class="brand" aria-label="ARXO, inicio"><span class="brand-mark" aria-hidden="true">A</span><span class="brand-name">ARXO</span></a>
+    <div class="footer-inner">
+      <span class="wordmark">ARXO</span>
       <p>ARXO Automatizaciones · Aguascalientes, México</p>
       <p>© <span id="year">2026</span> ARXO</p>
     </div>
   </footer>
 
   <a class="wa-float" data-wa="Hola ARXO, quiero información" href="https://wa.me/524495458788" aria-label="Escríbenos por WhatsApp">
-    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3.2 29l7.3-1.9c1.8 1 3.9 1.5 5.9 1.5 7 0 12.7-5.7 12.7-12.6S23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.2-4.2-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.5C5.2 9.8 10 5.1 16 5.1s10.8 4.7 10.8 10.5S22 26.2 16 26.2zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3.2 29l7.3-1.9c1.8 1 3.9 1.5 5.9 1.5 7 0 12.7-5.7 12.7-12.6S23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.2-4.2-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.5C5.2 9.8 10 5.1 16 5.1s10.8 4.7 10.8 10.5S22 26.2 16 26.2zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
   </a>
 
   <script src="script.js"></script>
