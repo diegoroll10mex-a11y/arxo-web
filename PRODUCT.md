@@ -12,11 +12,11 @@ Static HTML/CSS/JS, no build step, deployed on GitHub Pages from `main` (repo is
 
 ## Users
 
-Owners and managers of small and mid-size businesses in Mexico (Aguascalientes first) who lose customers because they answer WhatsApp late: clinics/dental offices, barbershops and salons, and real-estate agencies, weighted equally on the page (owner's decision 2026-09-30; real estate is the lead n8n demo). They mostly arrive on a phone, from a WhatsApp message, Facebook post or Google Maps prospecting by the founder.
+Owners and managers of small and mid-size businesses in Mexico (Aguascalientes first), of any kind: the page must never read as single-niche (owner's decision 2026-09-30). Examples shown: restaurants, clinics, barbershops, real estate, gyms, stores, and "Otros". They mostly arrive on a phone, from a WhatsApp message, Facebook post or Google Maps prospecting by the founder.
 
 ## Product Purpose
 
-ARXO Automatizaciones installs and runs n8n-based automations: WhatsApp bots that answer 24/7, appointment booking with reminders, payment reminders (cobranza) and a simple CRM. Success for the page: the visitor understands the offer in seconds and opens a WhatsApp chat to ask for a free demo.
+ARXO builds AIs and n8n automations by business area: sales, marketing, accounting and operations, from a simple flow to a full system. Brand line: "ARXO · IAs para tu negocio: ventas, marketing, contabilidad y operación". Not a WhatsApp chatbot vendor (owner, 2026-09-30: Meta AI already covers that). Success for the page: the visitor understands the offer in seconds and opens a WhatsApp chat to ask for a free demo.
 
 ## Positioning
 
@@ -29,7 +29,7 @@ Sales happen over WhatsApp (524495458788). Pricing model: one-time installation 
 ## Capabilities and Constraints
 
 - Setup takes 7 to 14 days; month-to-month, cancel anytime.
-- WhatsApp Business API line cost, if needed, is billed apart; IVA extra if invoice required.
+- Third-party licenses or APIs are billed apart; IVA extra if invoice required.
 - Must keep all WhatsApp CTAs wired through `script.js` (`data-wa` attribute + `WHATSAPP_NUMBER`).
 
 ## Brand Commitments
