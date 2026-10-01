@@ -31,7 +31,7 @@ const revealText = document.querySelector("[data-reveal-text]");
 const words = [];
 if (revealText) {
   const text = revealText.textContent.trim();
-  const blueFrom = text.indexOf("ese siempre eres tú.");
+  const blueFrom = text.indexOf("tu equipo se queda con lo importante.");
   revealText.textContent = "";
   let cursor = 0;
   text.split(" ").forEach((word, i, all) => {

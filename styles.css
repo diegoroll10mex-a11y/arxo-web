@@ -116,6 +116,9 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 .b.in { align-self: flex-start; background: #262629; color: #F2F2F7; border-bottom-left-radius: 6px; }
 .b.out { align-self: flex-end; background: var(--blue); color: #fff; border-bottom-right-radius: 6px; }
 .b.small { font-size: .78rem; }
+.nt { align-self: stretch; padding: 10px 13px; border-radius: 16px; background: #1C1C1E; color: #F2F2F7; font-size: .84rem; line-height: 1.35; letter-spacing: -.01em; }
+.nt b { display: block; margin-bottom: 2px; font-size: .72rem; font-weight: 600; color: var(--blue-bright); }
+.thread .nt { transform-origin: top center; }
 .stamp { align-self: center; margin-top: 4px; font-size: .7rem; color: var(--gray-on-dark); }
 .typing { align-self: flex-start; display: none; gap: 4px; padding: 12px 14px; border-radius: 19px; border-bottom-left-radius: 6px; background: #262629; }
 .typing span { width: 7px; height: 7px; border-radius: 50%; background: #8E8E93; animation: dot 1.2s infinite ease-in-out; }
