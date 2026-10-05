@@ -4,6 +4,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 
 // Solo medios mexicanos: Google News sin filtro mezcla notas de otros países.
 const MEDIOS = ['eleconomista.com.mx', 'elfinanciero.com.mx', 'expansion.mx', 'forbes.com.mx', 'eluniversal.com.mx', 'milenio.com', 'elsoldemexico.com.mx', 'excelsior.com.mx', 'jornada.com.mx', 'bloomberglinea.com'];
+const NOMBRES = { 'eleconomista.com.mx': 'El Economista', 'elfinanciero.com.mx': 'El Financiero', 'expansion.mx': 'Expansión', 'forbes.com.mx': 'Forbes México', 'eluniversal.com.mx': 'El Universal', 'milenio.com': 'Milenio', 'elsoldemexico.com.mx': 'El Sol de México', 'excelsior.com.mx': 'Excélsior', 'jornada.com.mx': 'La Jornada', 'bloomberglinea.com': 'Bloomberg Línea' };
 const sitios = MEDIOS.map((m) => `site:${m}`).join(' OR ');
 const google = (tema) =>
   `https://news.google.com/rss/search?q=${encodeURIComponent(`(${tema}) (${sitios}) when:1d`)}&hl=es-419&gl=MX&ceid=MX:es-419`;
@@ -42,8 +43,9 @@ async function leer({ url, fuente }) {
     let titulo = campo(item, 'title');
     // Google News agrega « - Medio» al final del titular.
     if (medio && titulo.endsWith(` - ${medio}`)) titulo = titulo.slice(0, -(medio.length + 3));
+    titulo = titulo.replace(/\s+•\s+[^•]+$/, ''); // «… • Negocios» de algunos medios
     const fecha = new Date(campo(item, 'pubDate'));
-    return { titulo, fuente: medio, url: campo(item, 'link'), fecha: isNaN(fecha) ? null : fecha.toISOString() };
+    return { titulo, fuente: NOMBRES[medio] ?? medio, url: campo(item, 'link'), fecha: isNaN(fecha) ? null : fecha.toISOString() };
   });
 }
 
