@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Panel · ARXO Finance</title>
+  <style>
+    @font-face { font-family: Geist; src: url("../fonts/geist-latin.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+    :root {
+      --fondo: #F3F5F4; --tarjeta: #FFFFFF; --superficie: #EBEFED; --texto: #1B1F1D; --suave: #5F6762; --linea: #E1E6E3;
+      --verde: #0B5D3B; --verde-suave: #E8F2EC; --verde-claro: #C9E0D3; --rojo: #A33A2A; --rojo-suave: #F7E6E2;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.5 Geist, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+    main { max-width: 760px; margin: 0 auto; padding: 24px 16px 96px; }
+    .marca { color: var(--verde); font-weight: 700; letter-spacing: .2em; font-size: 12px; }
+    h1 { font-size: 30px; line-height: 1.1; letter-spacing: -.03em; margin: 6px 0 4px; }
+    h2 { font-size: 20px; letter-spacing: -.02em; margin: 0 0 12px; }
+    .sub { color: var(--suave); margin: 0 0 20px; }
+    .caja { background: var(--tarjeta); border: 1px solid var(--linea); border-radius: 20px; padding: 18px; margin-bottom: 14px; }
+    label { display: block; font-size: 13px; font-weight: 500; color: var(--suave); margin: 0 0 6px; }
+    input, select, textarea { width: 100%; font: inherit; color: var(--texto); background: var(--tarjeta); border: 1px solid var(--linea); border-radius: 12px; padding: 11px 13px; margin-bottom: 12px; }
+    input:focus, select:focus, textarea:focus { outline: 2px solid var(--verde); outline-offset: -1px; border-color: transparent; }
+    textarea { min-height: 96px; resize: vertical; }
+    .fila { display: flex; gap: 10px; } .fila > * { flex: 1; min-width: 0; }
+    button { font: inherit; font-weight: 600; border-radius: 12px; padding: 12px 16px; border: 1px solid var(--linea); background: var(--tarjeta); color: var(--texto); cursor: pointer; transition: transform .12s cubic-bezier(.23,1,.32,1), background .15s; }
+    button:active { transform: scale(.97); }
+    button.primario { background: var(--verde); border-color: var(--verde); color: #fff; }
+    button.peligro { color: var(--rojo); }
+    button:disabled { opacity: .5; cursor: default; }
+    .segmentos { display: flex; background: var(--superficie); border-radius: 12px; padding: 4px; margin-bottom: 14px; }
+    .segmentos button { flex: 1; border: 0; background: transparent; padding: 9px; font-weight: 500; color: var(--suave); }
+    .segmentos button[aria-pressed="true"] { background: var(--tarjeta); color: var(--texto); font-weight: 600; box-shadow: 0 1px 4px rgb(0 0 0 / .06); }
+    .dia { display: grid; grid-template-columns: 74px 1fr auto; gap: 12px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--linea); }
+    .dia:last-child { border-bottom: 0; }
+    .fecha { font-variant-numeric: tabular-nums; text-align: center; background: var(--superficie); border-radius: 12px; padding: 6px 4px; line-height: 1.15; }
+    .fecha b { display: block; font-size: 20px; } .fecha span { font-size: 12px; color: var(--suave); }
+    .vacio .titulo { color: var(--suave); font-style: italic; }
+    .chip { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--verde-suave); color: var(--verde); margin-bottom: 3px; }
+    .titulo { font-weight: 600; } .texto { color: var(--suave); font-size: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .acciones { display: flex; gap: 6px; } .acciones button { padding: 8px 10px; font-size: 14px; }
+    @media (max-width: 480px) { .acciones { flex-direction: column; } }
+    .barra { position: fixed; left: 0; right: 0; bottom: 0; background: rgb(255 255 255 / .92); backdrop-filter: blur(12px); border-top: 1px solid var(--linea); padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); }
+    .barra div { max-width: 760px; margin: 0 auto; display: flex; gap: 10px; align-items: center; }
+    .barra p { flex: 1; margin: 0; font-size: 14px; color: var(--suave); }
+    .aviso { padding: 12px 14px; border-radius: 12px; background: var(--verde-suave); color: var(--verde); font-size: 14px; margin-bottom: 14px; }
+    .aviso.error { background: var(--rojo-suave); color: var(--rojo); }
+    .oculto { display: none !important; }
+    ol { padding-left: 20px; color: var(--suave); } ol li { margin-bottom: 6px; }
+    a { color: var(--verde); }
+    .cobertura { display: flex; gap: 3px; flex-wrap: wrap; margin: 4px 0 2px; }
+    .cobertura i { width: 14px; height: 14px; border-radius: 4px; background: var(--superficie); }
+    .cobertura i.lleno { background: var(--verde); }
+  </style>
+</head>
+<body>
+<main>
+  <div class="marca">ARXO</div>
+  <h1>Panel de ARXO Finance</h1>
+  <p class="sub">Programa las recomendaciones y las noticias destacadas. La app las descarga sola; nadie tiene que actualizarla.</p>
+
+  <!-- Entrar -->
+  <section id="entrar" class="caja">
+    <h2>Entrar</h2>
+    <label for="llave">Llave de GitHub</label>
+    <input id="llave" type="password" autocomplete="off" placeholder="github_pat_…">
+    <button class="primario" id="btnEntrar">Entrar</button>
+    <details style="margin-top:14px">
+      <summary style="cursor:pointer;font-weight:600">¿Cómo saco mi llave? (una sola vez)</summary>
+      <ol style="margin-top:10px">
+        <li>Entra a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com › Settings › Fine-grained tokens › Generate new token</a>.</li>
+        <li>Nombre: «Panel ARXO Finance». Expiración: 1 año.</li>
+        <li>En <b>Repository access</b> elige <b>Only select repositories</b> y marca <b>arxo-web</b>.</li>
+        <li>En <b>Permissions › Repository permissions › Contents</b> elige <b>Read and write</b>.</li>
+        <li>Toca <b>Generate token</b>, cópialo y pégalo arriba. Se guarda solo en este navegador.</li>
+      </ol>
+    </details>
+  </section>
+
+  <section id="panel" class="oculto">
+    <div id="estado" class="aviso oculto" role="status"></div>
+
+    <div class="segmentos" role="group" aria-label="Vista">
+      <button data-vista="dia" aria-pressed="true">Día</button>
+      <button data-vista="semana" aria-pressed="false">Semana</button>
+      <button data-vista="mes" aria-pressed="false">Mes</button>
+      <button data-vista="noticias" aria-pressed="false">Noticias</button>
+    </div>
+
+    <div class="caja" id="resumen"></div>
+
+    <div class="caja">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <h2 id="tituloLista" style="margin:0">Calendario</h2>
+        <button class="primario" id="btnNueva">+ Agregar</button>
+      </div>
+      <div id="lista"></div>
+    </div>
+
+    <!-- Formulario -->
+    <div class="caja oculto" id="form">
+      <h2 id="tituloForm">Nueva recomendación</h2>
+      <div id="camposRec">
+        <div class="fila">
+          <div><label for="fFecha" id="lblFecha">Día</label><input id="fFecha" type="date"></div>
+          <div><label for="fTipo">Tipo</label>
+            <select id="fTipo">
+              <option value="consejo">Consejo</option><option value="video">Video</option><option value="libro">Libro</option>
+              <option value="articulo">Artículo</option><option value="reto">Reto</option>
+            </select>
+          </div>
+        </div>
+        <label for="fTitulo">Título</label><input id="fTitulo" maxlength="120" placeholder="Ej. Cómo leer tu estado de cuenta">
+        <label for="fTexto">Texto</label><textarea id="fTexto" maxlength="1200" placeholder="Lo que verá la gente al abrirla. Corto y claro."></textarea>
+        <label for="fUrl">Enlace (opcional: video de YouTube, libro, artículo)</label><input id="fUrl" type="url" placeholder="https://…">
+      </div>
+      <div id="camposNot" class="oculto">
+        <div class="fila">
+          <div><label for="nFecha">Día en que se muestra</label><input id="nFecha" type="date"></div>
+          <div><label for="nFuente">Medio</label><input id="nFuente" maxlength="60" placeholder="El Economista"></div>
+        </div>
+        <label for="nTitulo">Titular</label><input id="nTitulo" maxlength="200">
+        <label for="nUrl">Enlace a la nota</label><input id="nUrl" type="url" placeholder="https://…">
+      </div>
+      <div class="fila" style="margin-top:4px">
+        <button id="btnCancelar">Cancelar</button>
+        <button class="primario" id="btnGuardar">Guardar</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="barra oculto" id="barra">
+  <div>
+    <p id="pendientes">Sin cambios por publicar</p>
+    <button id="btnSalir">Salir</button>
+    <button class="primario" id="btnPublicar" disabled>Publicar</button>
+  </div>
+</div>
+
+<script>
+(() => {
+  const DUENO = 'diegoroll10mex-a11y', REPO = 'arxo-web', RUTA = 'finance/contenido.json', RAMA = 'main';
+  const API = `https://api.github.com/repos/${DUENO}/${REPO}/contents/${RUTA}`;
+  const TIPOS = { consejo: 'Consejo', video: 'Video', libro: 'Libro', articulo: 'Artículo', reto: 'Reto' };
+  const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  const MESES_L = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  const DIAS = ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'];
+  const $ = (id) => document.getElementById(id);
+
+  let llave = null, sha = null, datos = { version: 1, actualizado: null, recomendaciones: [], noticias: [] };
+  let vista = 'dia', editando = null, cambios = 0;
+
+  // ---------- Fechas ----------
+  const pad = (n) => String(n).padStart(2, '0');
+  const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const leer = (s) => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
+  const hoy = () => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); };
+  const lunes = (d) => { const x = new Date(d); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x; };
+  const sumar = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
+  // Cada periodo arranca en un día fijo: el día, el lunes o el día 1.
+  const inicio = (periodo, d) => periodo === 'semana' ? lunes(d) : periodo === 'mes' ? new Date(d.getFullYear(), d.getMonth(), 1) : d;
+  const ranuras = (periodo) => {
+    const h = hoy();
+    if (periodo === 'dia') return Array.from({ length: 30 }, (_, i) => sumar(h, i));
+    if (periodo === 'semana') return Array.from({ length: 12 }, (_, i) => sumar(lunes(h), i * 7));
+    return Array.from({ length: 6 }, (_, i) => new Date(h.getFullYear(), h.getMonth() + i, 1));
+  };
+  const etiquetaFecha = (periodo, d) => {
+    if (periodo === 'mes') return `<b>${MESES[d.getMonth()]}</b><span>${d.getFullYear()}</span>`;
+    if (periodo === 'semana') { const f = sumar(d, 6); return `<b>${d.getDate()}</b><span>${MESES[d.getMonth()]} – ${f.getDate()} ${MESES[f.getMonth()]}</span>`; }
+    return `<b>${d.getDate()}</b><span>${DIAS[d.getDay()]} ${MESES[d.getMonth()]}</span>`;
+  };
+
+  // ---------- Texto en base64 con acentos ----------
+  const aBase64 = (s) => { const b = new TextEncoder().encode(s); let t = ''; b.forEach((x) => (t += String.fromCharCode(x))); return btoa(t); };
+  const deBase64 = (s) => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g, '')), (c) => c.charCodeAt(0)));
+
+  function aviso(texto, error = false) {
+    const e = $('estado');
+    e.textContent = texto; e.classList.toggle('error', error); e.classList.remove('oculto');
+    clearTimeout(aviso.t); if (!error) aviso.t = setTimeout(() => e.classList.add('oculto'), 4000);
+  }
+
+  async function gh(metodo, cuerpo) {
+    const r = await fetch(metodo === 'GET' ? `${API}?ref=${RAMA}&t=${Date.now()}` : API, {
+      method: metodo,
+      headers: { Authorization: `Bearer ${llave}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' },
+      body: cuerpo ? JSON.stringify(cuerpo) : undefined,
+    });
+    if (r.status === 401 || r.status === 403) throw new Error('La llave no es válida o no tiene permiso de escritura en arxo-web.');
+    if (r.status === 409) throw new Error('Alguien cambió el contenido mientras editabas. Recarga la página.');
+    if (!r.ok && !(metodo === 'GET' && r.status === 404)) throw new Error(`GitHub respondió ${r.status}.`);
+    return r.status === 404 ? null : r.json();
+  }
+
+  async function cargar() {
+    const r = await gh('GET');
+    if (r) {
+      sha = r.sha;
+      const x = JSON.parse(deBase64(r.content));
+      datos = { version: 1, actualizado: x.actualizado ?? null, recomendaciones: x.recomendaciones ?? [], noticias: x.noticias ?? [] };
+    }
+    cambios = 0; pintar();
+  }
+
+  async function entrar() {
+    llave = $('llave').value.trim() || llave;
+    if (!llave) return;
+    $('btnEntrar').disabled = true;
+    try {
+      await cargar();
+      try { localStorage.setItem('arxo-panel-llave', llave); } catch {}
+      $('entrar').classList.add('oculto'); $('panel').classList.remove('oculto'); $('barra').classList.remove('oculto');
+    } catch (err) {
+      llave = null; alert(err.message);
+    } finally { $('btnEntrar').disabled = false; }
+  }
+
+  async function publicar() {
+    $('btnPublicar').disabled = true;
+    try {
+      datos.actualizado = new Date().toISOString();
+      datos.recomendaciones.sort((a, b) => (a.desde < b.desde ? -1 : 1));
+      datos.noticias.sort((a, b) => (a.fecha < b.fecha ? -1 : 1));
+      const r = await gh('PUT', {
+        message: `Panel: ${cambios} ${cambios === 1 ? 'cambio' : 'cambios'} en contenido de ARXO Finance`,
+        content: aBase64(JSON.stringify(datos, null, 2) + '\n'),
+        branch: RAMA,
+        ...(sha ? { sha } : {}),
+      });
+      sha = r.content.sha; cambios = 0; pintar();
+      aviso('Publicado. La app lo verá en unos minutos.');
+    } catch (err) { aviso(err.message, true); $('btnPublicar').disabled = false; }
+  }
+
+  // ---------- Pintar ----------
+  function nodo(html) { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstChild; }
+  const txt = (s) => { const d = document.createElement('div'); d.textContent = s ?? ''; return d.innerHTML; };
+
+  function pintar() {
+    document.querySelectorAll('[data-vista]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.vista === vista)));
+    $('pendientes').textContent = cambios ? `${cambios} ${cambios === 1 ? 'cambio' : 'cambios'} sin publicar` : 'Sin cambios por publicar';
+    $('btnPublicar').disabled = !cambios;
+    const lista = $('lista'); lista.innerHTML = '';
+    const resumen = $('resumen');
+
+    if (vista === 'noticias') {
+      $('tituloLista').textContent = 'Noticias destacadas';
+      resumen.innerHTML = '<h2>Café del día</h2><p class="sub" style="margin:0">Los titulares se juntan solos dos veces al día. Aquí agregas notas destacadas que aparecen hasta arriba el día que elijas.</p>';
+      const notas = [...datos.noticias].sort((a, b) => (a.fecha < b.fecha ? 1 : -1));
+      if (!notas.length) lista.append(nodo('<p class="sub" style="margin:8px 0 0">Todavía no hay noticias destacadas.</p>'));
+      notas.forEach((n) => {
+        const d = leer(n.fecha.slice(0, 10));
+        const fila = nodo(`<div class="dia"><div class="fecha">${etiquetaFecha('dia', d)}</div><div><span class="chip">${txt(n.fuente || 'Nota')}</span><div class="titulo">${txt(n.titulo)}</div></div><div class="acciones"><button>Editar</button><button class="peligro">Borrar</button></div></div>`);
+        const [ed, bo] = fila.querySelectorAll('button');
+        ed.onclick = () => abrirForm(n); bo.onclick = () => { if (confirm('¿Borrar esta noticia?')) { datos.noticias = datos.noticias.filter((x) => x !== n); cambios++; pintar(); } };
+        lista.append(fila);
+      });
+      return;
+    }
+
+    const nombre = { dia: 'Recomendación del día', semana: 'Recomendación de la semana', mes: 'Reto o recomendación del mes' }[vista];
+    $('tituloLista').textContent = vista === 'dia' ? 'Próximos 30 días' : vista === 'semana' ? 'Próximas 12 semanas' : 'Próximos 6 meses';
+    const slots = ranuras(vista);
+    const programada = (d) => datos.recomendaciones.find((r) => r.periodo === vista && r.desde === iso(d));
+    const llenos = slots.filter(programada).length;
+    resumen.innerHTML = `<h2>${nombre}</h2><p class="sub" style="margin:0 0 8px">${llenos} de ${slots.length} programadas. Donde no hay nada, la app muestra un contenido de respaldo.</p><div class="cobertura">${slots.map((d) => `<i class="${programada(d) ? 'lleno' : ''}" title="${iso(d)}"></i>`).join('')}</div>`;
+
+    slots.forEach((d) => {
+      const r = programada(d);
+      const fila = nodo(r
+        ? `<div class="dia"><div class="fecha">${etiquetaFecha(vista, d)}</div><div><span class="chip">${TIPOS[r.tipo] ?? 'Consejo'}</span><div class="titulo">${txt(r.titulo)}</div><div class="texto">${txt(r.texto)}</div></div><div class="acciones"><button>Editar</button><button class="peligro">Borrar</button></div></div>`
+        : `<div class="dia vacio"><div class="fecha">${etiquetaFecha(vista, d)}</div><div class="titulo">Sin programar</div><div class="acciones"><button>Agregar</button></div></div>`);
+      const botones = fila.querySelectorAll('button');
+      if (r) {
+        botones[0].onclick = () => abrirForm(r);
+        botones[1].onclick = () => { if (confirm('¿Borrar esta recomendación?')) { datos.recomendaciones = datos.recomendaciones.filter((x) => x !== r); cambios++; pintar(); } };
+      } else botones[0].onclick = () => abrirForm(null, d);
+      lista.append(fila);
+    });
+    // Las que ya pasaron se guardan, pero no se listan.
+  }
+
+  function abrirForm(item, fecha) {
+    editando = item;
+    const noticia = vista === 'noticias';
+    $('camposRec').classList.toggle('oculto', noticia);
+    $('camposNot').classList.toggle('oculto', !noticia);
+    if (noticia) {
+      $('tituloForm').textContent = item ? 'Editar noticia' : 'Nueva noticia destacada';
+      $('nFecha').value = item ? item.fecha.slice(0, 10) : iso(hoy());
+      $('nFuente').value = item?.fuente ?? ''; $('nTitulo').value = item?.titulo ?? ''; $('nUrl').value = item?.url ?? '';
+    } else {
+      $('tituloForm').textContent = item ? 'Editar recomendación' : 'Nueva recomendación';
+      $('lblFecha').textContent = vista === 'dia' ? 'Día' : vista === 'semana' ? 'Semana (cualquier día; se ajusta al lunes)' : 'Mes (cualquier día; se ajusta al día 1)';
+      $('fFecha').value = item ? item.desde : iso(fecha ?? inicio(vista, hoy()));
+      $('fTipo').value = item?.tipo ?? (vista === 'mes' ? 'reto' : 'consejo');
+      $('fTitulo').value = item?.titulo ?? ''; $('fTexto').value = item?.texto ?? ''; $('fUrl').value = item?.url ?? '';
+    }
+    $('form').classList.remove('oculto');
+    $('form').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function guardar() {
+    const url = (v) => v.trim();
+    if (vista === 'noticias') {
+      const n = { fecha: $('nFecha').value, fuente: $('nFuente').value.trim(), titulo: $('nTitulo').value.trim(), url: url($('nUrl').value) };
+      if (!n.fecha || !n.titulo) return alert('Falta el día o el titular.');
+      if (!/^https:\/\//.test(n.url)) return alert('El enlace debe empezar con https://');
+      if (editando) Object.assign(editando, n); else datos.noticias.push(n);
+    } else {
+      if (!$('fFecha').value) return alert('Elige la fecha.');
+      const desde = iso(inicio(vista, leer($('fFecha').value)));
+      const r = { periodo: vista, desde, tipo: $('fTipo').value, titulo: $('fTitulo').value.trim(), texto: $('fTexto').value.trim() };
+      const u = url($('fUrl').value);
+      if (!r.titulo) return alert('Falta el título.');
+      if (u && !/^https:\/\//.test(u)) return alert('El enlace debe empezar con https://');
+      if (u) r.url = u;
+      const choca = datos.recomendaciones.find((x) => x !== editando && x.periodo === vista && x.desde === desde);
+      if (choca && !confirm(`Ya hay una programada para esa fecha («${choca.titulo}»). ¿Reemplazarla?`)) return;
+      datos.recomendaciones = datos.recomendaciones.filter((x) => x !== choca);
+      if (editando) Object.assign(editando, r); else datos.recomendaciones.push({ id: `${vista}-${desde}`, ...r });
+      if (editando) editando.id = `${vista}-${desde}`;
+    }
+    cambios++; editando = null;
+    $('form').classList.add('oculto'); pintar();
+    aviso('Guardado. Toca «Publicar» para que llegue a la app.');
+  }
+
+  document.querySelectorAll('[data-vista]').forEach((b) => (b.onclick = () => { vista = b.dataset.vista; $('form').classList.add('oculto'); pintar(); }));
+  $('btnEntrar').onclick = entrar;
+  $('llave').onkeydown = (e) => e.key === 'Enter' && entrar();
+  $('btnNueva').onclick = () => abrirForm(null);
+  $('btnCancelar').onclick = () => { editando = null; $('form').classList.add('oculto'); };
+  $('btnGuardar').onclick = guardar;
+  $('btnPublicar').onclick = publicar;
+  $('btnSalir').onclick = () => {
+    if (cambios && !confirm('Tienes cambios sin publicar. ¿Salir de todos modos?')) return;
+    try { localStorage.removeItem('arxo-panel-llave'); } catch {}
+    location.reload();
+  };
+  window.addEventListener('beforeunload', (e) => { if (cambios) e.preventDefault(); });
+
+  try { llave = localStorage.getItem('arxo-panel-llave'); } catch {}
+  if (llave) entrar();
+})();
+</script>
+</body>
+</html>

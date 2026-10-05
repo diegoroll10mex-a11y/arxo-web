@@ -1,0 +1,38 @@
+name: Café del día
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # 6:00 en el centro de México
+    - cron: '0 19 * * *' # 13:00
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/cafe.mjs
+      - .github/workflows/cafe-del-dia.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cafe-del-dia
+  cancel-in-progress: false
+
+jobs:
+  cafe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/cafe.mjs
+      - name: Guardar titulares
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add finance/cafe.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Café del día: titulares actualizados"
+          git pull --rebase --autostash
+          git push
