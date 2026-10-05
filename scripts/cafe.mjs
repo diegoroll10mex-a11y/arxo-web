@@ -2,12 +2,15 @@
 // y los guarda en finance/cafe.json. Solo titular, medio, fecha y enlace a la nota original.
 import { readFile, writeFile } from 'node:fs/promises';
 
+// Solo medios mexicanos: Google News sin filtro mezcla notas de otros países.
+const MEDIOS = ['eleconomista.com.mx', 'elfinanciero.com.mx', 'expansion.mx', 'forbes.com.mx', 'eluniversal.com.mx', 'milenio.com', 'elsoldemexico.com.mx', 'excelsior.com.mx', 'jornada.com.mx', 'bloomberglinea.com'];
+const sitios = MEDIOS.map((m) => `site:${m}`).join(' OR ');
+const google = (tema) =>
+  `https://news.google.com/rss/search?q=${encodeURIComponent(`(${tema}) (${sitios}) when:1d`)}&hl=es-419&gl=MX&ceid=MX:es-419`;
 const FUENTES = [
-  { url: 'https://news.google.com/rss/search?q=finanzas+personales+when:1d&hl=es-419&gl=MX&ceid=MX:es-419' },
-  { url: 'https://news.google.com/rss/search?q=econom%C3%ADa+M%C3%A9xico+when:1d&hl=es-419&gl=MX&ceid=MX:es-419' },
-  { url: 'https://news.google.com/rss/search?q=Banxico+OR+%22tipo+de+cambio%22+OR+inflaci%C3%B3n+when:1d&hl=es-419&gl=MX&ceid=MX:es-419' },
-  { url: 'https://www.forbes.com.mx/feed/', fuente: 'Forbes México' },
-  { url: 'https://expansion.mx/rss', fuente: 'Expansión' },
+  { url: google('finanzas personales OR ahorro OR tarjetas OR crédito OR Afore OR aguinaldo') },
+  { url: google('Banxico OR inflación OR "tipo de cambio" OR peso OR Cetes') },
+  { url: google('economía México OR SAT OR Profeco OR gasolina') },
 ];
 const SALIDA = 'finance/cafe.json';
 const HORAS = 36;
