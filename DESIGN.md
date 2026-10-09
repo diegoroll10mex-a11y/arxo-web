@@ -1,5 +1,5 @@
 ---
-name: ARXO Automatizaciones
+name: DIVRO Labs
 description: Presentación de producto estilo Apple; negro, blanco y un solo azul tecnológico, con movimiento guiado por el scroll.
 colors:
   black: "#000000"
@@ -56,7 +56,7 @@ components:
 
 ## Overview
 
-North star: **una keynote de producto**. ARXO se presenta como Apple presenta un iPhone: una idea por pantalla, titulares enormes, mucho aire y el producto (IAs y automatizaciones que trabajan solas) mostrado dentro de un teléfono que se mueve con el scroll. Superficie de persuasión: cada sección termina en WhatsApp.
+North star: **una keynote de producto**. DIVRO se presenta como Apple presenta un iPhone: una idea por pantalla, titulares enormes, mucho aire y el producto (IAs y automatizaciones que trabajan solas) mostrado dentro de un teléfono que se mueve con el scroll. Superficie de persuasión: cada sección termina en WhatsApp.
 
 ## Colors
 

@@ -1,4 +1,4 @@
-// Café del día de ARXO Finance: junta titulares de finanzas y economía de México
+// Café del día de DIVRO Finance: junta titulares de finanzas y economía de México
 // y los guarda en finance/cafe.json. Solo titular, medio, fecha y enlace a la nota original.
 import { readFile, writeFile } from 'node:fs/promises';
 
@@ -35,7 +35,7 @@ const campo = (item, tag) => {
 };
 
 async function leer({ url, fuente }) {
-  const r = await fetch(url, { headers: { 'user-agent': 'ARXO-Finance-cafe/1.0 (+https://diegoroll10mex-a11y.github.io/arxo-web/)' } });
+  const r = await fetch(url, { headers: { 'user-agent': 'DIVRO-Finance-cafe/1.0 (+https://diegoroll10mex-a11y.github.io/arxo-web/)' } });
   if (!r.ok) throw new Error(`${r.status}`);
   const xml = await r.text();
   return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, item]) => {
