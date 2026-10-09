@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <title>Panel · ARXO Finance</title>
+  <title>Panel · DIVRO Finance</title>
   <style>
     @font-face { font-family: Geist; src: url("../fonts/geist-latin.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
     :root {
@@ -56,8 +56,8 @@
 </head>
 <body>
 <main>
-  <div class="marca">ARXO</div>
-  <h1>Panel de ARXO Finance</h1>
+  <div class="marca">DIVRO</div>
+  <h1>Panel de DIVRO Finance</h1>
   <p class="sub">Programa las recomendaciones y las noticias destacadas. La app las descarga sola; nadie tiene que actualizarla.</p>
 
   <!-- Entrar -->
@@ -70,7 +70,7 @@
       <summary style="cursor:pointer;font-weight:600">¿Cómo saco mi llave? (una sola vez)</summary>
       <ol style="margin-top:10px">
         <li>Entra a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com › Settings › Fine-grained tokens › Generate new token</a>.</li>
-        <li>Nombre: «Panel ARXO Finance». Expiración: 1 año.</li>
+        <li>Nombre: «Panel DIVRO Finance». Expiración: 1 año.</li>
         <li>En <b>Repository access</b> elige <b>Only select repositories</b> y marca <b>arxo-web</b>.</li>
         <li>En <b>Permissions › Repository permissions › Contents</b> elige <b>Read and write</b>.</li>
         <li>Toca <b>Generate token</b>, cópialo y pégalo arriba. Se guarda solo en este navegador.</li>
@@ -225,7 +225,7 @@
       datos.recomendaciones.sort((a, b) => (a.desde < b.desde ? -1 : 1));
       datos.noticias.sort((a, b) => (a.fecha < b.fecha ? -1 : 1));
       const r = await gh('PUT', {
-        message: `Panel: ${cambios} ${cambios === 1 ? 'cambio' : 'cambios'} en contenido de ARXO Finance`,
+        message: `Panel: ${cambios} ${cambios === 1 ? 'cambio' : 'cambios'} en contenido de DIVRO Finance`,
         content: aBase64(JSON.stringify(datos, null, 2) + '\n'),
         branch: RAMA,
         ...(sha ? { sha } : {}),

@@ -1,6 +1,6 @@
-# ARXO Automatizaciones
+# DIVRO Labs
 
-Página pública de ARXO: bots de WhatsApp, agenda de citas, cobranza y CRM para negocios en México.
+Página pública de DIVRO: bots de WhatsApp, agenda de citas, cobranza y CRM para negocios en México.
 
 En línea: https://diegoroll10mex-a11y.github.io/arxo-web/
 

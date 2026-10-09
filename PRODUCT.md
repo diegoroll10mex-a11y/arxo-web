@@ -16,7 +16,7 @@ Owners and managers of small and mid-size businesses in Mexico (Aguascalientes f
 
 ## Product Purpose
 
-ARXO builds AIs and n8n automations by business area: sales, marketing, accounting and operations, from a simple flow to a full system. Brand line: "ARXO · IAs para tu negocio: ventas, marketing, contabilidad y operación". Not a WhatsApp chatbot vendor (owner, 2026-09-30: Meta AI already covers that). Success for the page: the visitor understands the offer in seconds and opens a WhatsApp chat to ask for a free demo.
+DIVRO builds AIs and n8n automations by business area: sales, marketing, accounting and operations, from a simple flow to a full system. Brand line: "DIVRO · IAs para tu negocio: ventas, marketing, contabilidad y operación". Not a WhatsApp chatbot vendor (owner, 2026-09-30: Meta AI already covers that). Success for the page: the visitor understands the offer in seconds and opens a WhatsApp chat to ask for a free demo.
 
 ## Positioning
 
@@ -34,7 +34,7 @@ Sales happen over WhatsApp (524495458788). Pricing model: one-time installation 
 
 ## Brand Commitments
 
-Name: ARXO (the founder's umbrella brand, which will also cover clothing and software). Voice: Mexican Spanish, direct, tuteo, no hype. No logo asset exists yet.
+Name: DIVRO (the founder's umbrella brand, which will also cover clothing and software). Voice: Mexican Spanish, direct, tuteo, no hype. No logo asset exists yet.
 
 ## Evidence on Hand
 
