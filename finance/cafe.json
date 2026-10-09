@@ -1,53 +1,113 @@
 {
-  "actualizado": "2026-10-08T19:09:08.204Z",
+  "actualizado": "2026-10-09T04:38:54.911Z",
   "notas": [
     {
-      "titulo": "Depreciación del peso añade presión a empresas ante aumento de costos",
+      "titulo": "Desinflación en Buenos Aires se vuelve a trabar en septiembre",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM2VCTXl0QlJ2SlJaODdmSkR0aGJtSVliYXZONHdCLXNpdHo0NTRRRjcxM3pSRnhLcTgzV2VUckFBSFY3T2E4NzQ2dE9wRUZLNFJ4UmZKZVZsUlM0YUFuYWdZZzgtQlVUOEZucXhUaWVaTGJENWxGdk9vSVd0TFNHSmlzYXNqeHpMZHZ3bVhURWVpSnhaUVQ0MW9wcEFwNkFHbXZqRmVjWUZ4dkp6ZkV4aHF30gG3AUFVX3lxTE1tc1hqcno4Rmx6UVkteE9saEc0VGg1dlhmU0FnWWhhSG1naUVKeW54RldjWXBBbG84N3FKUUJMeDZZSTBOaDJoblRIbm5HZnBtSENWZzROSGY3blV4eml6Y0dIWUIwbE9ibklTa3RFTVZCNVhTOFdHYnY1aXF0c1FlOFhyTDN5ZlJ1amRPN1JtYUNlNzR1NjlScDlkNUR1TUxYaTdHYWR5S2JpNnhlSlMzU3BPLUp2cw?oc=5",
+      "fecha": "2026-10-09T04:18:46.000Z"
+    },
+    {
+      "titulo": "Los mercados de cara a los reportes corporativos del tercer trimestre",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdzhwWXppMTRBSTlyd0ZIT3RobDlFUGxna19UOTFpU1hHWGF5c2JUdHJyc1kyLUVuVnVFZmpOVm9uZUE2N0NZOTlPa2R5M1JQRzNkNUxTYm9xMU5pS0tlaF81NGYta1pLRl9KSThmM21jbmdIQXRUdFZYMEFidElVVTlaWmQ1RGF6dWRQbm5zdk5EWHhzT3dzS191a1ZSc2lTM3lDeGxIZHhQTkpPOUhXMTNSd9IBuAFBVV95cUxNUWNpZ3BKUUc5b3Z2SjdSeUVaMjhoUmFqbWpXd3FjZ1RmYUYyRGNrMFRLM2p4REd4Rl9rVlpuQUlocFd1ZGZUNm9ETmVkTjlHNmlfeWJyQktsbmVWV2FGRWEwTUtIWjdlamFnQmpyNnU5cFpKaW1wTFRkVkhsNFdPVnQtOUlnbzBHUlFKMTFRcmx0ZFlPR1ZGdXBURWI5U1dzazhGOXZKM0FURTlSYjdHWVJlMHhTSjha?oc=5",
+      "fecha": "2026-10-09T03:57:13.000Z"
+    },
+    {
+      "titulo": "Presidente de Leones Negros lanza un duro mensaje a la FMF; \"No pagaremos ni un solo peso para subir\"",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNakk0Y25ucDFRODZ4VG9EZHVKeXBVNGpLMkNkTmhPLUhJblBsS0JQamo5R1pvcGNtblV2SFhVV3N0U1RtVHpmYzV3VWltYldacEE2M2hRYTN0cFhkVTJDUUpURXVRMlNTek4xeVVqZ1lrV3N0NFk1MGx0ZFBDTXBUMXU0SmlCemVDb2R4Qlc2M0VnaWRkV2NRUnVVZm85ZWNqY2pGQzMwTlRvSUNJNUVVQjczSEdvM1Z4TjZSZnZtZVVLS29Pbk1JckVZS0JaZVJxUllqTW9B0gHqAUFVX3lxTE53Z0dVajd4dXJUQ1pJUXNZSFZlclB0OFJoeHJUbDNZT2NfNTc3QUF5em5hUl81R3U5X19Wd19zbG56Q1NYdk9QZzdvdUpsUUxxQ3B5aXI3NFpVaVRmdmpCaVV4ODNxclFZQ2tVZE9xOVNSWDJGRGtZUEVuWDZCd0JoYjc3VTRvc0FJdlg0blZOUlNhNUdrZVFpdERGeEM2UklWX0JXeFdmZm5zdnZEQmhFRW4zcHlfZ1lJM09kMDNEZldQMGR2a1UxWV94Z01JMXFGNEFJNXA2N09yeDFYMGphcEh2OUppOHZXdw?oc=5",
+      "fecha": "2026-10-09T03:19:35.000Z"
+    },
+    {
+      "titulo": "Renovación del TMEC, principal preocupación del empresariado",
       "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUktHQXJkQm16bzlVRm9hLWhZRVVsS2pzVkFxZWpTbC0wbE1adVVtZ015aDJBWUc1bUoxai1sQ2J6MXpxV3ZvaUpidmZzUkNmZHZQQjVmaWZYb0xKWnF3ZU10UmVyWTk2ZnJ0em1SZEVGTTBLYnRYTWZWVlZadlQxNnIxWmZXaUlyNGVLbEVmVzlaMFRBdEFr?oc=5",
-      "fecha": "2026-10-08T19:03:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM25KYk83Yk1NY1hUaFA4U3ZmYU52TVB2N1luT2R4LTFlcC1rMDFvZWhBV3U4aEtYVWdnWmtUTVV0UDZZTkpjazNJMXRFUS1SMjNkUzJYV2wyXzlpczh3ejFkS2xFZVk0dTQ0U0FXOXd6U1RQT082clJVVU9FeEpfWnhpQkNmbVV2aFE?oc=5",
+      "fecha": "2026-10-09T02:01:00.000Z"
+    },
+    {
+      "titulo": "Guadalajara prevé 8,419 mdp por El Buen Fin",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjJCQnN0WW14ZElLci1lRWpYbXZwbG9QYkhTLW5LVE5BemttTXQ2TWd1ZDRzUU5ndXlFME9SeWdRZm42c1hrRkpLMjhTWVdzcGtvcWtQalIwZTBIRmhFZWtuZDFqZnhZbEwyNElGOXB4cUZ1YS1rQ3RkVHFnOXRRVTFJMEliV2hQSFNCVDRCSEhJa3FMZWM40gGcAUFVX3lxTE9yeEpRMjNpUHdEWHRYQnVfWmU5c3RkT2dCYkRmdV90ZWNFX3gyQ0VWdm1fWnQtS0hYUU1JLVFqSnhVVW9nZkI5anYyUUpKM0daV0pMcGlidkY5NjhmaFVRQkRWTjJVSTExclNsVDZ1SlJoalNlOURmS0lRUmtyUFBxc2xhUjhSNU91NUJwQ2VEczM1ZmxKaXVWLXNFTg?oc=5",
+      "fecha": "2026-10-09T01:44:43.000Z"
+    },
+    {
+      "titulo": "IMSS reporta 128,803 puestos de trabajo en septiembre",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQalRoak13NGo3U0s0QmNUc0xiWGkwT0JfTVU1a0VPbURwX1RmajN4NGd3SjRJMWJmaUJqTHJBdE1KeHpTdm1zNF9sNVZNSDB4cEdPVGs2LVdzaEVrbDVOcjZ2Ri1DQ2UyYm03QVVtZ3lmTU14WjJjazFLbmVaYTV6ZA?oc=5",
+      "fecha": "2026-10-09T01:35:00.000Z"
+    },
+    {
+      "titulo": "Taylor Farms suspenderá cosecha de lechuga en México durante las temporadas de ciclosporiasis",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcU1BWW9Ga1o1RHdmOVNudWNOMVBxV3FrZWpKX3Y3ZnEtUWs1M1dMV1pxZmZnV01OQnVDUnFBOVAzMzJFUnBiUm42dElGdm9kaWk0Nlk4WGp3aFlMRnVQcmJpN25QLURlblU2dmdIYTdYUmpRb2JCOExPV2FWN2pWMWQ3cF9oaXFlY21nNG8yN05hUGxXdUdQZ1g3T0tyS1ZlRUJWQVhrelUwTi1wUlU4QlhEbndDcHdFR0prQXFQZmlRWm1GRFdiMjNyRTHSAdIBQVVfeXFMTlVSTzNhaFZ2WDRWVXBoUl80aG1hcEt1Uy00MkFEZ3RJMFZocDVHcGY4MkdHT21qb0Iydi1Dd29nazRYc1VhTUt3SDhlQTlqRU1XNEJaNWNiOFc2SEYzX185MExNbU45N1lhU05QWm1oYkgxS3psMHhYSjZ3WlZMV3BmcDU0ZkJRdVhEbXhpWHFJbk0tWXRSdkdhQ0NnZVhyVy1La3FJTjh1Nnp1NllxRUF5REFtNU5fQXZ5UG02OVZISmhMMEY1QjEycU02Z0RtY3dB?oc=5",
+      "fecha": "2026-10-09T01:28:26.000Z"
+    },
+    {
+      "titulo": "Huracán Isaías reduce en más de 60% producción de petróleo en el Golfo de México",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeWpjOEdhM1VvNjFiNFpRQXgyTkM3ekJNVjVOazVhTFlOTWx5OS1BNk9jRGFGajhVRjlKYVQtUU1pTUpnZENKNi0wdEhNbDVPbGd3dVJwcXBsQWZWd2c4WFNCOVl1WmdWaHNjaTFid2VYM2RKVzZ2a05NNXg5QUU5SmcxV1VNMkgyQ2EtWUs4ck5HLW1uMGRhM1JqM0RiX0dvbEh2dw?oc=5",
+      "fecha": "2026-10-09T01:04:00.000Z"
+    },
+    {
+      "titulo": "En la primera edición del Mexico Wealth Investment Summit, HSBC explora la nueva era de las inversiones",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM0ZJSGQ4b2RCX0EwOUhzSE1MakNKRzhkZUU5ZEZhNW02bV9YVDVFSVhRa016TE45R2gxTV82S3B6ZUpfZG5ibXlMd0IyRmNPdzlmVno0M1pRaDNYa2VOQjJSMHFfTDVWMzFDbktFOWlEYVl0aEpvdGlhNmRYLWZ0NkNIaHRhaDBwN0tTMVlTUlMzOWxHa3pGUEZDcWRkOEtXMGVvdHNwa3pxSnFTLWw5aEEyLWhWNlJ0T0QzcDdnRQ?oc=5",
+      "fecha": "2026-10-09T00:24:47.000Z"
+    },
+    {
+      "titulo": "Paquete Económico 2027 va por fortalecer finanzas públicas; estiman deuda pública de 55% del PIB",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdXJxRDBIeXNyZDBJQmNsUEtZNEtNMEgyWktrdXNCUGlxLVZTYlJoTUJTOWxEVmlzOGdIeDVtUGxEblBNd0JZWU8zRFBpRHZUM3NNU3RJV3lEUFh2OEs4MTc1bUo0X1pvVGlMdGFKZHZmT3lvSHFhMXZ6X3BWbFZCWE5LQWJraDFNMFZDbTVfVDQzRGVpVS1BOHhYWHdmVU5SS0d4YUFja212S0ppeU1GS2loLUlvaDFvNGlxclYtSUI0ZDQ1cEdidEhROThtQdIB4gFBVV95cUxNeERoLXA1SmNvaHNxVU5LT1lreTc3VEdnWHN6MUlCTDQ2dGgwLUx2NGpKZXVQRkw3bTdfRmdmRnlzdW1OZGdzUWNzQ2dubmFoSUw0bjFVcGdSNVp1M0NWWlJYRVVZTWY4bkVpSzkwUm5oM2d5NWM3LU9fT04tb21pMjZSQWJfNWNrbktJOEozX3FzR2Rsc0JrUDZYeWFGVmJ4akUtbW5PMWNhVGVodXJQdkhCMjBfU0ZocmxLejQ2RkNsX1VmcERHeTR3alVOUGNZNzVFdTljMm9hSXMxRERGeEl3?oc=5",
+      "fecha": "2026-10-09T00:14:18.000Z"
+    },
+    {
+      "titulo": "Cobrar una incapacidad del IMSS ya no será igual para todos: este monto cambia la forma de pago",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMXlaUXNWdlRNa0hrLTZlZHJuV2hLUEJrakljVWtpMEllNFF3M3hpZGFzM2ptUk5LRHdUOHRiOWppMU1iODVtajFsU0FxMkk1eUVKSDIzT3RTTV96bnRiMGdQdnE2N2JMcWJRUFI2RXRpOFdmblN0VTZ1TkcwUnRyWWxuZjY3ak1hT3ctZzFmSURidmw3UFFjU05zTGRWWGRCTzI1StIBsgFBVV95cUxQRkhVQXpTTjVXcXlpbFFXRDJpSnhYZ3I1T2E3b1BoNDd2WlVZSXcwaUxKTnBkUDBFUjJGRDJkUkZFdFJoWGxsMHlwUzVRc0RxRUp0WGpSUkJNVFR4OU1tWU00TE9OVTdCY0JXcXVMelpURGNLSENrOHJDM1JpcXV6RWlQYkMwdzgtM3JzMWxmNVZGd09sUmJoM180OWRjT2E5eGZpQjFkOGJnMjF3Ulk4RlFR?oc=5",
+      "fecha": "2026-10-08T23:42:00.000Z"
+    },
+    {
+      "titulo": "Los contratos mixtos no atraen a BP o Shell, pero algunas empresas sí ven negocio con Pemex",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRUNfc09EbXV5ZzNGRXJUVVdwc0lmNVBjLWhrZUNxUWF4QklmVWVIdjhsWU1WaVg3ZFQ1TmVHMF90TjRXRnZWOXRTS1dGa3h3V1JDOWhfb0lva3Z0aDBzdEVXeU1LSk1reTA2MmJLSWJMa1REeEVfZ2JpMFdGc1F4Snc4cTBaX2huSEtKV2QtbzhBeHkxcHNiOEV6dTJtOS0z0gGuAUFVX3lxTE1VNmQxQWhHUXZrTmNfQ1lDYTh3Szg2WmJQNTdlT3hzeXpGUWtDaVdUdTVkNGNOZFJ1SVpaNHJ1NmlZUUt2MnRfbHFqZGNMZG1KQ1lGOWNuWDNFRmJVTG9XUVlaVl9pTUI2Q3p0Sk8yd3A3UkZlSEJMblVWMG9JUmtNN2Q2T3VieWpSRDNvR053QWpFZEZfM0s3WFMyZDJlWWFkLVBzOWwtc21ja2tBdw?oc=5",
+      "fecha": "2026-10-08T23:08:00.000Z"
+    },
+    {
+      "titulo": "Hacienda apuesta por inversión mixta con sector privado; alcanzará 5.7 billones de pesos en 2030",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT3pLVktqQmtvNEh6SnhsVDRsSnd2SWFTOU1PX0YwcjZ2TzFHNl9CUXlzcG9KSGxPdFFvYzR2OV8wN0NQVk5QcmMtUUQ0NG9PUm5Yd1lDS1g1R1Z2LXhsSVNKT1EyQlJkbGNtUlhjbVpJVVVXU2p0VThPaUMzSVp2TjhqaHd0a1Jyd284MlFEUnl1WTh2ZV9PZTJ2YTNvZ9IBqwFBVV95cUxPX3d2SHZIZHZHTy0zX2dsQjk2SW5FbUVOVGpNT25kanJ3UWRBdFhJVWtOYVpXNkZ2aHhubjFibHlZeHVuaW5wZzFIdUpNbHhsdU9VRi1fNGtSNi1tZDQzQ2VnUkVlUVlMZWxOQzZoU1YtZkRzLVV0cllFb3kzOV82YlRGaGZkQVVrVzNDUnlMWDZJLTRWbnBzQ0VFV3RZUUFoSTZZUUNxOU8wUW8?oc=5",
+      "fecha": "2026-10-08T22:41:00.000Z"
+    },
+    {
+      "titulo": "Sin reforma fiscal se han “despetrolizado” los ingresos en México: SAT",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNGNReThnNDZSN2Q0Z3RxTUpjTzZ5QW1uT2JKMHNnbW9TQ2NfcTdYMDhjaklYTS1NRUJTTVNoOUZMakxDM19ld3M3TkhOWWFfdTNSazV2R2J2cWc2bzdxdWZCdGhqem14djBhOVY5aHkxQUF5MElwQkFhczA5dW1lakM0aWtOcE5WWHRETGh1aVBqZ3h2emJvZE1BR3NrTDJLQS1UNnE1QmVtMTBscUhlTkYzWlB3dEd5MVFTWVFQSGJReWI1WHZDZVFISnd4anU4VG80Y2laMi1JOWRLZ2JVTHMydjlsQkXSAfsBQVVfeXFMUGhuLUtZaVZETTIzSk04ZzRRRVFFcDFUQnFHVDQzM1VYODV3bkRNX1MzeU1yaVJCaUFYUjh3VFVnd2s3bmtueWJzaUVIVXFya1EzekRKcEZibDJZUjBaaWxDS1AxdzJDRnV5anV6cGdWVVBLcWFjbjdWNzJJazh5RFJ1eFhPc3R5cHlSdGd1TkN3VmRURFg2cThaUUs2bW5QSFVkLXhlN3NFQlpGcGI5TXJkWEJqUDZUZlVtQ21YblBYcjFxa1g0LXN1dTM3UkpkbEx0ZW1SRjdFTWw2X0VKVkQ3XzN4MDhIRko3eVFpVjMzSG5BLVFKVXFyS2c?oc=5",
+      "fecha": "2026-10-08T21:39:49.000Z"
+    },
+    {
+      "titulo": "Tu cara como pasaporte: utilizar biométrica facial como identificación promete reducir tiempos en viajes",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYTYwZE5sbHZyOExfVlZQTU1xSmhBNFcxODVsQ0Q0MXNwOHRqQ3JVS1l2S1dGRHlPMGgzRDNMM0laZC1VWllxRzJ0enVja1R4S3RMckZ0WURHQmZmZnl2LWxCZnNfU1k4T2sxWW92NnYzZmt4VFZ2bllJY3RsZXdTYjRySzdTUdIBkwFBVV95cUxNMzE0UHZUSFZCWWNBOTBvSkpTdENhOHo1bWtWUXNQQmdRcmtuS1dRWS1aZnVzUGI1bWk5TWRZZGZCVXFoamYxRkFQZ2xkN0RhdzhueE1JdGxWQTFhRGo4NGhEVnJVR2tnYWxwUmxhZzBVdDdkV01oNjVXLWduQzctZDdqc1llRWxzNVV4STZicDBuQWM?oc=5",
+      "fecha": "2026-10-08T21:26:00.000Z"
+    },
+    {
+      "titulo": "Duro golpe a TIENDITAS y ZONAS RURALES: La nueva Ley de Economía Digital",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMnlZbVVQbzk3TjcxM0pSSnhpc1llS0VlRGQ4OTl5Vy1YcFV1TXRkeDZjMURsRFZpSGRfQ2l1YkQ5TlBtZ0hqOVMyRzNQODVIU0NPQVB5NXBXV2NDbERDdHpielFRSmF3MVF0NFNZc1F1SXMza1pjTnZPXzZGYUc1WlpfaG1RSURIR0JxazhkTWFHdVk0NzRObTRpOTFicnh0ZnYwempvanZkc2VfbmpZSm95WFVOdHpXZFZqQVRQZ0RhZw?oc=5",
+      "fecha": "2026-10-08T20:23:11.000Z"
+    },
+    {
+      "titulo": "Remesas pierden más del 20% de su poder adquisitivo, alerta Banxico; ven relación con estancamiento del consumo",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRUNrTFVicmd3RjItZFBqRXdFQ0NfeEdjeHNZZzdtZkVWQXhMeEVkR3hiRngyVzJTUFF2RTd5SWJTUUtzWXNpMXozU3BqazdsTDQyTllNNmVvVnlTT2NGSUZDQURJUmdtMm5PR3d0clY4Ry1iSjV1NWtpdmZydG9EemtHN2w0M3V3WFZoZ3RpckdqZnRxTmFJOEZMY3I2YS1YRkxweVZ6dDdDZTRKOWFzYXdiWWpBM0tLS25aUXktMWpvdmdobnB0SEJScWh2UFlPdGI3OHgzTWRVZHYtaUdfZ19R?oc=5",
+      "fecha": "2026-10-08T19:24:42.000Z"
     },
     {
       "titulo": "Más allá del SPEI y CoDi: ¿Cómo busca la nueva Ley de Economía Digital erradicar el uso de efectivo en comerci",
       "fuente": "MILENIO",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYUF3UW9BMXJmR1VJNnZUdU1yMUlpdGJQNUdLYWV1emxvR254VGI0OGk3Rlk3N3RKdTNpbUZMVTRFWGt2d3VxWEFnMEoxdWpZYUFmLW9fTlc5MEtLb0d0eGM3YzliTGlqQmJZWHdSNkVNYUctTDhOeVlBYWlWSF9tbU43Z3A1LUZ3Q0R4Z9IBjAFBVV95cUxQOFAzVS1aN3JwMVcwSXFqQWFyR2tuMVF2YXhYUHpzd2tvVHhxc2tZYXZNVUtkZHpFRC05LUZJNnpNZzFVLXJDNHJvMVlRYVZ4RlhHdUU1ZVBsVnhILVZMaHd2NXBMOUZCRFpsM0RsZmpCWHEzcjRSeURBYjZIc09yOUJfaUxjZHZDekJmOA?oc=5",
-      "fecha": "2026-10-08T18:51:34.000Z"
-    },
-    {
-      "titulo": "Banxico debate posibles recortes a tasa de interés pese a ciclo alcista de la Fed; busca favorecer actividad económica",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWldZM3RWckpIZmF1TndCQkdnQUM0aXAzZ3hKRVg1RFNwWFZYcEw2VUx2R19GSDZTQXdjbTlwMjltZjRDaE5kUWR6d0FKZ3lhQ2pXQmxaUEYyOXNaS3ZNVVZ6aV9UbWNQMDFhQlpjWFZ3dWQ3M0h3cUFraHpBVGlSejFFblJHUzlTMW9QVDlGLXZRSXV3aFZWYUZYN3RnMjVJRGducjNIeDlwNHRZUTlUcURTZEc4Q2xvbENIUjlfTU1KX3ZaODZFMHNRcUtnclA0OE5ZYUxVZk5ldmVpQlRqb0pneWdvcTlySE1lNGln?oc=5",
-      "fecha": "2026-10-08T18:47:57.000Z"
-    },
-    {
-      "titulo": "¿Harto de las llamadas para ofrecerte tarjetas? Acoso telefónico tendrá multas millonarias",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZ3hkcDh1eUpiWXFJYi1kcjB4QzNGMV9vY2tGZ3c2X0FOOU5odXpDNkJ6U1RIWmktVHc1SC1kYjVMZ1FXVzdfRDdwX205T1hEWHBabXZ5RHJzN1NSdm8tVWNiWndaeGtybzIyYnpYVlNZU1N0dGlicHNVM2xFVVNKT1hUak5idmY2VFNsWWw0cTc5d0gxZjV6RnlvZ2pmZTEtMmtuLUYyNnppMWhqS0R5NjU2UDJ3UDl4YWxRY0t1LU9GQXJ5bHk3aU44eVFiNkhMaGfSAdcBQVVfeXFMUENyckMycVpyRG5vLUhETERMTElYSVlJM09qS09WVnBUVERxTDR0eUpJNW1NUnFYNlAxdnU4LURBRDNuR1ZiQ2hMNVU2Q2E4UmFJdVVNcFdMT2ZaN2F3cU90SDVGbldXQ1pKNUQyTjJ0Und0SFZqNnBKdFZITTJqcDF3b2R6MGZveHF0NDdoQ3dPbEVEdmh5bGx0QWdidmpuRFNFdzJvc2FQOXpUbFMxN1dKcng3ZHdKeWVhSElqanlVYjVVdWFTbzVUd1FUOW16cEVEbFVwMkU?oc=5",
-      "fecha": "2026-10-08T18:40:53.000Z"
-    },
-    {
-      "titulo": "Exfuncionario de Michoacán y su familia caen por red que suplantaba con IA a gobernadores y ministros",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeFItVDhhSVVlWnlCeUZGNm55dHFRcEp5d2prMlU5VWhfYmFnRUhTdGRYTlJ4dVNEcWx2RTdFMjZWMk9jNy1ZaWNFWlFJa3NrRmdEckNhWUYxclc1SE9xRUU1SHNhbXlFSTJ1TTFzLTFVRnRMbWxlM05SRXRldUZRaXBBbUs1NmJTWm1IRjZUN2d1b1V5OTBMRlZfbWhfbHdFTXd4d2NMTjRhZTFLSHl6ZkJXNDAzdFV5VUpfOUdRUU5nNHNRZzJ2dkdlTkd1dXdTTzlOZ0Zn0gHbAUFVX3lxTE5oMURpVFhkRVppcnhnR0wxd0VjZjJHWGE4X2ZXanBldDJJcC10eGdvNXhDQmhpUm44MXdveTJXb1BrbDRLNGhKSGw5dElNQS1kczlrUnhpdXZQT1hhcjYwZ2dwTnc5TURESHFlWVJ1SW9iWEQwZC16WW1IV3VxMkxTcXlhNDlNTXh0QURDX3hWTWlRX1RvVDh6clhBQkxNZlRmTzhuVi1WdnFpUHIyeWl3aDV1NXdqQWRLd1F3S29XaUwzVUZxS3dsZ1UySERMY1BkeDRNWHdpbXNvOA?oc=5",
-      "fecha": "2026-10-08T18:40:50.000Z"
-    },
-    {
-      "titulo": "Gran aceptación del transporte eléctrico en Querétaro",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQenZNOXFRSkF2N2c3ZlJmMWZhZWVRVVc1ZndZVXFyRDNDa1FNeUNtQnE1Um0yN1RQcF9fSzFUTXBYV2pOMHZ0Rk5uTEJBdzdjRWlGQy1MeV9yT2tZWXI2TUszUFZndDBtaTJGZDhvRDF2a2RsNWlwREc2Q3RWa21wdXNlSnRCckJzSXQzU3FOc0Y3ZVB2ZEhNdWp3MWlab0dBSU5GZFFrZEk2MmF10gGyAUFVX3lxTFBjUHhfNE03MnJrMGFOSklFWTVta2pJR216aFhISE5zS2oyUmg2d0F3V0VQdlBYTUxuelJJbHh5VTZPVzJBMjllTGh0SjhzOHVTSUtkRUpNMW1NT21GRDFXbWVzYlRFWFlId3pCVkpyZXFXWTR4MERIYmFScndIRUMtSnBWMFE1c19yTGt1bEQyXzBjY05FWVFIUFV0anV2by1HM1BXLVRnem9YSnZvbHhISHc?oc=5",
-      "fecha": "2026-10-08T18:37:24.000Z"
-    },
-    {
-      "titulo": "Endeudamiento continuará enfocado en el mercado local para evitar volatilidad: Subsecretaria de Hacienda",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQWFMZ3IyVDFHb0tTdTBKZGotUTgwcEt4MFM5S2tKc3g0T3pVQkVhMjBoU09LZmZ6VEU5Y1R2Wm5WdFVlXzdGclJETk5OTU0tb1pSQkh3RGIzaHBEMXdaOUxRTUJhaldkaFV3TlVpTXRZU05RdjROOXF2M2lsaFlEeER6WGROdDJVMkZRZk9LaUtRQ0gyZ2N4OHJnME5DSnVDVC1GY21xV0ZqUWZjT1dMQWpxWmZURnVCUGFBOHJ4YVlpekxObWVORDdWeExBZWpUNHN6a2M1S25TT0dMNTNndnFSUmYtQdIB6wFBVV95cUxNUkNvZjJYbG0xb0E0b3B0MWFwWGhfakRyRmpMdXQxR2c0Y3VfT1Ztc1J6d0FEeUYyby1aUWVSdHZhTm1KeTlPTUFYMkpDei1fTlF0Vnh5T0dBZERJT0FtV2llZFBnSkNucDlDVFpTNjU0ZFNtSllNNUNLSVUxa1NxTFNLTWhiQmdEMllYRi1RRkJXcjQwT3VsR2JMaUpZc0M4VTN0Zzh5MnQwOHdMeWxvQTZSOC0wVVJ2d2FSNm41eGhvaFREU3hzUmNkNEtGVVJTajBZMjU4OS1TZExJT1NIRU1rUGpYNlpOa09Z?oc=5",
-      "fecha": "2026-10-08T18:33:00.000Z"
-    },
-    {
-      "titulo": "Remesas pierden más del 20% de poder adquisitivo en México, advierte Banxico",
-      "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQTlHVDQyMWR3bzk2UjM2X3V4aUxkbVphOHlDTnlualZiUjNUQ0xYSXk3SUxvRlRqVVBEU21ZY281NmpfUjJ3RkVPc2pUOFl6OFFJYmNPbXV2N1NGcjQ2Tm5qNGdwSDRqSGJHNWVFZjdsMU1UMkh3OGxqSVpubDRudzgwNWsybEtUQlM2cjk4T1VUdnJia1hlR2l6NnNMdw?oc=5",
-      "fecha": "2026-10-08T18:17:00.000Z"
+      "fecha": "2026-10-08T18:51:00.000Z"
     },
     {
       "titulo": "‘Cisma’ en el Banxico por bajar o no la tasa de interés: ‘Debemos estar abiertos a la discusión’",
@@ -56,70 +116,10 @@
       "fecha": "2026-10-08T18:14:55.000Z"
     },
     {
-      "titulo": "‘Los pájaros’ acechan al peso: Dólar ‘vuela’ a 18.16 unidades afectado por minutas del Banxico",
+      "titulo": "‘Los pájaros’ atacaron al peso: Dólar ‘vuela’ a 18.20 unidades afectado por minutas del Banxico",
       "fuente": "El Financiero",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbndzLTZUMlFDM3U4RnNucjNQTnRRWmJqNTA2eVI3R1JGT2pUVDJQdEY3YktseGt2aHRqbkxSdGwwVVFudjlqXzlpLXV5Nm15ZURRcGV0ZEdWRDk1dXh3aUtfUkFVWE95NzVTVnZNTS02c0UtMXNXTVYwNzJocm5uY1dXYklkazFWNDRPNjVHWXZtWG5kSGRmMG81SQ?oc=5",
       "fecha": "2026-10-08T17:30:14.000Z"
-    },
-    {
-      "titulo": "Wall Street cae porque avance de rendimientos y precios del crudo avivan el temor a la inflación en EU",
-      "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZFhCbjhWRGNLQVBOZjgwbWpJSGtCS2FpYU5vSUptSG5DckdueHBBUERxWloxalNVXzAxb1pwd3JGY1F1TTh2eUF5UVYxVG1qRlhzU1ZGck9PdDgzR0tidGNoQ1NxeGVXdDBOLXAzRDZaOUxqNFlXeVo1U0gtR1d3OW9uQm1KcWI3dUVhS1h6WUFyS2ppeUxnNkpXUkhVWEs1NFN0ekxxUWFBa1k4Zll2NWxoMXdiNnhObjhlMlBIcXNZWmM?oc=5",
-      "fecha": "2026-10-08T16:57:00.000Z"
-    },
-    {
-      "titulo": "Exportaciones de autos de México caen en septiembre por impacto de aranceles estadounidenses",
-      "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYTNRYmVXdW5vWE9vT0g2dk1KbTMtdmpyNWVmMTNyUmt5RFJ2ZE9DclhsbTZoSUhaQUVjZDhUbElLR2QxMGJXcUtveFNhd2dydVlFR1kxbjYyQThnLWt2X1dtMTRzek15ZFltc3B4dTQydEVlLVJPYzJCZEIxWXlDemU5YWRtb1BzcXNMQlpMUDNGTTJFOW10M05kTzNpV0NNZU55QUc2MjZvY1M2VFVWdVozTEN3Zw?oc=5",
-      "fecha": "2026-10-08T16:44:00.000Z"
-    },
-    {
-      "titulo": "Peso mexicano se debilita de nuevo frente al dólar; el tipo de cambio se dispara a 10.20 por unidad",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa3pEcGtfWXY0dmM1T2tYMnZIYnItRlJ1cUVBLTZZSTRla3Q1V2xtcERpSEJ1MU5GQUdtbV83MWJoSmZQMThkSmtFX2VyMVVKQWNuV0gzZFVXLVlFaXkyMFozczBsTGR4bm13MUtDeHVQUHV0OE5xV3RzQlV6SjA1UEFmS05FX1dPMFYyazNKNNIBnAFBVV95cUxQMDNfRF9YMGc3dExudTJOWmItUGFIN3VkNU5sSUlYWkl6ZnF4TDQ5MnkteG5jU1pZMzBIZmFHWm9yX0xmbEl3TDc5RDBFUUJOMTQtNVp1Tkx4MHY5T2VEcGZEbXlYOTNYUWJGNExXYklXNzBZeFFwVktrdmZib2dlUWI1ME9vVjhqcENtLXJESFlVY0ZYeGNoeEI4V3A?oc=5",
-      "fecha": "2026-10-08T16:40:00.000Z"
-    },
-    {
-      "titulo": "Se dispara precio del petróleo 5% ante huracán Isaias, guerra y bajas reservas",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcURCSmRWSkhNZ0Q1eXlNc0I2alJMV3F2SXhuOE5UdF93OWNFSTlycUczUWdvdDFySlgyVGE4T1E1TWpMZzBERlVQeGFwSFVZSlByUzZ5aUhTVDhrd3h5YzlLeTRIajdkY1VYcFBXRzdPRGdLSTU0NG82bVJHTmhrenRPWlNVdHZIRF9kWHJFZm9VbVNyMFHSAaMBQVVfeXFMTjc4ZnlGbktJa1J4NTVUXzEtRDNkSHpEeDhMUVdYeGJ2cFk4WmFuOVZRYVJnYXIxaVRiNV8wUmdzc0Mwak5tNXBmVVlwRnczdHFmbDZOODRoeHF5bk92QnJSNXRmZmhaMjVuVGpqSnU4SlQyQjVtR2RienNiZ1dReDB3ZXNDN1BnM2FLNGI5UjRVWGFxSEt1TjdkNmgtOURqQ3Nxcw?oc=5",
-      "fecha": "2026-10-08T15:14:00.000Z"
-    },
-    {
-      "titulo": "Inegi: jitomate y cebolla impulsan la inflación en México a 3.45% en septiembre",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX1EybnJxaE40MEdheGJJNWQzUTdQZ3NWTmxFbm1ScHRfVElPYUk0ZW5EaTJTMXZMZWw0WWl3V2dSbHBFaXU5R0QxUGRfOER2X0w1OVdkU1RMVFMtcm5Od0EwT0NjY3BIdUJmVkducjFFeXFKcXlIazZNMGJLVHRsclh4cXRKSWpyMzBzY3JHbWhpdjTSAaABQVVfeXFMTUNoWTBKZlRxZmEwWjVhcjVrZTZ2TWtoeTBsX1c1YlFPcjl1OVY4V245MUdjcGMtZHpfMnV3NnBqbkIxOUE3VksxM09aUGNRaWtUZ0FaSlBmQmpwRzdzdXdtQlRqTDZRTEhhUWhqVVVVRjdRaWdCMTBhVTRhUG9wOFlsaDM5NmpqV2g0Sm5PbkZheDlzYU40ZlFQeVY2SE80ZQ?oc=5",
-      "fecha": "2026-10-08T13:57:00.000Z"
-    },
-    {
-      "titulo": "¿Terminó el súper peso? Lo que dejó septiembre",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeTZDSG83Tl9XMk85eXQzV19zR2hueWZHM0RvTmVpNHFJamdqc0ZvS3ZFZEdydDJNWEJBTkszWmNDR0ZPenYzQ3lQVHBQZ2V0UUFkWlNDUVFXREQzYTRPOFJxanNlaXBLY0xkRmU0RFZXQnpIQXhZOXJrR1VDV0FZZlhOTGtDUDE0TzBFb2lfREkyaW15WlZJcUlzeVNsZGNaYWRCU1hjR19tWUFIVDBrUk1vRFE0cGZ2?oc=5",
-      "fecha": "2026-10-08T13:49:19.000Z"
-    },
-    {
-      "titulo": "Colgar los tenis",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPazN5NmJrQmh3Zi1GTnl1Q1VoSWQ5UnN3MndNdDF3Tm82eUN1LUYwenVobUFOT192TkJqUlJGN1E2WlRjS0YwZ3RQNmxIam5wRUhER05qc3ppSmxtOXg2RDRnQl9weFpLMnotRUF3am9vZm9taXJkRzB5T0J1OEROYnZpWnVBWjhSSVJxZER2Ml9xeGc?oc=5",
-      "fecha": "2026-10-08T13:43:32.000Z"
-    },
-    {
-      "titulo": "Inflación general llega a 3.45% en septiembre, reporta Inegi; el IPC subió 0.42%",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcGtGTFJvWlVWMDc4VkZGQWt3WGctQ0RHTjFHZ3VmaEJ0YU9JZV9BeDVxZ25uV09fenozbG1hQThDT3lnQmhXd0FVWGtwdzhmei04ay00TVNtRi1nWDc2alF0M0szUmNYZmtlc3VlQXZwOWRsVkFjNmZ5M2lGRFdyejlYN3AtN05hRV95ZjZzcUswOHNGZHdKNXZKTXlRbHBJWUJPRWp0bXloMl9ObUZ3bUtTWm4?oc=5",
-      "fecha": "2026-10-08T13:37:09.000Z"
-    },
-    {
-      "titulo": "¡Cuidado con el gasto! Inflación en México subió a 3.45% en septiembre por alimentos como jitomate y cebolla",
-      "fuente": "Milenio",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZWJiWEZEMUdyMUVNLXRwemN0VXlmX1dTSkdhOVFOa0xsZmttVHJFdUpIMWVMZXZ1NHlFS1RuM0ZPLTk5bnY0dlVHc0RCWGp5bVBqLS1BTGhCLXE5eE1sbDkyMjdNenVZam9YYnBwUTg3LTg3Y3VCWlRRY3B0MDRWalhNOWk5VkY2RXJmYTNB0gGOAUFVX3lxTE0ydGphekNvN2Y1bXp4VEptdjFlVENPT0tzVmpHODBJUUpPX1gxNEljT0NGSUp4a2FYM3FEcFFVQWhzVVZ4S0YzNFVrbzVQSy0zRUFSUWZTckRMb1NPMHFVWWtNeVN5Zk16WUk2cWtkdC10R1BLRmFPdVNrT2lVanYxTEdHdTV4ejQzc2FhdlE?oc=5",
-      "fecha": "2026-10-08T12:17:00.000Z"
-    },
-    {
-      "titulo": "La BMV cae 1% por el pesimismo mundial",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNmVZb3hlN1VHUmhZRXJocTdvaGpoSE1pSWcyYUZfZHFjSW9TR0l1LWFhYmU0aGYyWjZNYTRseDFYZFdGTTlvN3NlVTFfbVdnQzBBTVM4azBvcUpjcDQzV3hfSTRfMy1XZkR3TnpHaXhubUJ4YjRIS1YyOU81VEJsRXFjUdIBlwFBVV95cUxOLVBBYTJkUkwxdHpaaUJMcWx0dFhucUVpODRXNjFTUUZsNzhNZWJVbmxGN0JWQmFwbkpRYTdMam1scHhFQUxtRDhSRWdEVVRKWU95VlZoMWc2dVJPNEFybzRjRC1ycEctN2Q4RU9JN2NsVzNvcC1jdnpzYXhQb3R2RUNsTEVqeFBraUVSRVVidmhWZ0FGNDln?oc=5",
-      "fecha": "2026-10-08T09:58:42.000Z"
     }
   ]
 }
