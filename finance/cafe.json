@@ -1,89 +1,125 @@
 {
-  "actualizado": "2026-10-11T19:06:59.188Z",
+  "actualizado": "2026-10-12T12:14:52.158Z",
   "notas": [
     {
-      "titulo": "Analistas y FMI mejoran expectativa de PIB 2026; Concanaco pide convertirlo en inversión",
+      "titulo": "Querétaro y el siguiente capítulo de la economía digital de México",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQXhOa2hFdng0UGs0eEFJUDVqSjdYTUJ4amhIOGptVmFfQVpVMlk5V2pKNjhmV3dGVENkNkJ0WUhndkdPRFBtNmV6VVQ3aDdaOVlzUkhoNWFaakVTQkhnVjhGUXFiWjEydjhZOGFsNGhHbDYyenN6VFdpbTBPWlR0dkcwbUpHLXp1Q29ENFYyeUxKQ2E0TjlzTE9FYmh4ckxVYnlWWkhaY2lQQdIBtwFBVV95cUxPY1U2X09mc0RpZllwbkJGcmxvdmpCc1ByTmMxSWcxWGdRRTlLZ3hGVC1TT2pKdkNHd2pZTGZXVEpWUFJzSWUwYzRZeGItajdlZjhjcTU0dDlsUWM2bExJbkVOcElGel9PbXc0SXpiMXRheC1jV3hsZG1sdE55Xy1CYmhpVTg2V3ZLYWVUM3c2Z1VlTEY5blAwUkVxUGNmZnFNQzJMYjI4dElyeUVwNFNrX3lIWDVkRlk?oc=5",
+      "fecha": "2026-10-12T11:59:00.000Z"
+    },
+    {
+      "titulo": "Noticiero con Guillermo Ortega",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeUFKelVkUTNsNlpkU3M4NElBNk9XcmZZdTJfUUstRi1ReTJLWGdFMkJuTUZZVUxQZUtzNGNMaEhFaWl6MGlJSXdiWEQxTFVIODlpSUFtUDFVM1dGRklPc3hSYmpYeXBvekZQZC1wWnpubzhET2x3ZXpTMEJZSmh1d1lLa2pmeTBiemZVMHl2bw?oc=5",
+      "fecha": "2026-10-12T11:45:46.000Z"
+    },
+    {
+      "titulo": "¿Apostarán contra el peso?",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd3hZTnI3Nk42U1c0ZklLdkJoV0NNQWJ1aXFrTHJqVmlPWGc5d2tMYjFlbXRnVG83aU1lU21FRllnSGh1c2xsWmJLNjJtWm4zdFh5b1EzSnZ6WUUtanZIMl9RcXpMS1FKX1JEaE53U2ltT2dpRzBQMkpqd3QxU0xyMw?oc=5",
+      "fecha": "2026-10-12T10:43:05.000Z"
+    },
+    {
+      "titulo": "Robert E. Hall y Michael Woodford obtienen el Nobel de Economía 2026 por desarrollar nuevos modelos macroeconómicos",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSDNZVVJ1WnEyWlpENXpsMUJ1S1RsemFJMGx6eHhNcG1meUh0ZFhWbnZsTnZ2Z2tTS0RqSW9uS3NMRFhqaFl3RHY2ZERlUDVTTENGMUVLbVdfRDh0VjRGTHJiOEk5cWNqMWRiTm9VcjlsUDdGblZ6QVQxMWpEZHo3REVZb1d6aWhUeU9KRjJheEE3Y3c0andJeFNyNzRFb1ZjOEZYYzdRUnl5U1NPaFFpYmJJVUllajBaMnRsZjFKZHJzbU9RREJLcEZQVldMVHVEWkdxSXZxQ1A5c3lTSEZId25sZUltSUNKZEHSAf4BQVVfeXFMUGYtb1BxZEpmOXdSZ0RVRmNtcDdNeVl2VDZmZ0E3X25KR2ZvODgyUDJaMksxU0VHNzJCMFJqNXZtc2dNSy04WThZQ25WNzItaVVCYW1FSlVDRHd0cGJhNW04VVFBNlBVMEY3bmU0ZHJmdldma1duaFY1YkxzTmhvcFN0SVV1UTVWMXZ0UW9KRW5oeDlrNDZSLUhlZ3dWLVgwUUttcHBiZjdsZllUZFV0QkwzLXZjN1FDMFpqUmQyVjZPcWpHeGpfZzBFcWUwV3BSZ0V2dTVOdGU0YlFMQ2hsSWFrbzlXdHlqeE9Qei1BZWpfQW4zUTRYazJQU1FocHc?oc=5",
+      "fecha": "2026-10-12T09:55:43.000Z"
+    },
+    {
+      "titulo": "Erosión del carry trade le pega al peso mexicano: Diferencial de tasas entre México y EU dispara al dólar",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTjhtcGN2Y1RCLVRXYjRWYUc2SnlKUnU2Wi1KVnAwYWd4VzFaTVM3bnA1MFNfbFFkX1U5dWFDUmhCWV90c3Q5aGh3RXhVY0RlYWcxOWRqamR0UzFKYjIwVUZLUXFva0pDYzBFUkNTVE5RaXlGU3Y2Ul9Kcm5OUk1oOE9ocWFSY3ZzUWllMUdJM2w2U1cwdDBacHVEbDlWZnpsTzBISExPcHpWQ25wS05TMy05RmlIbmJPbG5jQzhlY3pzZDBGMFdnR0RHU181Z1VHQVlnSWJFTGZudWlvM1JWbmtWMmhlX3BfUEo1M1FR?oc=5",
+      "fecha": "2026-10-12T09:18:14.000Z"
+    },
+    {
+      "titulo": "Cobran más intereses a México Por deterioro fiscal y tasas de EU",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPakNxRWdYd09Eb0M3eGdJaTlmSXE2TWF0Znk5Q0w5MDRpVXA1ZkViQ2VjaUphb0ZYX1BaU1dNbTFiTHRrYzl4ZTF0Q1JzSnFJVFIwb3E4WDE5X0NLMG1tTDB1RnhXaVNsaFM3c3g0MHNOUFFtVTBfSkJ5aURTcWU0NmE5RDhHV29QYWJtcnF2UGlXaDhsUVN5VU5iRWVvMkVIT21ieXFkONIBuwFBVV95cUxNQ0pSNlFtcGY2eHJ6ODh5aGEtai1CYnBGZmVCVWdka3pYMDd5QXN4MWVuWlVxSEktVHdrZzhmeWtWZ0ZBa0wzTUkycGVGd3h2V29MUEowSXA3QXJRMVAzRHgtMkEyYm00MFFLMk52UVJHcVp5X3laOTI0VG1yMm5SUWVYOGR5VGhjLVpjNmNBRGZodEV2YmpaaUpRalU3UDJMb2tKZnB1SWFTZ2tsbU9UamotbTBZQkpJY0Vz?oc=5",
+      "fecha": "2026-10-12T09:18:10.000Z"
+    },
+    {
+      "titulo": "Ven riesgo de perder la categoría 1 en seguridad aérea esta semana",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcFZ3a0lJbkRtaVdQRlVFM3p5VGVPWmxCR0ZRY3NmNEZmX0JQTmt5dUJNVlVoYjcwQ0ZxS1d5NWZVY1hiaVVlYUdZZXFUajhVMmx4QWF6N2llV1JZX2I3THQ2TVlxcm9vRW5OU1B2VGJZMV9CaUVaOTdwazdWUG9mRnoyVjZsWWRDaTZVcnJsclVwSWhpekNGOFpGMU5lM25XM0xLQUpzRU8tU2tPcHJCTGdCa2pWNzV2YldwNnJsd9IB0wFBVV95cUxNY193SHJGUnBnVVJrZ3IwLXpBTWlsZmdvVlM2bjFGbGlRS1VOQ2RTSmJaWWNHTWpmQnR2VVpGY05oQThzbjB2U3FiVm1rNnhjTlROSjFpUDA1Ni1nTnZGa25XdkdBNjFJMXh0dUFrUWl6eDN2Y05IbzBWc2F2SHF6dG9LdzFvT09NeXNGSGdHMnRBaGlSU3c1VDJWQ3hrRk1WSW1qdktxWHRBSVdCeUZGd3pPcU0tczAwWXRYU05vdGNtSTB3QnR0TVAzU2JpOGIxdjU0?oc=5",
+      "fecha": "2026-10-12T09:17:33.000Z"
+    },
+    {
+      "titulo": "Tamaulipas: cambios en Economía y Trabajo",
       "fuente": "Milenio",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcW1pRmRUdnFQdEk2WjEycFBqNHpVTElRTmJXeHJzWjMxYk1VVXoyVlk0cDc3OTFiYXhUOVlLN1hQaThNcEUtNGVTUHJTc3h2amdiSU5JSTE3YmVPbmxaRnNhbGdLanBGMk9pV3hTR2dlbVY4eWdIWWJCQWVWQ0hsWFpYb2hUeDUyaU8weXNGdy1tOVA1NlHSAZYBQVVfeXFMTWpXcGhQejI4Wk44WjFNMEVIMXhkWFFDcXdPbzFFX2g2R3JPN3hmZU1DX0FwOUpxVUswaGRPa0FITnVIZVRZSVBHM1RlOC1CdkE4RmZGS2VpTzBsUVB4aDV1NWYxcWZVR0hXYUtXSVhPb1FUSlpoU29sMTNIbWlqU1FlZGpvTGF0YXg0NnRyMXR1OXVWQlV3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUVlpaHgxYk1RczRCS1NvLS0zVF82Z284bElNdTVxSmVta01sOGthRllDRWZVMGR6RlZtYlQ0SHNjRkVvQ2UyU0thTFBLT1BtVlVuTGZLQkM1eVlVR3lVcmhLakk5czN0REZpSUN4ak9QNkRtTENQLWVKdTY2NzBkZ0ZxQzktNWk2N2F3Z2lMcGNGRExKMDUxdUd2b1VpTzZmM0VR0gGjAUFVX3lxTFBQUXhvUDVMVkNNMUJZTFlFdTZ2N20wSFJ2OGFYZ1FuNDN1SEtUTC1oUUZySkZramw2Ul9YTjFfWDgxWERQVFJlem91WXM3UFBfM21BeXJCS3RtcmxJOFRISVFhcmkyS1NGSTRHaEtrWjhqbnNfLWE3MVc3NlpfeUxCNzEwdXlUak40M2Uxb1FMWXVqbUN3M3hnR3FkNkExR0RPWU0?oc=5",
+      "fecha": "2026-10-12T08:51:05.000Z"
+    },
+    {
+      "titulo": "Discutirán cambios en pagos, aduanas y catastro",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcnRuTHIwYWdyZlZMV0xzRTNxRGxYVl95Y0lVbDVObF9VNllBT2d0Q2diZnlVaHRuVlRuWldNMVJ6bHhuYVV0dFllak5jTnBub01mSl9vcE9sclI5eGR2SlltVTNqYXRRWHFvQUg0ekF2X2ZfblNQMUhnVDBXQ1dvNFRrblA2Z0t6SG5iVUdGQWVwa0dNMjR1ckZ4ci1meE02RDB4MW5n0gGrAUFVX3lxTE55WDJFdFJBNVV1OTV0aFZLaS15OHpkVmVkSTF3YXJxRjBlLXUxeWZfTkJsckpjUTZyLUtrZEdySFZDSUxrcm1FZ1NObWd1Nl9pekRUekgtLWdhTmRwMEhzYWJUbUt5d2VEWkJlVUg3bUtoZGYxR2dMbHVVRjdxNGNTaF9yNGlLaGhyWWJoLWFCdHh2NEZmTzhlZFkwWGJyQVpJUmJjdmVyZHJXdw?oc=5",
+      "fecha": "2026-10-12T08:30:07.000Z"
+    },
+    {
+      "titulo": "Revolut busca elevar a 250 mdd su inversión en México hacia 2027",
+      "fuente": "Milenio",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOTMyZ0I1LTZzMVZHaEV5SUpGc2VvbzE5ZVFVaHN2UEdzZ2VmMS03Vk1rYXZPM0I3ellqT3pkY0hPc3FQbzZsYktaN2RpN3JYWG1wT21kblNyNlAzUk9DU3JzbnJabFhpLUdrNDFNRUp5WlVsT0dtaUxCUF9OMlZSZWVNQmNLWlhYenFr?oc=5",
+      "fecha": "2026-10-12T07:56:20.000Z"
+    },
+    {
+      "titulo": "2027",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LNjE4aEdOUmJQVEJKdWtXbXhqMkdsZlVDVUZsXzBkRVJ5Q1lPSS1SN240U3BvZVZMT0gtQVhKX2FBVnJkQWRVR2hvSU94clRKSUFDZHNjT0lXZklpWVJWeThvRjR0aUxMLWVndlRrSDl4Z19oQUp5b0RGX0k?oc=5",
+      "fecha": "2026-10-12T07:34:00.000Z"
+    },
+    {
+      "titulo": "Guerra en Medio Oriente dominará agenda en reuniones del FMI y BM",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLWQ1SU1ScXU1OHpWeklmOVZoSEVMVmZIWW8tRDl6VnZVa2pGNUhydnBJWVpDdUl2elFlOWlQamdBT1JyWHpTM0NHWnIxa1EyOUFMcmhYbGUxcTkzLXRkcWFGbjMzMXNvdkh1eUNkVFdweXptQ1U4blZGcGg2Ym1lMlVVZldhMThFemhXbjcyRF9INkNzRmU4SFY2SUd2OFFuU1phUHU5RnVMSmlsRVZ1eFR3TVJIUdIBuwFBVV95cUxQY01iaEE2UHV4LTJoVzV4aDlNN09tbGNxdnlxNUo2aEEwUnRHUnFrVXV1OTk0TGlTb0FKQWhSbmNhUnMxT25NNWoxVTlabzJEb3B2RTFpSzFBT0RWbUV5S0psMG0yWGhDY1pxYkNsZGM0aGxBRThkcl80UDNZdERJVnJCd25FSl82TUlNMllYMlBoOVF2dWM4MGEwUG52RHJqZTU3RWgzLUJJdjlUTzJubkhHX183dmJYdl9N?oc=5",
+      "fecha": "2026-10-12T06:15:00.000Z"
+    },
+    {
+      "titulo": "El inminente ajuste de cuentas de Estados Unidos con respecto a su deuda",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZHRTWGtaak0tSzQ1NlJzUmJzRnd0S0ZmS2JEWXhvTHNvMEFSNkRzbl9MRk9FSlNQbjU2ZjUyUDg3eUdJNFVmTmhDdEpJX3FFd291RW5QMkRoMWU1U2FmYzJNNnJkdzQ4TzV5UzJiNDVZYURoZUVscFFXODdVVjFfM212RWE4UjYtWFJlVU1mbjJLMFBpbHMyN2lOWDFrTmgtWnJiU1d3OWVIYVlGSlpWMGlDSk9ZUQ?oc=5",
+      "fecha": "2026-10-12T06:11:26.000Z"
+    },
+    {
+      "titulo": "¿Predialazo?, ¡No! En CDMX: Clara Brugada",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd0tfQzk5ODI4ZW1LRUFhSUJZWEgxTHpRTFV3NEV3ZjFYOVdjeGJOcjktWEt6bGI5SjBWVTQ4SUd3NjhnaHlLVlM5cWktMDIyM2JkeGhTMkk5Q1BrRHh6QzdHYk9tNVg1Zkp2VDk5ZkM2V1RZMHVOSEw2bkxwek5OZHdkcnI2WXVNeEdVNGxmZXd6Y1E20gGaAUFVX3lxTFAwUmNmcDd6c0ZObVNxTERZdW5PYXlvMnJvbUFWa1dZRHJmZHpOblFTekRWS1hIaVBxTDlaU3VTc0VFaHNPTmQ5MGRubTVzZUxISHZxZjdnRGRjaFRMZTcwT1g2Znp6YzByREpNYjlSb0JSY2d4MHJpZGlaNjNXVnZNbkJHWFNTUUt0TzhLX1RLSEJfSUM2R3JaQkE?oc=5",
+      "fecha": "2026-10-12T05:42:53.000Z"
+    },
+    {
+      "titulo": "¿El INE ha DEJADO de APLICAR las REGLAS electorales? Marco Antonio Baños RESPONDE",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRHltbkowczRRWGpSXzRlTUZZTVNtSnJvQ3dtc1lYaVJCWFJzZVRZVWZNUzE4N3oyQWVFeDJRclpmNldNb283YlRRUm05Q0N1TmI3NkRXUXZpN3lqQ1hUeGtiMlpOcEdpSFAwaFhGYkZSbXJKU3JrUkxQMnNGU0swRWhROVAySGlSblJQT2ZCMFdGU19rLU85RTh2TzF0M28xaGRrZmpwRWRsRmx2OGZ3QXRkNFUzU3BVa200YXJVXy04TmdTbjNVYUF2d1IxbDZtamlXcHFlTk4zTXQ3TEhF?oc=5",
+      "fecha": "2026-10-12T03:11:33.000Z"
+    },
+    {
+      "titulo": "Guanajuato busca diversificar su economía ante cambios en T-MEC",
+      "fuente": "MILENIO",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUUxFb2had09PQ2UyRGVQbTdoUEIzbWpOYklydVlEb2pkVHpYU0lIcUJFVFN4ZF9YX1Y2R1NOd1ZzTkIzR0V5SE9pNlV3U1RWRFFYVDVDNFkwM0k5YW0wZVJuNkIzQzd4U3NwVVNDcVd0UEdraHFQaV9XTHhmLWR5QjFhWkkyS1VtdnFYcjBzcTRGSFQ4eXh4ZXczN0pQMjIwcWI1dkJLU0FMelhxQ0JfYWxvN3BLZ9IBtgFBVV95cUxNQURkaUhFbHQwUEhmeGxrcGVWYXpSdHhwaGctZXgyTkFVTHU5cWk5YkYwS1Z0VkZoTnMxdURGcnJfVThDWWJkZHJXUzBsWWo5azdxakFGUm1oOG9MQkVTQkJ0VTZrT0dVZWw4b05zOThUa3dST1M1R2VzMWw0cmpTR0RaMlJFVEpSVlcwRXUxd3RIX016enhMUm15ZUNGbjZIeFlLQjF5ZFN6SFp4MnNqSmRZaVF2dw?oc=5",
+      "fecha": "2026-10-12T01:05:00.000Z"
+    },
+    {
+      "titulo": "¿Dejaste una prenda en Monte de Piedad? Esta es la fecha límite para recuperarla",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlhaRGxHMzVhaE1KVU0wSWhsV3NZdXR3NHNNNjJZM01nc1FKTkJXVXg3Z3ZydUZrUW5DaHJWdXlXSGdac1ZqSkstanFOOThPd2lYSXN6OHpOcFdfeVR0NWR6SEplTWZwZWZ6Q2NMbmlfb2YyZnF6dzV5WVhOS3JIblZEeUVCYWNWWUg4NHRMbGpWenUwWGNwUmJLT1ZnX3pUUUdHaHQwdjh5ekVGejBHZGNR0gG_AUFVX3lxTE14c184bkVoUGhJT1JsQWdpVHQ0aGRnWXJ6ajNYZWNyX2dyLWFRZ2UzbmJMU0xibkpBWTZnU2RKazQ2cllXbmotSkJ4a0xVbTQtSlNEVVZVb1NPY1NXZHNXTVFvLS1lbjF2YmNDLTZwZklkTXNCbV9heGQzZDZCSW5CT3ExT3F3bHl1QkpVNk00REJLYmx4QWxpTjVUd1FtcHl5RHBpSGtFeW5nTU4wTVJwR1FqTG5jMVNNaFlteVhn?oc=5",
+      "fecha": "2026-10-11T20:02:00.000Z"
+    },
+    {
+      "titulo": "Tras alza al PIB, piden combatir informalidad para impulsar el empleo",
+      "fuente": "MILENIO",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcW1pRmRUdnFQdEk2WjEycFBqNHpVTElRTmJXeHJzWjMxYk1VVXoyVlk0cDc3OTFiYXhUOVlLN1hQaThNcEUtNGVTUHJTc3h2amdiSU5JSTE3YmVPbmxaRnNhbGdLanBGMk9pV3hTR2dlbVY4eWdIWWJCQWVWQ0hsWFpYb2hUeDUyaU8weXNGdy1tOVA1NlE?oc=5",
       "fecha": "2026-10-11T18:59:00.000Z"
     },
     {
-      "titulo": "Huracán Simon se mantiene en categoría 4 y se aproxima a Playa Pérula, Jalisco",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcm9pV0ViZnloNExrOGo1X2dlNUZpem9ra01TWGJqRTQ5Q19sVERIc0FCZDhBTEo5NzdBZS03TUtwaGtSdHFudDJOQ1JtZjlBbnpDUGNQUlNYMVBZdjNxSzJVRktqWkxndG1uZUZhdkZLcHQzQjlwQndRTDdIcERWNlR4RnphS0lXaWZjNWpHVHNoZHZJRVUzXzdpdHBtdWxOdUpibVRZVXFBOHN5UWlFRUJrVTRCWlQwdDZ1WXNKZ1JGcml40gHKAUFVX3lxTE5RWXA5b0loVkZhakxVdlhiNWZpVGVuN0stdzM2SlpaazBKdkc4VkM2ZTZCT21rTDR6VzlDM1R2WUNfblg0M0NINUxLeGNPUnU5cDJVUTR0Qi1fZFJILW9fTHBDR2hmdldzc2x5Y0xza0hEU184VnlhN2hBVUdhSzBkOVZqVUdBVXBDNG1hdFpLMmN4dnRMUE8xVUM0NEtsdld4bDY1dk1wMlh5VlE0cnlmLVU1aTFWbFFqeEFXVUdfSDZ1OVVvcG93Smc?oc=5",
-      "fecha": "2026-10-11T18:56:36.000Z"
-    },
-    {
-      "titulo": "¿Justicia social?",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQnRRM0pOUmZSM3VScDRYeVRGaHI4MWtMUzAxaktlUTNhdlVNcXVaeE5lNFJKaVpUb3RrQ0RuMFJERzlJRjdGd1JUQ3RHajZwVklfNmo0ZDFlaDRXMC1VQ0ZKal9lWTk4RE5id2dCODFaU1loZFZRMzJJcmtkZlNRekNR0gGHAUFVX3lxTE1PcllQY29pSnA0RUtwQ2NuUWlvTzJpN0RWeDNfdmlpSFc0X1BYZnlKRUw3U2hNanEyc2VmWjFDYXduSDBwamQ3akZydzhaT09LeUpDUnktQ2FjVTBLeEFwX21TTHY1eUJEaEhTUWFoUEpMSjYwcDhLcl9qcWVTeTdYZzdUM3JQbw?oc=5",
-      "fecha": "2026-10-11T18:24:23.000Z"
-    },
-    {
-      "titulo": "¿Adiós a las tareas tradicionales? La IA obliga a universidades a cambiar sus métodos de enseñanza",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOX1FCSzBjbm1yNy1DTGxGT0VSa2dIQnV3UERfeWdvczJWdmdXdk9uZ2staUtKQWNQRloyemRJT2RBcnB4LTY0TDZiRUxPSG9UZ0pBSWw1OFlDaXJ3T29JdTlhcU5GeDlRTWVLaU9aSmJmdnFTVUl3LWlNeE1MblZKS1ZYZVRob2hhUXhYVmdiOEU3R2tfUGg3TEJYc0lVX1FSNVJjYWlBUTJGVmFoS0ZFZ1BuTmVjQlkzYlgtRkFyMFlCb3cwcFJMbHZFbENlQ3FMdVg3VzZldDlONGdNZGVDQmNoSldpTXpId25naTU5M3h5dWEwdE9B0gH8AUFVX3lxTFBYZV9ZVGFiQWNLQkhBaDFNRDh5YjdZTkpQbkxWRy15R01rRnZlVnpXUWEyel9CUDhmSkVJUHp5WDFWRWVPV3BoblgzbkhvRER2aGdZRnd5UktxNHRicExVRTVpUWFnR25JVVBWVzd1cFg0WDJLdGhzMHk1YXdfeklVTWZtdEFHaFZheWZMMDhtSGJpdWtqU0FWbVcwck0yTEEwZUhDWWdJaF9yYlFUdFBYTkR0QUF0djAxX0s2SENBN0JYSTZyaDk3Rjc3MG1KR2hmYk9UOVhmVGpndGgyZTJEQjJtRW9GYUpPOXd6Z0Vqd05YaWJGQnVfclF4ag?oc=5",
-      "fecha": "2026-10-11T18:00:00.000Z"
-    },
-    {
-      "titulo": "Zelenski responde a Trump: Ucrania celebraría elecciones si Rusia acepta tregua de 60 días",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWnMwTUJYOW5zMFVUV1NMcUxhM19ScDF4eEdTSnktT1JHTnBCOVpPd0wxcXd0eU5JNTJtNWZnRjdmOTFRT3QxVDh4c09RRXo1XzZZTWhqSE44QVRqNFRVckVOdDRlbFBIQ1U1cTZlZlMtV2EyZDdpNXJMZV95Y0pBUEJEYWNONmxIZ1NhcUhpS2dHdkZvZHo4aTNFamhyVTZZN2xPdHJCNEJKNGNNcFlJQU10S1Y5blFiMUhSNUVVaDF5dUtITTk4QjNRMnF0X20wSG9lZWxHdUJ3c3hOVkZaWFM2elHSAeoBQVVfeXFMUDVKUk1xcE12SFZ4UjF2aWplQWlmUi1tdFdWLWtJYXRBYm9JSkZ3OVBiLVhVelNBRlB4WmdCbWlyYVBYT0U2R0h6bENGVHQzY3JNUE1hRFhSMVhOVkgzRTNsSDBiNnhyRVNhQjM2OEFIM2FNUU52LUVZTFFyVUc4R2g4MkFhSFN6WjdVR2dfZnJmOURQTzdadkkzcWllcTFOY01uNmhZdHMwa2V5RUtMM3JObFYwbExFbHBEYTVZVnVHMEJxRmhvSnhPbGRLVHh2Q3pGVWV2WXI1Qnp2dkdZNnIzcHVUVDBPNjhB?oc=5",
-      "fecha": "2026-10-11T17:37:45.000Z"
-    },
-    {
-      "titulo": "Multilateralismo y cooperación, valores entre México y Francia",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWHF3QVlhcDZqM0JTam5kS0t2cDBTaGI2MkM5bTkyVGREYXZqcnhleGFJeHd6VkJndFdYZEhWcGExX0ZaT0ZGWXVKWVA3N0tEZm5oTWoxaHA0VFZ0UHctT2t3SkFfZHhzeHBxVGhxeHdJZmJYLUt4Y3h2eFlPQzhSQUM2VE9OVnByQWJSa2ctQ1Y4VUdwX2t6X3pnZThjRURu?oc=5",
-      "fecha": "2026-10-11T09:38:00.000Z"
-    },
-    {
-      "titulo": "Lazos comerciales y culturales entre México y Francia, área de oportunidades",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTHRhLUM1VTkwcy1MYUFQSmVTdWVMaXVGWnU3akdlT3NLWkZiTzVoNmNGbW9qdWZab3VadDdZUW1hSFVmX0F2SWxKZ1hYeVAyeU1OcVMyNW1WMnBKamVBSWRibXc5X3pvV0RvODRxOXRwakstMWNtU0J0TGNQNW5iMGZXbW5jWVBYcXJOUVdQanNuTGRkZF9qQUY1WW1fVHozSjFTaDRENHRIR3p5aXhVekRuONIBxwFBVV95cUxQeHE1Qk1BRnA5azUzRWFzaVU4c01yQlhBaWh0cFdITEpxX09BQWdRYVQ1ZHdHZzAxMDcyUmhsMlgwZWtTdkU1N0dsUGZNc25TODRUWldFbkJzcVo1dW9PNmRnLWtGYXVwQ19oRjdOMmVnRkhNOFA0TWVONUpLUW5WX1oySVBncVI0NzFZbWJIQVBWa1pERTNNN3B5UXhYME1pVXVMTHROM25JV3l1RzNmQk1FRlFUVFlRb2Q1b2g0VjRkOUh1MkY4?oc=5",
-      "fecha": "2026-10-11T09:11:00.000Z"
+      "titulo": "Huracán Simón se acerca a Jalisco y estos son los estados que tendrán lluvias este domingo",
+      "fuente": "Expansión Política",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTndlZWpzSExZZHBkanNnelpwLWtWNkpOb0pmUVNXbFNVLVFaeEcwMWY2NmNTem5GaVNyTkpvZVBGc2tlckdHMm4tMmRWSU4zOXVUQV9RUFBncEJ3X1ZfSF9zRkd2WlJEZURpZ19fazRMV1JRbFZ0RURLeWF1ZXpGNE1ENTFjb3lQQ3c0N2FSVC1PN2pXeExNc3BUZHlqbjdGZzBuTdIBsgFBVV95cUxPeng5RkJHck1qMnY1RXRXMWFKLTY5YngzUjhmalZHdzhTVUR0RTFEUHJEQks1UFlqZTBFMnNwb3pMRk9wR19YSVdGZVNjaDJ0MHJnUS1YdDNkVEJONi0tNTNMYkhkWXFvemhCTFQ5MzlHSjFWazl0XzExclJ5QldIYkJPZWc1MFhhMVc3WjlCODFBZ21HY0JmNll6S3Qzb2tCeHhfT1VZdlVjdGM1dmxRcVF3?oc=5",
+      "fecha": "2026-10-11T18:06:00.000Z"
     },
     {
       "titulo": "¿Dejarán de aceptar efectivo en las gasolineras de México?",
       "fuente": "Milenio",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSE1Sdzl4czFENlluRFdzUHNTc0FLLU5hRnNkeF9NUG5FMmFTbXVnRWMwejlMQjRZamFQX2t5SmFwTGRUczJDWl9XMGVUU195V0lqU082VzFGNzdaMkI1TzYxaEtoeExHTGs2YmNFZlVJMkNqeUh1ZUVVcnZ0ZzBiM1Nta2lTUQ?oc=5",
       "fecha": "2026-10-11T06:10:01.000Z"
-    },
-    {
-      "titulo": "SE Zacatecas anuncia seis proyectos mineros por casi 6 mil mdd; operarán en 2027",
-      "fuente": "Milenio",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPREdJZVNPOVZUTGZpZDczMFF0aTZzS21GT3RYUkFQV05PN1ZnSnVURWxEVW9JTUliY0VMNlNpYVVxSlBVTnl2aXZrakZQUGFlN3paUi1qWVRwekQ0a1pvbXNrRFJWa3pJbk5YWE5RQUotdXdrWEwxNl9mamhieWpGdkU3QkZEQ0dNSDlqWWJ5dlE1TUJE0gGUAUFVX3lxTE5BSVRjRi11SXVtSE9DYlB4MnRpbkMzSjJDZng4NGhDWG10MkZuUVgxc21KS0RwRUswMlFoNzlJYnU2MFZqVzI0UFVZNlNNT0FxNUstVU50eDVtOHFQcE1ZaTdkNmhrV2p1SkZ1aXdGbVZzTGFNajBlUVpGN0M0WHdTZi01YjZFUGo1Ul9YOGh0eDVGelI?oc=5",
-      "fecha": "2026-10-11T03:00:00.000Z"
-    },
-    {
-      "titulo": "Tamaulipas lidera repunte industrial a nivel nacional",
-      "fuente": "MILENIO",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSUVaT1EwMXIwV0VLOWRtT292LWNpVTF3NUxZSFgtallXUzBVR2FDS2p3UU0tM2lYcEJpX1ozRC1OeE1GTER6Ulc5emhMdERFYlZtSVpBVU53NWVpc0RnbGtLOWw0RV9zaEVEdmhVNlBRNllxOWdQYzlhUVUwN1dKZV95WXhLOGlRNTFLSFpaMNIBjwFBVV95cUxNaURKY2hvR3hNNzJDeER6eVZmNm52Rm1wN2xxWGRLS2tJS1BJMVBvaU5fRlEtel92ZXNPV3BFTlVjOF9JXzZWdE82TTVVMFpMcEN2ME0yMFpZY3V5d3lmd0Q5SEpwQUcyUFNjZGtjTVlJaXpMd0VpYXZIWnRxUXBCMUpsWjZubmhEV3JjYXpTRQ?oc=5",
-      "fecha": "2026-10-11T02:59:20.000Z"
-    },
-    {
-      "titulo": "México busca acuerdo con EU para reducir aranceles a vehículos: Antonio Garza",
-      "fuente": "Milenio",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ09MbGgyLVZYeUJ0Y2pwSTFHd09lMmZEYjkzcnpfLTUyZ2RHWklGMG4wVVRDMG9ZM1V3RU1ESmVGQ09DV3RQUGZyLWJPT2M0VzFNRHNpX1pTTTgteC11WFBwY3hTeERXcDdRSTJpLUtfSVVuRl9mTWF5VTRod0F4ZEdNemxnSkJxYUNYNnY5VWdpWGc0TWxRSVNwamrSAZwBQVVfeXFMT2VQMWVfM241TlowZFBlbTVWSnpSQzI5V1RCTjFrbkMwV3laQUVHMlRrRGJtbzRFQlhZb1RJS1p0QmFvOVQ0bkFEdnUzOFloZV9ScDVaQWZZMFlUN2QxdjdmMTFuVDdQQ0lxN2t0ZVl4dXBjbEQyc0JaNkZLN0tjUXN5b2RTQ0hoX2dLRWNldGRfRV8yaFJTZkNSY19i?oc=5",
-      "fecha": "2026-10-10T21:03:00.000Z"
-    },
-    {
-      "titulo": "Pacientes con demencia más grave tienden a vivir más tiempo: investigadores no saben por qué",
-      "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeUJOVGx0VW1sRVY5N2ppVjkzeHpzQ3NkNzgzT2hSb0R2cGRES2JabUpqLUQwOXRZU3NCV2JlbWFnWGpnc2xYWmhHRVVRMmlRd3g1Q25pcmw0bndQTHNtVkg1RlRRSmVEUTJGN3UwejNSaXN1ekJBVGNfdFY5cFVTcE94NEhUT0g0TjY2NkVleGFBd2MwQUUzd2t1S2M3eDQtRXRSV0FXb1BTMXdOd3ljRGJSSnM?oc=5",
-      "fecha": "2026-10-10T16:51:00.000Z"
-    },
-    {
-      "titulo": "Seguros médicos seguirán inalcanzables en México en 2027 ante la imparable infación médica",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZVVuTEtEYTh1eHA1TmctY1d1Unl1dDVISnpsSkVoYXBBVU9hNDk3eFBFRnFRSVBQRTYtYS1GMGVicHZTRzJwQ2pzX1psSF9DSVdEVDhxNVdSVGZGZ1EyNV9fbkdzWTBOR21xdUQxLVNDQ2g5WkgwNEhpb3BuQTRoeExDTHVkcm43U3NtRnBjN3dBQU54eDZXbHA3NXBzdmJCN0FTeV9VZEJFcmZMbU1UTlJHZXNHbUFhMFZFONIBygFBVV95cUxQS3ZyRUZPdFhlUGViU2ZXQVpwaDZZMkptcWZFS2NPTkVhQW81b3VNM3dpTWZJR1lzY1hLMlBqNjd3SW9CZnJFUGtwdEtYeW1SVDladk5VSi12d2p2RGd3aTlwaG53VTJWYkZzZnV5Ul80dVY4VWFOcmVsVlE5MXpleHhJaFd1eUw1a3l5c0pzb2gwNWZLX2NOLW1ITlVBZ1NMRzFlRmI2dnpnSkM4ems0akRkWFJlM1c5eHZIZ1ZFZG81ZnZjb1FhMzZR?oc=5",
-      "fecha": "2026-10-10T14:00:00.000Z"
-    },
-    {
-      "titulo": "Tiffany’s, casinos y 12 propiedades: Así operaba ‘Capitán Sol’, el marino que gastó como millonario",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVXgwWVRiZ1ExQWtqOEhlOWpINkFHUVVKNjFjcVM4SXNKM1djNDZkbVpyalhqN1FUUG93RFp5TDNaWVU1QlpQcF9wY1JtYUdOQV9NQW1yYjRMNllDd1QtMkVRRnNwMzE0V2h2RXI0R0N3eGdZWEsyV2VMVGRPNHlHZ0FRYlE3QS1WVVJfLV9jSzU2cW92UGN3T2pJQjIyeVktLW56eExjdG9kYXFERDZRZ0c4dGJ3SmtrSHlkM0VEclhCd01PQkZBS01jbTYzckZrNFFNbnUyTjliS2x3RkNn?oc=5",
-      "fecha": "2026-10-10T13:00:00.000Z"
     }
   ]
 }
