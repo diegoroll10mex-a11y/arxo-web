@@ -13,6 +13,18 @@ document.querySelectorAll("[data-wa]").forEach((link) => {
   link.rel = "noopener";
 });
 
+// Video demostrativo: solo aparece si tiene ID de YouTube; carga el reproductor al tocarlo.
+const video = document.getElementById("demo");
+const ytId = video && video.dataset.yt.trim();
+if (ytId) {
+  const frame = video.querySelector(".video-frame");
+  frame.style.backgroundImage = `url(https://i.ytimg.com/vi/${ytId}/hqdefault.jpg)`;
+  video.hidden = false;
+  frame.addEventListener("click", () => {
+    frame.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${ytId}?autoplay=1&rel=0" title="Video demostrativo de DIVRO" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+  }, { once: true });
+}
+
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const isPhone = window.matchMedia("(max-width: 860px)").matches;
 const clamp = (v, min = 0, max = 1) => Math.min(max, Math.max(min, v));

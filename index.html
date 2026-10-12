@@ -9,7 +9,7 @@
   <meta property="og:description" content="IAs de marketing, ventas y contabilidad que trabajan solas, hechas con n8n.">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#000000">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Cpath d='M19 47 30 17h4l11 30h-6l-2.6-7.4H27.6L25 47zm10.4-12.6h7.2L33 24.2z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Cpath fill-rule='evenodd' d='M20 17h12c9.4 0 16 6 16 15s-6.6 15-16 15H20zm6 5.4v19.2h5.6c6 0 10.2-3.8 10.2-9.6s-4.2-9.6-10.2-9.6z' fill='%23fff'/%3E%3C/svg%3E">
   <link rel="preload" href="fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <script>document.documentElement.classList.add("js");</script>
@@ -26,7 +26,7 @@
         <a href="#precios">Precios</a>
         <a href="#preguntas">Preguntas</a>
       </nav>
-      <a class="pill pill-sm" data-wa="Hola DIVRO, quiero información sobre automatizar mi negocio" href="https://wa.me/524495458788">Pedir demo</a>
+      <a class="pill pill-sm" data-wa="Hola DIVRO, quiero información sobre automatizar mi negocio" href="https://wa.me/524495458788">Escríbenos</a>
     </div>
   </header>
 
@@ -41,7 +41,7 @@
         </h1>
         <p class="hero-sub">Creamos IAs de ventas, marketing, mensajes, contabilidad y operación, conectadas con n8n, para todo lo que tu equipo hace a mano. Desde un flujo sencillo hasta un sistema completo.</p>
         <div class="hero-cta">
-          <a class="pill pill-lg" data-wa="Hola DIVRO, quiero una demo gratis para mi negocio" href="https://wa.me/524495458788">Pedir demo gratis</a>
+          <a class="pill pill-lg" data-wa="Hola DIVRO, quiero saber qué pueden automatizar en mi negocio" href="https://wa.me/524495458788">Escríbenos</a>
           <a class="chev" href="#funciones">Ver qué automatizamos</a>
         </div>
       </div>
@@ -52,7 +52,7 @@
           <div class="device-screen">
             <div class="island" aria-hidden="true"></div>
             <div class="app-bar">
-              <span class="avatar" aria-hidden="true">A</span>
+              <span class="avatar" aria-hidden="true">D</span>
               <span class="app-name">DIVRO<small>Hoy en tu negocio · ejemplo</small></span>
             </div>
             <div class="thread" data-live-thread aria-hidden="true">
@@ -249,17 +249,28 @@
         <h2>De la idea<br><span class="muted">al piloto automático.</span></h2>
       </header>
       <ol class="how-list">
-        <li class="fade"><span class="how-n">1</span><h3>Demo en vivo gratis</h3><p>En 15 minutos te enseñamos una automatización de ejemplo funcionando en vivo. No instalamos nada todavía.</p></li>
+        <li class="fade"><span class="how-n">1</span><h3>Platícanos tu negocio</h3><p>Nos escribes por WhatsApp, vemos qué se repite en tu día y te decimos qué se puede automatizar y cuánto cuesta. Sin compromiso.</p></li>
         <li class="fade"><span class="how-n">2</span><h3>Diagnóstico y construcción</h3><p>Vemos qué se repite en tu negocio y lo armamos en n8n. Los planes Arranque y Negocio quedan en 7 a 14 días.</p></li>
         <li class="fade"><span class="how-n">3</span><h3>Mejora cada mes</h3><p>Lo mantenemos, lo ajustamos y te mandamos un reporte de todo lo que hizo solo.</p></li>
       </ol>
+    </section>
+
+    <!-- VIDEO DEMOSTRATIVO: pon el ID de YouTube en data-yt (lo que va después de v= en el link) y la sección aparece sola -->
+    <section class="video" id="demo" data-yt="" hidden>
+      <header class="section-head fade">
+        <h2>Míralo funcionando.</h2>
+        <p class="section-sub">Una automatización real de principio a fin, en un minuto.</p>
+      </header>
+      <button class="video-frame fade" type="button" aria-label="Reproducir video demostrativo">
+        <span class="video-play" aria-hidden="true"></span>
+      </button>
     </section>
 
     <!-- PRECIOS -->
     <section class="pricing" id="precios">
       <header class="section-head fade">
         <h2>Elige tu plan.</h2>
-        <p class="section-sub">Un pago de instalación y una mensualidad. Cancela cuando quieras.</p>
+        <p class="section-sub">Un pago de instalación y una mensualidad, o un precio hecho para tu proyecto. Sin plazo forzoso.</p>
       </header>
       <div class="plans">
         <article class="plan fade">
@@ -291,13 +302,25 @@
         <article class="plan fade">
           <h3>A la medida</h3>
           <p class="plan-for">Proyectos grandes y sistemas completos.</p>
-          <p class="plan-price">Desde $15,000</p>
+          <p class="plan-price"><span class="plan-from">Desde</span> $15,000</p>
           <p class="plan-then">instalación, mensualidad según alcance</p>
           <a class="pill pill-outline" data-wa="Hola DIVRO, quiero cotizar un proyecto a la medida" href="https://wa.me/524495458788">Cotizar</a>
           <ul class="plan-list">
             <li>Agentes de IA hechos para tu negocio</li>
             <li>Conexión con tu ERP, sistema contable o CRM</li>
             <li>Atención prioritaria</li>
+          </ul>
+        </article>
+        <article class="plan fade">
+          <h3>A tratar</h3>
+          <p class="plan-for">Lo que tu negocio necesite, como lo necesite.</p>
+          <p class="plan-price">A tratar</p>
+          <p class="plan-then">precio según tu proyecto</p>
+          <a class="pill pill-outline" data-wa="Hola DIVRO, tengo un proyecto y quiero platicarlo" href="https://wa.me/524495458788">Platicar mi proyecto</a>
+          <ul class="plan-list">
+            <li>Nos cuentas qué necesitas, aunque no sepas cómo se hace</li>
+            <li>Te proponemos la solución y el precio</li>
+            <li>Pago único o mensualidad, lo que te convenga</li>
           </ul>
         </article>
       </div>
@@ -328,7 +351,7 @@
         </details>
         <details>
           <summary>¿Cuánto tarda en estar listo?</summary>
-          <div class="faq-a"><p>Los planes Arranque y Negocio quedan en 7 a 14 días. Los proyectos a la medida dependen del alcance y te damos fecha en la cotización.</p></div>
+          <div class="faq-a"><p>Los planes Arranque y Negocio quedan en 7 a 14 días. Los proyectos a la medida o a tratar dependen del alcance y te damos fecha en la cotización.</p></div>
         </details>
       </div>
     </section>
@@ -337,8 +360,8 @@
     <section class="closer">
       <div class="closer-inner fade">
         <h2>Automatiza lo repetitivo.<br><span class="line-blue">Crece en lo demás.</span></h2>
-        <p>Ve una automatización funcionando en vivo antes de pagar un peso.</p>
-        <a class="pill pill-lg" data-wa="Hola DIVRO, quiero agendar mi demo gratis" href="https://wa.me/524495458788">Pedir demo gratis</a>
+        <p>Escríbenos y te decimos qué se puede automatizar en tu negocio, sin compromiso.</p>
+        <a class="pill pill-lg" data-wa="Hola DIVRO, quiero automatizar mi negocio" href="https://wa.me/524495458788">Escríbenos por WhatsApp</a>
       </div>
     </section>
   </main>
