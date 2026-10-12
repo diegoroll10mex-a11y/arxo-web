@@ -259,7 +259,7 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 /* Responsive */
 .video { background: var(--white); color: var(--ink); padding: 0 16px var(--section); }
 .video-frame { position: relative; display: grid; place-items: center; width: min(1024px, 100%); aspect-ratio: 16 / 9; margin-inline: auto; padding: 0; border: 0; border-radius: 28px; overflow: hidden; cursor: pointer; background: #000 center / cover no-repeat; }
-.video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-frame video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video-play { width: 76px; height: 76px; border-radius: 50%; background: var(--blue); box-shadow: 0 10px 40px rgb(0 113 227 / .45); transition: transform .2s ease; }
 .video-play::after { content: ""; display: block; margin: 25px 0 0 31px; border-left: 22px solid #fff; border-block: 13px solid transparent; }
 .video-frame:hover .video-play { transform: scale(1.06); }
