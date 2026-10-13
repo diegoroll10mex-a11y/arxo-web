@@ -1,125 +1,125 @@
 {
-  "actualizado": "2026-10-13T12:12:11.719Z",
+  "actualizado": "2026-10-13T19:21:52.389Z",
   "notas": [
     {
-      "titulo": "De una Semana del Clima a 52 semanas de acción",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWE84Rlp1RnprQnMzdlR5aWFQR09lLVA2QmZGcklRTDdaQlRQSkVHbElOOTRRQ2VZZmkwQkM4Wlc1R1BLUVJ0UkFxTUREWmtxYnlibDlqQjhCZ3NmUFJNeDhyWGdSNE5CVFNpRzNMWkNmUkN0OXo3R0w4eGRXU0R2V25yT3F5SlBLZjVXYlFZV1h1cGI3cGYwZDlFWFVhNmRNZGFRR3B0RjlqamtmMktPOXd4R3J5ME5uWFZJ?oc=5",
-      "fecha": "2026-10-13T12:00:00.000Z"
-    },
-    {
-      "titulo": "Noticiero con Guillermo Ortega",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNHhZcW41MHYxMTlMdmtfVXdqWjA5N1Z0bVVhUzhMUW5uVkd5a08xU1dtUEEyS291SUlTWnRKYWF6dUZoeUJLbEs4WHBQeWg0S0daVzR6N3RuNVBXam9FMjNHU1JSdVBuY3dEQmJxeUYxNGlXUHlkMVYxbHFBbjVDeGtVSlEwQWcyOGQxZlB6UQ?oc=5",
-      "fecha": "2026-10-13T11:50:24.000Z"
-    },
-    {
-      "titulo": "Y el Nobel de Economía es para…, escribe Valeria Moy",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmd4bmxRZEpScEtZV25lOEQ2aHRIN194UGE2YWRpY2x5cjJsWFJHeHNLTDRab2lDZktRZElBMklwenFpb2w4TFJpUWp2Rkp0OFNJNmg1MHdCRWxMWE5BMy0ybW5MaFVMQTdwdW9oSlNrWE11MVFieFp3UnR5M2hjRDdic0ZVV2dtOVE?oc=5",
-      "fecha": "2026-10-13T11:37:31.000Z"
-    },
-    {
-      "titulo": "Autos: el incomprensible castigo de EU a México",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbVozVzhkRVdBakMxMjRvdjZpamdMTkt4OG5YbkxMa25POVp1UWlMRHRNbnZCMnVLdVBTTnc0SmVISUt3c3k5NUNmWGk3X0MwUmJHb3E3TFh1V2lOcHJ6X2w4NjY5bUhDX2RFd0xmNnFDbmxSQjhXTGZ5YUpRM25RbTFIVVhIcDlpN3I4YkpVMC15RDU4NF9HMGJNdEFTZEwwaEJqTDkwTW9Pb1lkb3AwU3hhV1dRUQ?oc=5",
-      "fecha": "2026-10-13T10:57:19.000Z"
-    },
-    {
-      "titulo": "La industria nacional avanza por tercer mes seguido, reporta el Inegi",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUR2bjFWeEtxanU2TlRxWk80WXh1aFdVUm5vT19DQW9pZGtlbWVmYlM5Z182dGtCR1dDeEEteEtHSUNvTVJRWHRiWmpmc3BGNlh1YU1jQ2FSb3FDT2puUWV2YjBZX0djOUpRREp0b3BHRWZaYWlBX2dYTzZLQTJ2YlY4d3B6Q25Wa1R1aGcwSTJpRTJlWWZhSFZ4X3RIM1FWdnE1OFpIRldtX19E0gHAAUFVX3lxTFBaOXRxY0lmbmlNQ1NZWUZ5R2lPLWRHbmc2RXJxeGtQRWEyeDgtYksxZXUtcDFzMXlfUWw0WTNnMXpTRnZuclY2SmdqZVhQaDB6TUhKc2xBQjIzR0hoQzVPZF9BLUc5UURpWTU5T1RLcE1jN1lheF84UGZselVxNmV4VkVUTTRXWEZMT3dQUkVOYVl1elFfX3M3ZFVYSTk2WE81bW5wUzNuVzdyYm12ZklmZkppUjN6YUxPa090SG4tZw?oc=5",
-      "fecha": "2026-10-13T10:21:09.000Z"
-    },
-    {
-      "titulo": "Industria en México avanza en agosto a su mayor ritmo desde 2023",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZy1mM3VpM3lQei1sN0JhU25rTDFKejEySWNhRnhROXRfbk9tOGgtd3l0UTBaZUdZR1EzMkxwck5ESWF5anh3Rm5mNGRTYXdGQVk4MkhQNlRKMXgySjVVYkQtUXVlcVVSMG9JYVl6SDlPbmMtR2FtcGNzVXRSbk5rY2k4akdUT1pTLVpBRXpRd05oVUtUWlZGZ0dGRjYxWDI5eXIydzc2ak9kMi1USjlPWFRsWEdnNWs5?oc=5",
-      "fecha": "2026-10-13T09:51:44.000Z"
-    },
-    {
-      "titulo": "México debería usar el tiempo como China, escribe Stephanie Henaro",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcXBlWnhNOVdVbzZLYjZwVEFzc3N6Tm1EUFU2SzdhZmRrUHVrMU5YWklmY212R2pOTVZfekFJaTR4QVRXVHNPMGVSUEoxam9wU3FkcGRySmtXYURLRTZJY0hIdDBUNW5nSktCbHBzUXFob0VUMU5QSWxySktLRWpzT2V0MWo4RkZnRW01YmF5Sy12dzFBbXNnSWJpbldndw?oc=5",
-      "fecha": "2026-10-13T08:28:33.000Z"
-    },
-    {
-      "titulo": "El apretamiento de las condiciones monetarias globales plantea retos para México, escribe Javier Guzmán Calafell",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWHlZOTJvTUpBZnduMVItVHJVN1pzY09mYUNGZTYzZURXbVlHamJhYWVlQ1ZlNUlBYXNYM2NfOVl0NVZDVWtQNTQ0WGo4WnI4SlhtZ0s5NUxqa2FTMFlhNUVUWXZlVXlhd1pEcDhXLTF2ZHNnQ1J5eUJZZklHVkZiSkY0a3VDZ2dHa0hjZjZOZ3ZLQVhpSVlQQ0VJYWFOcEY3b3RBVktTdWI5MkdMeDE1anNHU05MVDM5eXFrTkpfMkhMRzBYV0F1ZFNQa2I2ZWYyaUhJX0FUbE1hNHc?oc=5",
-      "fecha": "2026-10-13T08:10:58.000Z"
-    },
-    {
-      "titulo": "Una lección de economía conductual",
+      "titulo": "Fitch baja su previsión para América Latina; recuperación en México compensa enfriamiento de Brasil",
       "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRVNKWjRqY3hlYTZ3U3VCNUlCQ1g1T2ktSF95QzdKOXdzeGt3bzBJdk5oN3FYTURySEhudHU3VHNHRmtSRVZ6czlyOXdFcnl6THJsTWRocWdJTW1JeE0xX05MZXBuYW5hVUJWOUFkdmtYdkNkOThSbUw4VU9ZbWdhcmNWWDMzX0lZMEFVckliZFJJZ9IBlwFBVV95cUxOM19nNmNKWkRSWVN2cW14V0drU3c5QWVaNy1fcWRMRjNCbVowWGYwTUhwREZwYjlxNE9DajF6YXhRYVNmeV9fdmpaaHFXXzlMdEFpVUZCTzd3N0lybDlIb2huVWxmeXJscHVHajIxdi1vSmswTDA0VVlkWGY4dHlUczh2ekFRaERaX1BaaU9hd1JLVS1ybUZZ?oc=5",
-      "fecha": "2026-10-13T07:03:33.000Z"
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ1Q5MEVXU2NlMmxDSlVsTk5WeDR6TXV3QTlBaS1oa0RRRDdkaHhRVmc1RVNvUnR1OUF5ZHVTelJSYlVtVDZKZlcyczlLbHF0VjI1SXJCTG9OeGhCLUY2MWVzbTRkZDA4UF9BSWQxeGhWMTRaODljanJkMXQ4STVMaHl1RFRhT1FmRUxQMnpnaUNRWXljZnltdmlPYWdzSnNFUWluRmhCcmx1N1ctVHk5UmRJSmFuM1ljZWpud2MtQTRpd3lnYTNBTlhKYzhfanl2cnpVSUxMM1JaVmdhY0hJ0gHkAUFVX3lxTE96UWtmUFMyZktNMHV5d0xIRmNMOHVLZUJvNTZOVFBnZTdidFZTMXpZeE1DdG12Sm02bENXN0Z3TkNuYU8ycGtTTGRqRTc0R25ZRW8xSjRQUTFFTDlMaWpvaE5iQWFyNkRKMXluanBldUN0OFZaR1hDRWgtMGNFUnlpZVMzOXliRjJPeHNGZGM5d3dTb2Viek5ReGkzOXV0NEdXU0x0dVdMMWN2elFIX0w0OVp3X0NGcXlycnctLUpUVXhqSTZYUmdyejQtekxuVkRDSEFWV21RWUxrZnVvOGhraXBaMA?oc=5",
+      "fecha": "2026-10-13T19:14:22.000Z"
     },
     {
-      "titulo": "Nuevo polo de desarrollo ahora será en Toluca, anuncia Sedeco",
-      "fuente": "MILENIO",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdFdaRGIxMUlrVUU5RVBaLVd2LU0zcjhFN3NFUk15d05aLU8zMHd0MXNrLTZILWRaVnVKS1B3UWxaNTZvYmRTbmNyYmo4bFRweUJTeERLM2NwZUEzeE1nOGpHSGllRXB2WnhvTkx6Z3Y2SHE3ZFdvdEtGdWdjbHJ1cG5LRmIzTGtaOXJ6OXlfazBSOXBHbjU4YtIBmAFBVV95cUxNeXdCRmhkZWFObmU3Zk9VWkljUUl6ekgtRXFJWmlHUHIxSUdHdEdqMl9HcUstYnhjS2R1bFB2YmUwbzdsUHhZZG9oUVNBUG80VkFlZk1fOUt5anJMcGYyZUVzVHZrVUtMY0pZd01hNGw2S3RaazVjVUNHVHlEOWhIZVBLYjc3Szc0MXZzWlNaalM1aERsTWx1aQ?oc=5",
-      "fecha": "2026-10-13T07:00:38.000Z"
-    },
-    {
-      "titulo": "La lección del Premio Nobel, credibilidad o tormenta",
-      "fuente": "MILENIO",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRFVCSG1WbmFYYnRnWUxKblhCVWFsVHc2RVlMMUpIdnIzclRpd25jZm9TLTJ4anJzOVRHTXlsb1J5WHlMWDF6NFByVTJyUmloM2N3bjN1Qm5yQUtfcTNTY1RzdUExZ2Nfd2NsbGFuWEZqTTFuazBEdFlVd1J6T1VfWlJBdXpSVnRrS2w1WXplbk4xdlA5MGFHOU5xMWxuajc3VnV5ejJXZ2N6R3Jod3pab2E5TDczRXpVQU9YWFVWX29PNmt0eGlvaVd6TGRST1nSAc8BQVVfeXFMUEo2SThrT2dta1FyOGVNaTVCVV9DdGF6bXNCRGpOYTI2SGdQTVVsWlhtalJLeFJGeFpmMzVFbHRYX3ZzTG1TWmQ2N3JreWM2LVZmSjc3SDNZYm16TXA3WGpkWGM2dXk0YnZkX2dNR0VEaTY0U1dsMTVjN2hSMTBScnB4Zktkd05nZHFNaU9jcTROc2xCTFlHNVVBTXdvSEdfYXBOZ2RjVDB0UWZzVTRyMm9lQkg5SlgxNkVPU1ZuWWtVMFM1ZndXMlZzZW5iQVo4?oc=5",
-      "fecha": "2026-10-13T06:44:23.000Z"
-    },
-    {
-      "titulo": "Desconfianza frena despegue de economía argentina: consultora",
+      "titulo": "Horacio Duarte informa sobre resultados en seguridad, bienestar social y obras del Gobierno de Delfina Gómez",
       "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbE11U3pJeDZDQTJxTjlHTXpLNlNvYnFvSHFyN1RmbXlJVkFSN0pzX1JGVkh4azBaQ1VRRUhnRGs1QmtGY0NZZGw1R3ZlUEtGNkZFRDVxN0VLYTNJQVBIOGgzMUtMeTdaRWhGODd1WGtEUk56aEhqaGRYdFdpRTl2X3lpQ2c0b3pWeEZzaTAxSWV1dkhwSVFjTGNoODdzMmRDMk84dUxrbWpQWlBiNkdfWlJPVmhkbE9Na2Nv0gHAAUFVX3lxTE1BVDE0OHltcW9MbU9WT3IwVUNEUUR0aEk4a3NWYkpOcUVyWWRvRVJXVXpnQVprV0NkNWZPWlE3bHB6VUNxUU1KcUNiYlFBMzk3bFZSd3RiWEZVdlZ0WTZTb3c3Z1BNRVdIRUlueWZua09ZX2JEd3hHcTlQcWhjd1VpTjZmdVh3QkhqLUM2VGYwUDF4M1huNEFyTWxyblJVNW1aNlRQQTVQRzNKOERXSzVOeG43bm54ZVU1REdkaWUtRQ?oc=5",
-      "fecha": "2026-10-13T06:01:10.000Z"
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSjJvRmFZTlJxVzAxbmozbU5ybTV4enM5akhmVHVBRy1SMnZrekNCT0JVd2wzb3g5NXU0eGxyODlqWUNsaEJKZ3RDX1ZNenBGTXpNcDVjcEFETUxsejZlRlZIUHkzYnlZcHFyOHdwdjJUNWc3VmZYTUptVVhxVHMtcUd6TzZZTmJFUThjOENwXzQxbkpGZXpmQWxNcFY2dkJOZ2hxQlRub0ZveG9LSm96LWVUWEVDbzNheGZkNDVEUERwRjdrOWRlY3MwR0M2d3RycmxjaC1uTnpTT3k0VmhJWjZHLWxaaTV2aDF5R2tB0gHzAUFVX3lxTE5WYkc4eldSLUtnS0lXMlBOZ295dnNQYU1qd3VJaVBZMll6T3U5cG1tTzdiVmtEc3h2OUN4dlRUSFVzWjgxOFZWeGxGXzFKUVBvaVZnNlZTLUxYclpYeENMMWZRNWZEeldIRU52M3lXRGZycG1EeEhfNDZ5cFdiNW5MS29nNGVUS2VPRlI1WmJPVDJPWlRLTlUxTXJYNllYb2IzN1BXS1hiQlJrQjhudHBWUHp2bm1CMVJGQ1dOcUFfNzNrTEZJNkJQNWloUFBHRnI0UUo3eVdPTW8yeENHMDhWWE9ndVVTdjBRNGJidU1rOEdoOA?oc=5",
+      "fecha": "2026-10-13T18:52:51.000Z"
     },
     {
-      "titulo": "México, política antiobesidad: eficaz",
+      "titulo": "La UIF y OFAC golpean finanzas del Cártel del Noreste: sancionan a 11 empresas y cuatro personas",
       "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUEctOEdreW1Ba2dNT1JhLUdNM1N2Z2pnYV9oMGRaM2JXNVZZbUVkMTJLczk1dXZZWDRHX1R6aDU3b0hnRlY2OGRUeFN1VU9HbkpJT0t0SUlkMGZKZDctcUpIM1R0eWhYZHlQWFhZalMxa1FRWnRMTlp1elloTGNSTFB0N0lPSzJnMlYzX24wQ2NoYzNEOFJzMG1jZF_SAaIBQVVfeXFMTXlMdFVUT2lBckZaTWVHTFpUUXJNcVUxU01sRXVoTE1PSUp0TS1WbkZEMWhOWWV1TU1iZEFwQTg0OEMwZkJXbjFQTGgtaWZtdW9VTk95RTZNTVduTmNVOS1meXpDNmdKRk83LWxkX3ZNMFRIWUwyYWFrYkZVYzZwUFJmUHF3ZmpjWk1UaTZqOERzbFpyak9feXlLREZJZ0JNbUd3?oc=5",
-      "fecha": "2026-10-13T05:47:17.000Z"
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWjhEdVZ1NFJJN3lyWXVsSWRxSUVUNXJ6dlRXQVJnV200aDBIVjF1VFBIWFA5ZEo5bjg5clZuV0V4RmFOOHctSUsyQXNaS2dOdmpoUUQxUUhmS3RtcXRRNTkxTklKVFBySzh0S2VENktHWFhvb0o4YTFfVnZyeHRCeWptV2wzSGtLTG9fZTRTZWxEUjI3ZjI4eG9WU0ZRQXI1bWRTWW1uSmZhNXozd0ZhN2VRUkNuMWJXUEswYTNMY0ZrMFNrT3RpZy1RTEN5QUhmMldmbXVaUdIB3AFBVV95cUxNWk5KNktEYnFmczk0VTVuYm9VdUZ1TENXRHBwZjFrQWJFTGVuMWQ3aEV1TGdFeEpmTkI4bVo2Y0o0WVA0UHhZTWxlb1llRXctd1FTdXRlRFA4OEVYYzhjNjc0MHhYYnk5OThBUDFaZVJBV05GSmVPcUpJSkpZaThLZ3k1aGtFLWFJdmcycGhBX1NOUUY5aTNlQ2J3WTVrXzBBSndsSmlMLV9xQVRvYk5LNk1wNWFmSTNmMmp3YVJZZGZsVGxDYUtidHFpaEt3Sl9TRWZsUk5QdGowMTlO?oc=5",
+      "fecha": "2026-10-13T18:46:55.000Z"
     },
     {
-      "titulo": "Envíos de azúcar subirán 41.5% en ciclo 2026-2027",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnFCS1FvVERYbzJJeGJacWEwOURUVU5RTmtkZ3VmNjdoVS1tSDZLcUZIdTVOTlMzN0RjUjl5NlBzQkJSRXZ4TWh1cG5HTE8wRERKZ0FEc1BDUTNiVE5nUGdiSEdGRUNrUWRIQ1ZLVFVEVFF0YlBSZ0R5MnlteGZ2TkZrOEdwRjhJalNGYzhyWWhxWjBsYlo3ZDRpZXNLM0Jj0gGmAUFVX3lxTE1oX3NzUmJTQkR6Ulk3Wm0wNXNxNUEyX2IxUlozTzYwOWRQdmxwZ1M5RUxZeTM0TTE2Mkhpa2FaLVlBRWFfV2h6ek1lbG95ajNXUlpZZXc2RHRQM3dYTHNuVDRoQ0RXMHJaU194X0k3RHdVdi1SSHphTjdKLVVQcXF1bm9Ld3RDLVFkUTQ2MWlVM2VrLTVEbnVTYUZLZVJMS0Ric0F1cWc?oc=5",
-      "fecha": "2026-10-13T05:36:34.000Z"
+      "titulo": "Mercado de centros de datos en México crecería al doble hacia 2030, prevén; infraestructura energética es fundamental",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSHlOZ3BwQkpOUm5QMHhLNUJJZnNjbEd1clBGMHdpMnhCNmhLdlo4emY5RnlvYnVxcEtsbEZhUGNyd2tKUlZ0d1VDTTB0WE83SEg4dTRRWUhYYW5zdXhIdkZ4aWUyblRhSW9OaXRwNVBidXhCRlVCT2VqTmFMbmN6aE9qZ0E3X2JxYWVPMmRPQUx5OC1EY3d6Nlc2SVFTVV9HeWdqRG13cmIxZ1ZVUmlxVlBISXdpa2FuV3c5Y2YwdGdUMC1tZXhEcG9xZVE1OVFzaVJFUVJ5djZ1dTNfZ1htMGt0WFpwaXZZcEdr0gH_AUFVX3lxTE5FNW82cVEyUHUwMHkyTHk2dlhtUVc5dVpDTkRDZktzLWJzbkxUN0tqclRMZDEzeW9uN3B4RmlYaXRwZzFjZERPY1RtVkYzaFU0ODZ3X2RJc1NaVUJVYlJLTEswLWRvT2w3eDB0bWtfV2E2ejlfd0hybko4Qm5EN1pqN3NQN0VxWU1ndUFXM0lEV21nSm02SHJDdTdjT1liTTZzbmFaQWVLakIyQmZ5cElxUTA2MDFySGJWYzVXbzZTczNVTkFRaTVwRWNXMzBsZlNSUlpvLWd3ampxM2JzdGRxZkdRUkNfNW1ZdGUtUlFxV3VjVmtjRmtqdjBLWV9oTQ?oc=5",
+      "fecha": "2026-10-13T18:46:13.000Z"
     },
     {
-      "titulo": "Michael Woodford gana el Nobel de Economía y va directo a clase",
-      "fuente": "MILENIO",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlk1cENuRUt4azJsYlAxX05BRzZrdWU2X05sQVNTa1BBUTl3aWZzbmVKQzJPNjRReTd0emhHSDg0Q2ZjcFdVcFlNZmdhSjU2ejZSdC1hNVplQmVoVmxLRWd2UzR1OUpqYWYwckhKc3Faa1FQVXJJRVdjQXZ6RTVzeGhrNzBmQ2pSRVV0ci1yZG01VE1XMldwMDcyQTd1b2fSAZ8BQVVfeXFMTVpyZjZLRXpXcXBNcnEyNVREOHJnbXVuTml2NGxwZ0k2Vjd0NkZrSDcwamIweXRJZlpqU1VKOEJ1WHQ5ZWRKb2ZBTUFJX08xZWxGanlxemUyVDFFWDBJYTUtc0NtVG05aDR4dWRLVVBkWVRyX2YxeE4xbVZ1N2dPS2ZRTjcwNDMxVlBiYUNZQXFNVjh6dEdqVU1RbndyMlZj?oc=5",
-      "fecha": "2026-10-13T03:49:31.000Z"
-    },
-    {
-      "titulo": "Popularidad de Trump cae antes de elecciones intermedias en EU",
-      "fuente": "MILENIO",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYTl5VVZuU0o1WEY3d3N3MkJFQlBTYlFUXzZGeTc1T1NleFRLMlhMQUtPaGl2Uk9iQ0V1RmN3QVpYWlJ3MjJ1ZHNLTlA3SGp1dVByVVY1RWpHUTM1VEdoUHYxZE01dDJ6YXROeUZrZXo1dDMxMmI1akhFLTJrZUIySUNPNlBaQVdKd0tkNGVEelZiZ0xmbXdBNTlmNEZxTXVSZDFkbWF30gGmAUFVX3lxTE5Tby1uSDh4U0Fvb19GRHItQzJ5VTNHU0JZRnhwM0Jjb3QtV0dfSkhoVmQ1WmRsb3U5MDhPZ29UUGVxb1dkUHo0b0pBVzNleS1fNG5CTS1KS3lqTUp6LTc0bkQyQ3ZHcWlVVzJoTzNDS1UxelJ1U0xybTVOQ2xxTGdyNHhhVzU5RHBUU29ac2NSMjhBMFRjN1lJX1hiLXFxa0lydEpWOEE?oc=5",
-      "fecha": "2026-10-13T02:34:00.000Z"
-    },
-    {
-      "titulo": "¿Quién es es Lydia Antonio de la Garza, la próxima embajadora de México en Perú?",
-      "fuente": "Expansión Política",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbG5mU3pPeHVpeWNTSTZMUDdFalc1QTk3TmdpMDdPZk15OFNBT2FFTk1kZmpTMzZqT0JRNWZyYkJTWlZLMEstTW16MldhUVVsby1rNzAycjdfbG5MbU1ZY1lROFNNdnhjMzRlb0t0VTlZd2t3YmZHdGV6ZWt0Q3N4MHRwa9IBkAFBVV95cUxPUDdnUzJSS25RRWV5RmMzSkJtR2NuWi1TMW1oQTd5QXFUVDhQZ19ZTDdKS0xMbTY5dmZiclg2S1VheDRrNHBUS0dtMkRfMVRESE4yNDBGeUlxRENFajM1NWs0TnpKdkJ2dWI2MVBpTk13NkhCRFlRWnM3QlpsVThRajRqVDNWZTlaQVhIVHE1SEE?oc=5",
-      "fecha": "2026-10-13T02:05:00.000Z"
-    },
-    {
-      "titulo": "La producción industrial de México se eleva un 3.5% interanual en agosto",
+      "titulo": "Gobierno publica decreto que exenta temporalmente a autopartes del arancel de 10%",
       "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcHd3LUJ1aFNZd3Z2TTZaWEI5ZjNwSGNtWmRrMERuSVVmZC1GN3k4SGlTaFhqR3MwdkNtRFZmWVFFVzhSb2NENnY3cFFHUTBQcFRZMG04ZXBrTEkxSHVuVmMzdXFoeHY5ZTFVdTdtY09yWXZCUmt6ckk4cElUMjkyNmJIU3ZaZExCZEdOVi1XNU92YXZyeFp1ZEdn?oc=5",
-      "fecha": "2026-10-13T01:44:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVldEbG1XeWZHNG05YVJiQVk2eDhaTnZJRzR3QXF1OU54MHQ1VmFiSjN2OWFYbTFQeG1kRWlUcmRGSUJobE9ySXNCYm1DcmIxS2tNX21mUzNiM01ocExIdDdJbFJDV2l1M3RXNnhkSWdmaVc4RVh2cHJQd2xCZklrazZTOURXS1N6WEYzUk5GdHZTTjhpUlBWWHFoNXlzWXc0b3dXczh3?oc=5",
+      "fecha": "2026-10-13T18:44:00.000Z"
     },
     {
-      "titulo": "Marcha del IMSS 13 de octubre: a qué hora inicia y qué calles se verán afectadas en CDMX",
-      "fuente": "Expansión Política",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLWswNC1JUHdtZnN6Y3czVGxydHkwaWlhaHViMVNpYUNXMllsUktEdC1vUlA5c3ZtS0dZM2xrSjdsVEFlekprVzVDVmNmRE5xR2cyWnM1OXBuUWprVllIRnVMY0NFOGd5UTA1UjBHN3hJUkdtUy1UVF9mbW5tNkREVTZsSGg3QzFVVTg3UUJwMFlRSWhQVGFyNlN6YUdhTXfSAawBQVVfeXFMTWlDNTdPRU94V2kxZkxudlpZdHh1NjRrcXNQYWs3UHhsb0xsVmsyWEtrcmQwdE9VZnpHYVVCRzFoNElqcXNoSEhOMUJUcm1ybnlKbkY5d05NNnlPQ2dlUTlrZVlfSlBqQXVHUWhQdmJ6MlpfSlhnLWE5THVIQjk2dXZIVnJtcS02V2xrQjkzZVJGWFJjRklCaE5vbTZ5TDZIdUN4ckMxTWN5MUY2bQ?oc=5",
-      "fecha": "2026-10-13T01:34:00.000Z"
+      "titulo": "La OMS recomienda vacunarse contra el VPH desde los 4 años",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcDhTYU9GeGI2MGhGVkVYZGhyMDFienQyZDkyeENwZDN1QUdqMThQSGRwbGpXajBoeWZIMXcwWXNWV2VtZ3RwVWR4RjYxNFJ5bGJkR1E1d2RsekRJbnVsSHJTMzh5ZWRWVzZWQkxpLXpBXzdLbExYUy0tZmZLVURYWXN6VHpKcU9iYm1xanFmSWthVENaYVA4Xy1yblZQWEpveHlSS0dOa9IBrAFBVV95cUxOU216S0lBY2J1Z294dEV6NTZzZHc3cFlOaXdWcWVDQnFoYTgyanV2bDFOU0VsLVM0OEdEMXVaaXhxZ2xmWTZWUjNIOUVqMlBUbWVhdEcxcmJmVDNCRVAxTXVpSWdfSEVjSWpOdEVtNmdIVHc0TkhwM2hJbFZWcE9POXVSRmlDeEJEd1ZpZHJGaXBKdWVNNXY3ZEpzYzZhQ0drT0FRLVlKbWxyUVdW?oc=5",
+      "fecha": "2026-10-13T18:37:30.000Z"
     },
     {
-      "titulo": "Oxfam llevará al Estado francés a los tribunales por su 'injusticia tributaria'",
+      "titulo": "CEE exige elevar recaudación y eficientar gasto para finanzas",
+      "fuente": "MILENIO",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNamc3NEdJUFZWdXpkLVJRaGJET0tQTmdKTmc2eDlYRHZGSFRlZU56QjNjcVhtVUduUFdSb1dvZlMyQXpPMUh1a1I5dm5SY2VTZGhHNVVmbDRIcmVKRC1OZDVTbDktdnpraUNKbElBd2xSdVhyZkxtYXl6NFBKdE1oRG5mbVpzbkUwTW5rZ19KWXVFR2p5Z00wOTJYS3A1dnR2U1ZvVk9QV0p0d9IBqgFBVV95cUxOOFA0Uzl2ajIwMUxXVTc4T3hwZjQ5NDVQNi1MaGx3T0p6MndlTU5uNEx6dnNQT3UtYXpVRi1WVmZiVUhkMlFBejA1eEdJdENYYkVjR0UxTEQwdmFUTlh2V3Z1NnVKbHNDU0lWM0J4N3lCYjNnZGozRlJVbGJFUU1LNDlWckpHcnpDYUhxQWFTREp4Y3c4QkdXVUVkX29VN0tMMDZQUjk5cF9GQQ?oc=5",
+      "fecha": "2026-10-13T18:05:00.000Z"
+    },
+    {
+      "titulo": "Paquete Económico 2027; llega Ley de Ingresos al pleno de Diputados con caída de dinero por petróleo y monto máximo por impuestos",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQ0psNWJTN0Job0plNkdWWi1ka0NqeUJJdlI0WUJhbzlMa3BTOEIyOUJRWWV6dGk2V1o5WUxXNzBaNks3VEc1c1dhdzBnYVVreGNaT2FFWlRhbUZUYlQ1X1NvaF9sZEJSMHlqVExVNWlyVnZRQ1JzMGpOYlBxeUx5U0xBWEF6NkszeHJ2ZlpTeHFrdHRvSHV2YWFCelRTc1VyT3g4TzNsaWxBLWtSM0hqZXp4M3loME1RcUd3cUZCSWZTODkyYTUtdHU3WDhuWm9FWFVVdzdZa0M5S3E0M0JfR1ZB0gHvAUFVX3lxTFB3TEhVNTFEQU91ckwwXzItN3Y3OU43cWFmTWZQZHB6V1ZvN1AyYjV4SXIwY3NGXy12V1hUZGdUeWpfd1BtTHV1cGZBaVlyZm1rWkVxU3ptMnV3RzlmS3dSb2dETUFlUDVlTGc1bkI1NXhPVC03WFdxVENHYVdzMzBXY3BZc3FCQlFTSWNNTlNGVTNKZ2xnb1U3OWFHQTE0cElQZ3BGX0dVQlBSMXJyM1V5cnpGV1BoMkRSRmhoTWV6d3B1SkcycVR5Y2d6cVJHaDZvS3F2Rkt4RnNkM2lIOEpSSElDeGpVbXIwalpUYS1F?oc=5",
+      "fecha": "2026-10-13T17:44:00.000Z"
+    },
+    {
+      "titulo": "Gobierno construirá seis nuevos penales para frenar la sobrepoblación en las cárceles",
       "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaVJHOEtFdTVMakZqU0Q3R21TaDF4aVhTVmlYVFpyTWhrWnFKYVVhX0o4bFZKUi0yaDExMHRjb1U3Xy16TXlqX1JsS3V2YS1neElJQTllZGZiX0psNEQ4blBaVHlac3hVR0p0QmVyd0ZtM2JLVF9LdHJCNGZ5UTZxVlI1ODM5aWkwRGlJUUZveFBHMjdMX2NHRUJZSERiTENBOFE?oc=5",
-      "fecha": "2026-10-13T00:56:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOV9JSWFrb1JFakxpMnNkdmtULWlvX3U2VHNFZGxmTUdSU3FZVEg1MTRoYnhxd2hNM3JaQVpGM1FWbVNIak1VcXpzNnJ6emVBSG5YclZtLVg3a1ROU2tDanplci1hVGpISzFOekpoT3JLcEtkTzc2TVI2TG9ILWtLYzQ5UExCUC1PWGlKdUxVVGFCUXBxV21HVzI5NF91TDNjVFZIemxxUzhHYTlF?oc=5",
+      "fecha": "2026-10-13T17:31:00.000Z"
+    },
+    {
+      "titulo": "México avanza en paridad de género, pero falta presupuesto para cerrar brechas económicas: IMCO; hay más recursos para la igualdad",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUHFTRUJlSkF6V2w2WHo5NEgtZkp5dHNObDBGcklBTjlIREh3OFgtZzJaWWNGUTY3T016WnQ5YUF1UFB4S2ZWdGltWFZaZWlkdll1U3FMcmxuejdHeGFwSjFINlgzQUNsd1FCTHU3cDZ6MTBqTG13UmVEbzdrNkhaNU5PcDJlYTdhNGhTdWoyRlBGTHZyWmZTNUZ3Z1paS1d3SDR0YmZuYVhyTWZsM21DTlNwZlFzTUZfd1EtXzZDZmFjdk5RbEVjc0pFdFBja3piMVBObk5YcFkxbkZZeWVYZUhoVG5tYzhDU09MYXU4MlVWZE5QNFB6c0drQdIBjwJBVV95cUxNWFdmN2dYM2JpMjFaUHBjb1FOOGlmNTFzbkw4OVZGTndZZDlPNVJ0V1NHOEJrMGdmVEVFV1JIRFpySW1IbEtkc21kNEtld1hndmc5bmpudVZhLWt2cHBUUjJtMy1tNjZ2MHlQYmMxbW1Nb0g4eEFQbkJ2czJ1YzVWeXUtMkEzVXJidmdzNEdIWUZnckhQWGxHYTlUNDlnekw2ZG5NemdIMjFJT0VnZmdMbDBYZFVOR25kSmY1d3J2bkpWRUYyaUY0bDZ5RnF6LXdzQ1ZERmx5MWRQdmVTcDZqaXI0bTdQTS1wSGxWY2pnMGdKQ1NmQWRseThaNU5SRnM5ZExNUm5zdVhwS2VLb2RF?oc=5",
+      "fecha": "2026-10-13T17:25:34.000Z"
+    },
+    {
+      "titulo": "OMS anuncia nuevos ensayos de vacunas para ébola Bundibugyo en el Congo; iniciaría antes de que termine octubre",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNURHaFIwcnU2TDJnSlJSRElfMVhUUl9yT2oxNWtZWXZQTHo1ODNIN3E5ejE4TUhFaVVBUVlpZllBZ0RXTHNxZjdvWWhCblA4aXd2OTNhR1o1bHBUazVPMFFTajdrZkFlbV9HSm1qeWZXakNyU0sxM0Jwai1uSDQ0Ulg5eU1KMER1djU5aVo1SUdmRmZadnBSWHhIQ1VHcno2SkNaa3VSMnJNRGdva1BJN1plcUM1UTZxN1NlcVZWQTVrUUtFWjF3Y0JjNkI2VjhrWkk5S1hxd0s3a01EbUxOY1hR0gH2AUFVX3lxTE1zSGFGT21qLWJLYlJzS2gwcGc2dzNlMHZrR1I0TUNvQ1JXM2VLdTh0bG1DVHdBcmNLU3FzVFhmVlhKZkxpQWlxNTRnZTBEQzAxZDlyN1djUkk0c2dabzRmRmV2dkVKYXNIa3lkd1d3cjFENm12enFneGVaLXBKdEpXbWZSTGgzR2h2NG5JUEJWYUNEbFZBbEV6VnVPWjBPT2MyTTl4QTV2N29MLTV1VEtNS19WUE01a1FBZW5ub2VDdVNmZUV4SVI4S2RGUHdYRVhGWjkwcmtzbk1mYTJsbmQ1cTJmS0NzX2d4MGdhVEV6RVZKbzI5Zw?oc=5",
+      "fecha": "2026-10-13T16:16:15.000Z"
+    },
+    {
+      "titulo": "Janan Knust: estrategia para crecer, fuego para trascender",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdVFNem9wYXZhb0xJS3cyRUFXT3VrVVloQ1lzR3NVOXlOcHRYdDVjaDhPc2JCWnFkZnE0elFMQkZRRGdPblFyN2N6a012YlZ2N1h0Tk9wRmVaWDB0eWZDSllhUV9BYlNkdkR3dzVoQ043LTQxMWhWVmdSWFBuYTkxd2pqMzdnZw?oc=5",
+      "fecha": "2026-10-13T16:15:00.000Z"
+    },
+    {
+      "titulo": "Sube y baja ‘mortal’ para el peso: Tipo de cambio se acerca a las 18.40 unidades",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcGJ1SEh4MEF0TWdNX2lpRUs1SVhua2NsUVR3NmdNSTV3anBfNl9hZHJFVFh4dGJBYkhGZE1pR0xNT1dJblN3NXJIVXBJd182OVVTVVI2bWcxWVNib0RFSE15ZVFYNkItYVhaZ2xMVWJRbG5WVmVkOFc1ZUJfRWE1d2FES1NJSjZkU19xd2pMLXl3ZGRvOVItSXlhVzZmV1NRN0hURFkxaw?oc=5",
+      "fecha": "2026-10-13T16:01:04.000Z"
+    },
+    {
+      "titulo": "FMI mejora pronóstico de crecimiento para México; subirá 1.5% en 2026",
+      "fuente": "Milenio",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcnpyS3lMQkhVaFNUdkJWM0p4clJKRmRmcTZaN1d4SDF2bkI4SUxJcjN4UVZjYkwxX3ZHalV0YWxETGhnVXVyc2puVldsdjh2ay1BWDBzcXFjeHlvdEJCbDd3RWpwZXVhcDJDQ3RqMXpPM3NTQmd4dmRGSDg5SDNwX1J6UHZJc2FKVmV3SUZQam_SAZABQVVfeXFMTVhXaEhFMkd2UGhrMmtoWnNwbWNvdWk3SWJUdXFVclNLVGlGSHJvQ2s2VjQ2a2dOQnB4eFhBRi1hV21RU2xQUjZ4dEFPNXF5Y0FGQU4zcjdoZ0lCTHF5YVBGN1duRTN4MVVWdVA4ZHdfX2FPVHpURnR3S3VTWEhjRVJyZVpNa3Bkei1BTFZ6bktx?oc=5",
+      "fecha": "2026-10-13T15:50:00.000Z"
+    },
+    {
+      "titulo": "Protestas estudiantiles regresan a las calles de Francia; Greta Thunberg se suma a las movilizaciones",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdUZUNUFKOXV4VnQ2Um9yQnhZMi1uVnNjLW5aUmotT0YxVlZ0bk95NVcxTWVGWUN5V3YxOGZNei1KaVJici1pZU5wb3hmX0dNem5BWXMwOG9Kc29WbFE1SkdTMmFPYXpkT01VNHFDX3FXcjRUZi1CYmYzQmwyclRrdnpzb1B3X0tFRzJDTzFrT3hrenFZbHd4eUFDNFIxMVUxb3ZOWVU4U1hMNE1tbHJSaUpZLU15WkVEMW1waDkwbFBMcjl3dThpblNobEEwY25JeG1xdNIB6AFBVV95cUxNS0YwX3dSOW96VjNqbzB4MmNhSkZlVjFFSUQ4TVJuT2FkazREQTFDTktjUHIyMjIzMmdwMWlOVUJrWWV0TWt2MkxaQk1meU92dGt5N2RPSVNaOWZpQXhlSTlKLWctazktZU9tZ0MteS1lU25MZkExVGFJZ3pZbWZ5eDBkNXBuaXJpNm1YSWtORU9JVHQ1QUtNeEFidm85dmZCT28xMXdWaEtqTWlDUC0xek1sUlVYRC02ek5fVm03VUMzTWVpNE1TTWVTZl8wYzd1ZFdmLWFIYVQ4U0pqUGtOa0lKX0pXSm1p?oc=5",
+      "fecha": "2026-10-13T15:39:35.000Z"
+    },
+    {
+      "titulo": "FMI recorta previsiones de crecimiento para América Latina y el Caribe por crisis energética y el escaso impulso de la IA",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOHNmNmFyODlIUFZzZDM5WE1ZNWp0QVM3VEl5S1BIV2xBc0tfYVlMZnFCV0VpYzRxX3VzMm82aml1V2E1bzQ0ZnpCaTE3N2Y0cFJqbnkzQTFvTDZORXFqMjhrMnhHSGJHd3VQcm9kNmtmWWdPOVphN3NQWWtCUnF2SW93X3BNSWFnQkNib3lHLXp4RGtZNGlwLXBwZVpDcC1KMU05eEdDT2sxZjhTUk9aMDB6NlE3V0hBeUlkdW1OOFYzNEgwcktVWXQ3Q1hOQlo4ZldOcThoTUVPOWhE?oc=5",
+      "fecha": "2026-10-13T14:51:00.000Z"
+    },
+    {
+      "titulo": "FMI mejora pronóstico de crecimiento de México a 1.5% en 2026 gracias a ‘boom’ de exportaciones",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbEg0N0pNeDZuNEFNLUw2MWJEUXRZQTlXcndnOEZRczdzaEVQVVNHal9UTVZQZ2piNER0QmJ6X1p1M2dNZE1LNHMwT1NCTXVadmFfdklEVGdKTXo5Y1pCTF8yRGdhY0Q2QXNNMW9qWTBNNFEtQmh5U1lyWi14YndPMFNVM1ZMcWRBVHl2TkFQRVQwMC13RlJvWk1DRXh6dW5lMF90amdYSDZwZ1RXdzY4VUdyN1N4M3p4Vmh5MDM2UTk3UQ?oc=5",
+      "fecha": "2026-10-13T14:08:16.000Z"
+    },
+    {
+      "titulo": "Indispensable confiar en lo que dice y hace el gobierno para crecer sin inflación",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbG8tMy1FU2U4OWkzMmVZNUc4ZjB6U2d6UjdSano0cGpWS1BELTZfV2k3dEY5RDlPakpQX3J3Z2hKMFFTOG83VDUyM0hEeXBTMVVYdjhCYkdkdWFhUnhheGdIazdTWFpHZG9vQ2puODFFc0YtNDFmcGZOVjFxNzNUVnZPMC01SWtzRzZjSDJIUlNWOTI5VlF2bUpibXZHYmNyVGFES3RFQkZETnlYQkNXRzlWWWRrQzZTaTlZaU8wNFNnc01CSDVtWnRud2hzSkRjZU9RR1pDRFJhN25ENWNJ?oc=5",
+      "fecha": "2026-10-13T13:41:11.000Z"
+    },
+    {
+      "titulo": "México y Tailandia",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWs0XzB6bkx6dl9sZTlwSzllNWFJMHpCenFVaVdyT0pXcWhFUHUzWlRSSEJtenBIREJON01tVWZ3UE56SjZzMWdfVTh2TmxzM3M4aHVTZHhjLTk5X3k0V25falREX2lqMGZaT0dMNVgxVjhTWlE0N24zVkI5dUxvbmd5TkZZb09iTmN5YmpPVlA?oc=5",
+      "fecha": "2026-10-13T13:30:49.000Z"
+    },
+    {
+      "titulo": "El ostión mexicano enfrenta una crisis de producción y la acuicultura busca revertirla",
+      "fuente": "Expansión ESG",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbmFadWQwN2diajRqSFFzZU9HX205QS10YlJydXM1U0drQzg1dmM4RjhsTUNpNzhwRzRZbTRfRFBZS0hFdDRidTV2aVpuN3RzdGhxd2pzNzFjWUtCM3I5ZUMyN3hzQlphajNpcGk2em1VZHM2NVJPVFhiTXI2Q3V3M0pLdmZXbVlpc0VF?oc=5",
+      "fecha": "2026-10-13T13:30:00.000Z"
     }
   ]
 }
