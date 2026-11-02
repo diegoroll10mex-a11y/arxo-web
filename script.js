@@ -35,21 +35,20 @@ const heroStage = document.querySelector("[data-hero-stage]");
 const manifesto = document.querySelector(".manifesto");
 const revealText = document.querySelector("[data-reveal-text]");
 
-// Parte el manifiesto en palabras; la última frase se enciende en azul.
+// Parte el manifiesto en palabras. Las palabras de data-blue se encienden en azul y el resto en blanco.
 const words = [];
 if (revealText) {
   const text = revealText.textContent.trim();
-  const blueFrom = text.indexOf("tu equipo se queda con lo importante.");
+  const norm = (w) => w.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+  const blue = new Set((revealText.dataset.blue || "").split(",").map(norm).filter(Boolean));
   revealText.textContent = "";
-  let cursor = 0;
   text.split(" ").forEach((word, i, all) => {
     const span = document.createElement("span");
-    span.className = "w" + (cursor >= blueFrom ? " blue" : "");
+    span.className = "w" + (blue.has(norm(word)) ? " blue" : "");
     span.textContent = word;
     revealText.appendChild(span);
     if (i < all.length - 1) revealText.appendChild(document.createTextNode(" "));
     words.push(span);
-    cursor += word.length + 1;
   });
 }
 
@@ -123,11 +122,11 @@ function activate(index) {
   steps.forEach((s) => s.classList.toggle("is-active", s.dataset.stepIndex === String(index)));
   screens.forEach((s) => s.classList.toggle("is-active", s.dataset.screen === String(index)));
 }
-if (isPhone) {
-  // En celular cada tarjeta lleva su propio teléfono con su pantalla.
-  const device = document.querySelector(".scrolly-stage .device");
+// Cada tarjeta lleva su propio teléfono; el CSS solo lo muestra en celular.
+const stageDevice = document.querySelector(".scrolly-stage .device");
+if (stageDevice) {
   steps.forEach((step) => {
-    const clone = device.cloneNode(true);
+    const clone = stageDevice.cloneNode(true);
     clone.removeAttribute("role");
     clone.removeAttribute("aria-label");
     clone.setAttribute("aria-hidden", "true");
@@ -140,12 +139,30 @@ if (isPhone) {
     wrap.appendChild(clone);
     step.prepend(wrap);
   });
-} else {
-  const stepObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => { if (entry.isIntersecting) activate(entry.target.dataset.stepIndex); });
-  }, { rootMargin: "-45% 0px -45% 0px" });
-  steps.forEach((s) => stepObserver.observe(s));
 }
+
+// En compu: el paso que cruza la mitad de la pantalla es el activo. Se calcula en cada scroll,
+// así funciona aunque la ventana cambie de tamaño o el navegador tenga zoom.
+const stage = document.querySelector(".scrolly-stage");
+let currentStep = null;
+function syncSteps() {
+  if (!steps.length || !stage || getComputedStyle(stage).display === "none") return;
+  const mid = window.innerHeight / 2;
+  let best = steps[0], bestDist = Infinity;
+  steps.forEach((s) => {
+    const r = s.getBoundingClientRect();
+    const d = r.top <= mid && r.bottom >= mid ? 0 : Math.min(Math.abs(r.top - mid), Math.abs(r.bottom - mid));
+    if (d < bestDist) { bestDist = d; best = s; }
+  });
+  const idx = best.dataset.stepIndex;
+  if (idx !== currentStep) { currentStep = idx; activate(idx); }
+}
+let stepTick = false;
+window.addEventListener("scroll", () => {
+  if (!stepTick) { stepTick = true; requestAnimationFrame(() => { stepTick = false; syncSteps(); }); }
+}, { passive: true });
+window.addEventListener("resize", syncSteps);
+syncSteps();
 
 // ---------- Giros: control segmentado ----------
 const segmented = document.querySelector("[data-segmented]");
