@@ -16,11 +16,11 @@ Owners and managers of small and mid-size businesses in Mexico (Aguascalientes f
 
 ## Product Purpose
 
-DIVRO builds AIs and n8n automations by business area: sales, marketing, accounting and operations, from a simple flow to a full system. Brand line: "DIVRO · IAs para tu negocio: ventas, marketing, contabilidad y operación". Not a WhatsApp chatbot vendor (owner, 2026-09-30: Meta AI already covers that). Success for the page: the visitor understands the offer in seconds and opens a WhatsApp chat to ask for a free demo.
+DIVRO sells marketing (content planned, designed and published every week), websites, custom apps/portals, and logistics services (inventory, warehouse, processes, manuals, formats, routes, foreign-trade documentation order), with AI and n8n automation as the tool behind them. Owner's decision 2026-11-02: WhatsApp automation is NOT the main product anymore, because the businesses he contacts already answer with Meta's free assistant. Success for the page: the visitor understands the offer in seconds and opens a WhatsApp chat.
 
-## Positioning
+## Founder Credentials
 
-A local, one-person-led automation service that installs, maintains and adjusts the system monthly, in Spanish, with no forced contract. The founder builds real n8n workflows (lead follow-up for real estate is the lead demo).
+Diego Iván Rodríguez: Técnico en Logística y Comercio Exterior, certificado en PYMES. Shown in the "Nosotros" section.
 
 ## Operating Context
 
