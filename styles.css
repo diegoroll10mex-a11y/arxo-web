@@ -264,6 +264,29 @@ a:hover { text-decoration: underline; text-underline-offset: .18em; }
 .video-play::after { content: ""; display: block; margin: 25px 0 0 31px; border-left: 22px solid #fff; border-block: 13px solid transparent; }
 .video-frame:hover .video-play { transform: scale(1.06); }
 .video-frame:active .video-play { transform: scale(.97); }
+/* LOGÍSTICA */
+.logi { background: var(--black); color: var(--white); padding: var(--section) 16px; text-align: center; }
+.logi .section-sub { color: var(--gray-on-dark); max-width: 40rem; margin-inline: auto; }
+.logi-list { list-style: none; margin: 0 auto; padding: 0; width: min(1024px, 100%); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(2rem, 4vw, 3rem); text-align: left; }
+.logi-list li { border-top: 1px solid var(--line-dark); padding-top: 1.4rem; }
+.logi-list h3 { font-size: 1.4rem; letter-spacing: -.025em; margin-bottom: .5rem; }
+.logi-list p { color: var(--gray-on-dark); }
+.logi .giro-more { color: var(--gray-on-dark); }
+.logi .giro-more a { color: var(--blue-bright); }
+
+/* NOSOTROS */
+.about { background: var(--mist); color: var(--ink); padding: var(--section) 16px; }
+.about-inner { width: min(760px, 100%); margin-inline: auto; }
+.about h2 { font-size: clamp(2.5rem, 6.4vw, 4.5rem); line-height: 1.04; letter-spacing: -.035em; margin-bottom: 1.4rem; }
+.about-inner > p { font-size: clamp(1.1rem, 1.8vw, 1.3rem); color: #424245; margin-bottom: 2.4rem; }
+.about-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.6rem; }
+.about-list li { border-top: 1px solid var(--line-light); padding-top: 1.2rem; color: var(--gray-on-light); }
+.about-list b { display: block; color: var(--ink); font-size: 1.25rem; letter-spacing: -.02em; margin-bottom: .3rem; }
+
+@media (max-width: 860px) {
+  .logi-list { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 1100px) {
   .plans { grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(820px, 100%); }
   .plan:nth-child(3) { border-left: 0; }
