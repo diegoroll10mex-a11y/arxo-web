@@ -1,101 +1,125 @@
 {
-  "actualizado": "2026-11-15T18:21:16.731Z",
+  "actualizado": "2026-11-16T21:30:09.145Z",
   "notas": [
     {
-      "titulo": "Sigue la señal de El Financiero",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcDFLZzUyS2JoR21ZOEFtb0JzZ2VNZHAwOUl3clI0bEF0a1BzZFVueHFrRkRtZ3dSemFzNm1udkwzeXR5Y3d5a2ZJSjNfbFJxdFFZSkp5aFlfNktyTVZyb0VVa2FmQzJqbnZLV2VGa0Z5WXo0MVczQVVrTmZaaHo5cXZ4U2xFeVZDOUpVUnlCSFk?oc=5",
-      "fecha": "2026-11-15T17:37:56.000Z"
+      "titulo": "Cámara Francesa ve posible triplicar el comercio con México tras nuevo acuerdo con la UE",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPelZfalBsMjh5aGVSRjdXOEYyUzhWM0Jnbk91cUxQeHBKeHk1NHVIRXNYdXhhLTc1WG84MFlsRGlLU0Z6RUk0bUs3WnMwV0ZUejgzV3BsS1RsWkdYckJjcGRuT29vLUNXOFU5akRKRTRyRUV4Yms3LXphOTVsd2lKT3l0ci1fbHR0VldkT3NwSl9HamF6Y0x2dFNBam9SWDJ3VVZtT3VuYWhRNWRVV0NySw?oc=5",
+      "fecha": "2026-11-16T20:23:00.000Z"
     },
     {
-      "titulo": "Fovissste reestructurará 80,000 créditos denominados en UMA",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYnJxMzhMQnRXSncwaWc5Ry1hemxUTXM5Wkl4Y2JGNU0yZm1JU296azJzSUlYbDNPa1Iyem9Kamw1OFFHZmd1X1JKTWhfRG4xNWIwUTJKbVd6UURqa0c1VjZ6R0t1SEhiSHFVSmFQM1Vmd282TThBVk1TcGI2aUhjaXZvekg3SFhYNUF0djdpUEtUU0tLakJIMm9MSmNtNjdjU2VPdTN4VW1CNFg2eVhQbWpCeVFuZmxaQzVkYk8zTdIBxAFBVV95cUxPRU9wcVp5UHZlVnZ0X3gxbHVyb2MzTXJGdG40TmNOM1lFNURkcTdXcUF0dnFDcVpicWtkbGkzcUREdGNmY3ZENVVFWTZSaHU3TkoxMUh3eEVpS2ZwSS1qcTdreFIzTVJHY2s1ZjZkMFVaRFNtUVhfcnFHbk43YkFKSWc2SDJPX3ZrLTQ2aHJkUm9feDRtTHVBM1JRYXRJM1NFeWQ3Z1lMc3BCMmVacUhDdkYzTGRsd05USXVwM1NXaDRENW1u?oc=5",
-      "fecha": "2026-11-15T17:02:41.000Z"
-    },
-    {
-      "titulo": "Nvidia debe buscar a su nuevo CEO \"fuera de la empresa\", recomienda Scott Bessent",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeWZfd2ZKSW5KZGVOZmJQak4yTmkyUzVFY0N6OVBrOEJfQmMySXU0NmdwaE51a0YxQXh6dDBJT2FfemUwd2VaYnlDNWZUTzNzMTJ1bFlqQ0RYRTFzQ1dZQWFEWUViYTBYbG1BOHF2bEhhczVzTW02M2RPMERxU19nU1ZrV1hleFhoVzVMRkxicUMwUmZzQS1ja2V4aFozdmVCN0dNdTZGclJOWEkyYkZPTEtERVBPd0RzRHduTDlyZXhqME5FR19laTZnMmFuTHFyY2fSAdcBQVVfeXFMTnNNVGNZd1lpa0Z6UTZfa2ZvUm5tRm9QcHZTYmswSHZZanh6emw2S19TMUFRVDF5VFZKdHFBMWJzS2daRlUwSzNSYzE0Mm9pNEEzUzV2RXlnUjdHZUl1aV9nQ3JaQ0FZb0p0REttZ003ZWlpWW5rSUItNlBFb2FyazItUmtWV0dyVDVxamRUV1dxYWdONXA5SEFCTDRRbkNHQnF6ZkQxdGdEdzNlMTZ0Y21faDBQNXNQenpYa3pCaTlSVVJHcEUzSlIzN0U3d05JRm9vdzZXWjg?oc=5",
-      "fecha": "2026-11-15T16:41:12.000Z"
-    },
-    {
-      "titulo": "Honda NAVi Stripe 2027 llega a México, una edición especial con mucho color hecha en Jalisco",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZzYyVUNBdUVqR3JRbTNIbzdPNHVoaWUzckQ3QV9ycThvdTFzMHFHRjFob0hJNHEwcDROdlhhSFhCSU9ZTG55cVNjWUVoa21xcTlKWF9aRlNkN2Rxc2dubHFNOVphMHlWSkJ0N2tSZXdnVUhsbGZNWHg1UXowTzd3OS1MRHhkaDlmaW93RUplN2M4ZEdQVEpSYk1FbnRUUmF5dzdHTkFZejhyV1BEckVjTHloZENMZnBSZDFZb2xVd3hpTy13Mk01aVVma9IB0AFBVV95cUxNam53OVhlc3RFZDF0RUZnb0ZOeGwwVm1va1ZtYTBhVVZwdlduUE9SVmRYSzZ0eDVock1OYUZnWEtTZlJvOXh0RDN0SWZ2UXVfdEF4QXIwWV9LY19IZ1RsbkI5cGNLRHJxZGlreHZPbFRkdnNtdm1xV1FlYnR4aGVxblhHeWpMTVV6dFRhVG53RUJ1NEdvYllibzhScDNzWThWbUp0X3kzbVNNNXpyQ1dTWXBFWC1GQlpTc2RfMnpNOUE2U3pGNDF2MHhDM3J6UFVK?oc=5",
-      "fecha": "2026-11-15T16:30:00.000Z"
-    },
-    {
-      "titulo": "​San Luis Potosí es séptimo productor nacional de frijol con más de 63,000 toneladas",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZnpralpkUW1LQmszeFJ3V0EtMGJLYXU1eTk3S2dHTGloSnpucGNCcGpodzJPNmEwbUU3dFpiVkZRSHNKRjB6MTVvWUdwZWN6a3JyQUZMckppXzlqSWd5TWJkVXE3VzQ3d3NEUl90ODlxeFlOZU9nVGdtMjAzWnQzR3d6TlhQQU4tQ2N1Qmo0Q015YzRGQ3hnRUNmZUU3d25vZHliX211REZwTTdRTTFWMG50VEJwVnNtVGtmT0pHMUROM2dCdC1n0gHMAUFVX3lxTE1jYkNENWhUSkFjVDIxYkFGdFd5Wmk2WWxQVG1lQlBmbTlQcFZ3c2tfNkt4RGdVMzdvMFAtSk1BZmR2Qm1ybVlnQThCN3FTZ3VvR0hBaGJHNEJzcmhURjJSZDdfRlBCOW9aSDRDTWc0LWs5OHNkSXhtbmdPeDZVWGdVTk9JbHh0V3duMUNVV0E4cU5pZGpXVFJRd1BYVnVFZjR5YlNLN3JjVTBQQ0FwSm9rTnVDZzRrYTBlRTdtSWg5UXliM2stMmctYTF2MQ?oc=5",
-      "fecha": "2026-11-15T16:04:59.000Z"
-    },
-    {
-      "titulo": "Me salió en un Tik Tok: Así es como los mexicanos aprenden a invertir con influencers y amigos",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQlUxNFNZbzBJRVNoZDlubndnU0xEb3oxeGpnU1JQQndCSmVkNWJibXl1QkZiS3BfaW0yTDhKVGdDNjdzZzBDbWZ5SS1XSjdiUThiMVJZbGhjMEhWeFVtMzQyMjVqZ0JMbjlRYW92bTNMWExyb3RjMmN0bldrai0wYzFzX0dqZGpkeDVUZGhGb2Rha2hDS0FWTVRuc0JmTWZadldiNVdobkNYTGQ0ckJRMVQwclgyT0pJM1ctTkZkTnJ2b2JMUG9FTFFUQ1BmQl9LRUdmX2hORmlsblp4VVQzOU4tb04?oc=5",
-      "fecha": "2026-11-15T13:45:00.000Z"
-    },
-    {
-      "titulo": "La buena inflación",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wQU5uTURXU2hVYWNmMjJxeDRCQVlvanBjQ0tXMktJcGRCOTE3bWV5WFl0MW1YQnZ5TkVBTmdtOWhQbUVMZXpTc25YZEF6dlNqdTJGM3pnQ1otVEpWVE9BZklpRlNYMUduNERXOWYzR2tjNUNUX0E?oc=5",
-      "fecha": "2026-11-15T11:10:20.000Z"
-    },
-    {
-      "titulo": "¡Ni una victoria para Márquez! México cae ante Jamaica en Nations League; deberá remontar en Monterrey",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT2dBQmYzYzhpYjdDN2I3ODk1XzBWUEdNbkNhdkJfaU9pNmdGLWlyaDc2MlhOVEJhaTI0TlAzVmF5TkM1MjVlaFN0UFZ5TXlWdG82eGNENGluNmZoYU1xMjBDT204QmFsVG4ySjIwcklfYnBFRmRkTzlPblhNRFg3bmwyaFd6RmJSaWNKdmJKbFdYdlg5dVhBSGlvVlFUVEUxR3BjYk5oc1RNUWl3eDhQanFBUThhbThKVHBFTTRTWG9SbGE4aE5ac2xMbFBDVTI3cFg1eXY1RTRqdw?oc=5",
-      "fecha": "2026-11-15T02:55:00.000Z"
-    },
-    {
-      "titulo": "Profeco concilia 32 inconformidades en primeros días del Buen Fin; recupera 229 mil 749 pesos a favor de clientes",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYWY3bjlENGhnNGRRMm9YdmhZRVFDQlg5M0tFcVNDUlRxUEtsU085YU1KcTJwbWYzMGNqa0Y0UGR0ODk3VWY3SFJGUm5aLUZkOHpGaGxHTi0yeG5FbnBkSm9OdXJxUi1TZUpYNVE0OEdCQzNJcXp0bzBJWU9nYW5Tb0tMQmtOUnRZWWpyWFAwWTVmSi1ZRlQxWjJ3SmxVODkzUkhPdGsxUmdkZHFDcjRUcWg3WmgwY01PWENLRklUakhEU3R3YnIyTjBscTNEZTkyaWZUbWdUeXFtSmVmZF9LdXZpZnhGWWvSAfsBQVVfeXFMTUVqbU1PbDhON05xOWhuS2wyREpGemtKUFltUElSYXJvSGI5d3FXRXYxZEhiVjktV3VpQTMxcVNVQkhWNmNXSzJxOUp4TmJ5dHBHMnM4eVpHNS05QVpxMVZZakhCSnhsMUhlU3FTSTdzR1lsamt2dkxqb0lXM2g0a0xQbTZ4c2NvazB1WFpNamlkWFpjQjhKSnJEMDQ1VjBzSDFheDZyMUlVbUExMTNmenFXQ2JnOXhzbmZKM3Ffclp5MEJ2MFVMOXpZZEdpOGNRQ3JFbzJjNHduMUVuTTZ5TDlQSUhJekdIUkxPRHd2TjE5bS1tNmtFS3FnY1k?oc=5",
-      "fecha": "2026-11-15T02:52:54.000Z"
-    },
-    {
-      "titulo": "¿Quién es Stephen Miller y por qué complica la negociación del T-MEC entre México y EU?",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd1VUclhOX1hMQW4tc2VYeWRYZHotOUpwUk1KdWZvMUxtb0FCTmpLVHhaUElFbkhFM3pRb2tCeTNSdnltblZ4YWJhNENmcmpfTEtpRmtCLUx3NjQ0MnR4WENBcV9HcEUxMHpObHhqOHVmcUpKOTNqYy1NdXlMVGRGVFJkb0pPTjA1Q29aZTBqZFcwNFY1TWhGanZmSmFfYUJpdXE2cTlLc3FJYWs2Q215Mk40M0dpSGRLWVdrMUR2c1lhY3NRalBORTk4VEl4S2M1?oc=5",
-      "fecha": "2026-11-15T01:20:00.000Z"
-    },
-    {
-      "titulo": "Sam’s Club, Walmart, First Cash y Elektra encabezan las quejas en el primer día del Buen Fin",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaXU4aTNBS1c1T1l5ZUQ2U3h1OWF0M0V3ZkpWNlc1SGFENmU4RmR4aUJCdlo4YTU5Nm54d3VGUGZnbzFuSnkxc3ltaVdHUVJZMmoxbGlKOTcxX2VoVFFCdWJFS2RkcXdvczNCMFBqVVZja21tN25JbXgxLTNockZWUWQwcV9MMFBVV1Etb2o0NFZneWFVd0RtcG1kV09aVWJIUEQwSGJWc1hkcmc1SlNwb9IBrwFBVV95cUxQci1tTTkwbkowVVlNR3JkeDllV0hETnBjNEdRY1NXZUNaSVE1Z0lNNDRERUptNTZMVElNal9hQVRvUmR4UmFKVFFBT01yUzE2RDdXdVJXLTRodU4yVFdWNWJqMWIxWVpmNkkyM0JmUGphaXZQMkY0WnhoT2RxSnVOdGFQaUZFcGdkWloySXBIbG54UTgtTWhaRWNlbEU3RHFvVGpOV1BYZFpadzVWYXVF?oc=5",
-      "fecha": "2026-11-14T23:37:00.000Z"
-    },
-    {
-      "titulo": "Buen Fin: qué hacer si te clonan la tarjeta después de realizar una compra",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMXJaY21RQm1PYldQYlBnNTlvVGNzWHVmZlB6V3c2Qm54YnNQWmpBQzRCakY1M0cwcW5FdHpuTnI1RDNLbzVrd3BSODJzQ2tXR25KRDh6MmpDcV9YSTVITTFnNnlKNWpIUVI3Y19rSFRUNEpucm1LYTdDTUZ0NHZRNzhOcUxoVDFVT0gwSDBHUGpkZ29mMW94c0t4eTRCdkNBZWF2VWZjWUFpNlpHaHFEZ9IBvgFBVV95cUxOZnVhTFBhQmdHc1RTU0ZIMVRld2Q2eUdhVWRlSE5BVjhEbVVrN09WamtJRjdRQmdhYUswVmZxTF9Hd3Z3Qm1qU21pVzJRNEw4akFRWENkWG5nNW1tSVpTcTdJMEhCQlZLdjdqcW1nQjBxZm9KT3JWdFhROS1WWGJQLXc5bUtkY3djX0s1MThRRFJ6dGg2X2JzUHdiYkZXS05KQVhHZk1QaVhtVEdmLTZlQmhvamNmdWwxMVVTUnp3?oc=5",
-      "fecha": "2026-11-14T22:29:00.000Z"
-    },
-    {
-      "titulo": "México y Reino Unido blindan reglas del TIPAT e impulsan alianza farmacéutica y tecnológica",
-      "fuente": "Milenio",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbklwYjd3b0dxQnp3TFdqLUtsUmozREFBYll3YjNOeVpqZVJvY2VFWVlJalcxWF9JNWlOQnJOVTVDbXpiN0E0YXJQR1lJeGhVVWpDc083VjZpWm92eTNjUUJ5YjRHLXZWQ2YwVldoVXpOc1ZCX1BoT3FTLVFERnV3aWhqTWFNMzk3MW4zMC1kNWxqVlJOZV9aeUR1RzFtWlBUMENsVtIBpAFBVV95cUxNMHFON1R3Vm9Lc3Qzd1IxZ3BzVGVQelRGMTV4ZlNFb3p4NkItcnJGMjRuYkYxcGI1dU44THNaWl9DMVNid2tKeG80TFZ4VGgtMm8tRTdMVzU1WEZ2NEFsbEZNOGtfV0lXRWZpaU5idjIzUm9BejZHRUlYdHEzZzc1Qlk0alNxaFQ4ME45Q0RfY3VwbERRVWNjQjhVaXRQaDRkUWEtNA?oc=5",
-      "fecha": "2026-11-14T20:25:00.000Z"
-    },
-    {
-      "titulo": "México desaprovecha su potencial marítimo, advierte la UNAM; hace un llamado a una economía más sustentable",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMVRZMWtjdlJXV2VUaDVMQUxMSzVscGRFaF94aWxkVHlkNm5RTjBTTmFJaTJFRk45emd3TzRqd3RRallrWDZHaWQ3MkZBVzFLbWo5NU8zTEwxbklrMkVfS1JfcjJCSjlCMFFRbi1ERENqTW1mdGxEcUt6OHZ0VWxacjNCUWotcTh3YWIySVRySW5RZk9LOFpDWE1vVk5Pb0Nra244WnZKVDIwT0ZpS0ZLbVEwSzJKOENMVzY5bE1tSmc4UnpIQWNTaGZpT1hkVzZmR2tWZzdUUm9IOGNZ0gHwAUFVX3lxTE1GTDlzNFJKRzhFV1BfNUxJR1RDeXU1U3U0cVgxTFNQNk9VbVJoc2o1b01MOTZ0MjQyN2Y0ZUpDNDI3VjNNbVU0ZFFqSTRLMVBMb3JNUnRXQTR6M25ybGxOb0tfNEZlbFFPbHJnbWZxUHFjWFNwTnk5cDhFQWlmWEt0eE1hQTlhRHhWOWZsTDA5cndSbHA3U3gwcmlNR29fSTVzWkZLdnZfenhRUjlTcG83OHNOOGVHVkNyMDNKR0JsMWpYWUxqM01OVVNiVFRZX1FsbjJpVFZ4bktBcUVOd194cVVpX2hBNXVldkdFYTFEMQ?oc=5",
-      "fecha": "2026-11-14T20:02:45.000Z"
-    },
-    {
-      "titulo": "México busca coalición con Reino Unido contra la triangulación comercial; pretende fortalecer vigilancia de las reglas de origen",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNnRxS0JiM2tHSmxCM1BBT3ZsalVFUTdIdXJ5SGxtQ2VUTHFRRklnb3JoVk5iYUYwSEtZUTUwOE9jUDhDc016d2FUbE1jTlM4ZzVfS3NXN2xIYndyWmtwZ1VINGZDdkZNMHF0SEdpUjhYdEtyQ0NkRGwxR1hvYmFtOHBQRk9xUmNlQUg3bFZqMklteWhNWllFSTZRTXBMSXotZFJKRS1UZE5tRlRCQWc5bmxteUZNTjl3VDhYRjgyZWZhVW9qQlo2TGplWm5Pc3BVek4yTjNzVTNCNlN2b0RDbTl2dlJQWm1HNzJIX2ZVa3dkVGxiRXkta2EtUQ?oc=5",
-      "fecha": "2026-11-14T19:20:40.000Z"
-    },
-    {
-      "titulo": "México busca con Reino Unido coalición contra triangulación comercial en tratado transpacífico",
+      "titulo": "Segob afirma que la economía va por el camino correcto",
       "fuente": "MILENIO",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjdyTHJnbVJZMWJ1UWxkbjZ1NHJzU1lWWlJWSzlBdVZrOEFsSjd0amN0aExYQzNaU21jMWlGTW9GTmxkY2pxby1YMXZvLUxtbm82cy15VUJvR0V4eGZ3QmFMRUxMT0hHR0c4SDRWaWYxbDlWLUVZRGlpbHduMDIwUkVwNWthbTJpeDNrU0ZOSUF3WkxKemh2VTl5cEtWbG1laDVjYdIBpAFBVV95cUxQRV8zcnJOWGF3bjlBTU03SUxVc3NUdmZMRkFDbG1pSWMtejUwUEhDU2Nrbl9tQmJjcUVCYjVIU1dManl2cHJ5Z0VCUmRmVl92TlN1MVFPU24tTVRRTVBfT3VvQ2tiWXVQaGNuR29FMTE1eFEzbExXeFVJemJBdEk3MEtNSTRpcjNQRmhSeDItOTJiU1pFVmRvUjJqbnFDNjUwRjkxVg?oc=5",
-      "fecha": "2026-11-14T18:22:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnhsa29kY0ZpZzJMNlZrMU1qSUNBeWgyQk1FbXB4c3dFNkxJODQxWEtPRk5OLVdBVUFPUVlDcF93dk1IS2hQLXNqNHlYaEVZOGQ3WXNJSWhkY0FGeVhrUmVwb04wX3VPTDNlSTlDUmJZT29FcjlGZXJUMTFhek5TUTJJTHZ3cEE5aTFFVlVGdE9lb1ZGMEHSAZYBQVVfeXFMTlpqOEdQNjJYS1UxU2Z1UVFLeHVrOFZHY1RvZnp3b0dxYm5Ic1Vpc19GNDVmWkJzV18xZ19zaUhiYU1QOEMwWThOcndySTZQMnY3YXE5VEpucmFCa0c1d1p1b2ZsNDY3X3dkQkt5WmxJQnZaZWE5SnRSZmxWa0hMZnZLRlZBbkRUY2JTc29ieXA1TmthWWJn?oc=5",
+      "fecha": "2026-11-16T19:30:14.000Z"
+    },
+    {
+      "titulo": "Chía: para qué sirve, cuáles son sus beneficios y cómo tomarla correctamente",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMmpqeGxuc1Y3SUNiLTdYLXpNbjNBNlcxdHUyQnhGSU1IOURNNXcxUnpFNE9PRVFLck9YMjJwbmlfWFd6S1RkdGlZT0dLN2N5RXR3bU12QUtSSVVTVXFrajczRkpkWFpTUnFyNTBYUndaUzdTYXh1RW5RUkV1NG5kR1J3ZDd5ektKQmNzVmgxc0x0OXFydlNPeFAxVURLUdIBsgFBVV95cUxPTEhxenl4SjhfZ3FVbnBTSkNzbndBU2Q2YWVHQUhSbTZCY0R2a1NMMkNQeEJyRlVzZ0poZXVmVFJmSW9lamxvR3gxTlNBYkdjV0pXOUFPdldjRjZDQUxRQmlDRkRScF9vYzZaQU9XUll1ZGduNFVxNjZpS2ZOTnVEQjlyM0FZay1sdVFvQnZndnBBT0F3UGk0YWtoLV9aMFhiR3dlMXgxbXJfZmZLNXNIZ2lR?oc=5",
+      "fecha": "2026-11-16T19:00:00.000Z"
+    },
+    {
+      "titulo": "Gobierno celebra datos del Banco Mundial sobre reducción de la pobreza en México",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZVpnWUlJN3VtLUJ2QWFpT3ZPYnBCNXgtQkhqSzlLZVVSZktIdk1BRERTWmVKSnppcFh5d1dzd2t1NjVKZjRsaWRCbTJJNjFSMkJvUUx5eVN3dVJiaEo0YWtKNm9lYXNma28wNFY5dVlVdTJkNFhCYVdjZUd0U2VkVTFCZVZsT0ExVVVKMmFjWlZJY2xiUWJyRURJU2Z5ZUJkblJVU1hn?oc=5",
+      "fecha": "2026-11-16T18:48:00.000Z"
+    },
+    {
+      "titulo": "Empresarios piden a gobiernos impulsar comercio e inversión en APEC: CCE",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSExjLUtJc2tMN1ROVUE5ZUdGQUVscjM0UmdWZmplMXotbm8xQmhTWTBYWFIxbllydG93RU96d3hMQ3h3OUhyMDNWRzBvcmpGcEJicHN2bWNzUy1KS1Z5ZjVqT2JvWDFPT2dmTU1Gd2ttYVdRc240TGtkNHZOVWZtc0J2dlY2aU9GZ2QyR0VJT1drZXZaVHVYalo4ZmYwVEg5ZWxDT01lXzJaZkl4YjRJdUEwb1ZfT3k3M09seWtHVS1pMzlrb0VzR1VBUzNUb1XSAeMBQVVfeXFMT1VkX2FGM21iU3dBLW1feGRsY3F4d0dLTld1Y0hfam1vUDhwWnFUQkxSUURGWWhjcXZqcnRXZ2xrOUhCamxlTWZJQmU5djRId0NXTWFJaGg4VG03V0lCcXlOMEZrMUJtekJucmVlaGNQN1AxbnB3TzlnbUNHUUVTdDNuTDc2Vkl2MDFiSy1lYUlDRDZRN3RVZ0djMmZLZ191cHlXazNoY2JnVlNfWnY1a2Q5VUllVko1M1VFOFktX0pQX0NvZXlCb2lvOEF3UzBqMnRfaS04bzRvWDFKcXNoYXN0T2c?oc=5",
+      "fecha": "2026-11-16T18:13:23.000Z"
+    },
+    {
+      "titulo": "Wall Street cae mientras incertidumbre en torno a Nvidia empaña ánimo de inversores antes de resultados",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUk9PcnljeGNVSEFjSjdOcHlXRXppdlBWQl9yTzVqaWN3bjFiel92QTdrcHBTSUJBa3VKS05oU1Y2dEw5M0xjVFNjbzRHTEVOckJqWWU5YU9iTEpTWU5Hb3ZMOHJmU185RC1aX1FTTTc4X0Zlcm1RbVJmbERMY1p6NmhZc2I3VUtVdjlNbE9ubzBCcXYxSG9Sa1ZDek9IUmhhWEtXQnh3UVR1OHFELUo5aDQ3LVRvOExIRUUwZDA2QmVLWm1H?oc=5",
+      "fecha": "2026-11-16T17:52:00.000Z"
+    },
+    {
+      "titulo": "México ante China y Estados Unidos: el delicado equilibrio rumbo al T-MEC",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV3NTcTVFQW1OUHdRajc5ejZyVUstdVU1N0o3NkI2MFFPNzh1Rm9xRTNKNHFleko1dE1VdEZESXVmb3p3ZHVtTTVDcEVrVFY0NWhKc0RJQS1SQzNTODFSWlB0ZGgwdzB1NkpCLWYzWGU2RUZqazZuVTAyS2QzcklYNVAtVnFvV0YtN1c3aEl3TFNuUlpzYzA5MjVmZm53UEdvLUtmNGIybld6Y2w3N0l6VFA1UGxPUUNTTTdlUdIBwgFBVV95cUxNZWhMbFZsV29XTndRX0owY2lhVmhIRmpRM1Z2YVctVzF3S2x4N1MydWNwWmVaejNYaEVtUC1HS2RGWVByc1NqNWcyV0pKS1F4ZkVDby1JOW52aFM3WDFOeWpQeENsM1ExUFBoeDV1YWJ5Y084ZHhCV3FsUTQ1Q191SjJMSUdhRWhWU181d0pnTEFTMENZODBwZngzLVk4UW8xLTNVbGVxSkRjNm9iVUcySnRSSEF2Q0daQ1d3LVh1NTVNdw?oc=5",
+      "fecha": "2026-11-16T17:35:39.000Z"
+    },
+    {
+      "titulo": "Premios Grammy 2027: Lista de nominados, Raye y Rosalía encabezan las candidaturas",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWDdPT0RWcVk0ZmxZZmdYSU5LeFdGd2N1QkxVSFgyNzBWN1d0b0pFMHNpU0lIcnFtdGQ5c1BRWlZyMDZkNmhUUEdobzUwNVl3dVNob29fWUJsenB2NkQ0Zlc3TG9ZZ1lYRml4N2ItblE1dUo4TzlpMnVuVGVZSWVQQ3VQMHNqaDlhZ09oM2VwNC1QUWJLT2tyUnlheDU5NjA0cENN?oc=5",
+      "fecha": "2026-11-16T17:33:05.000Z"
+    },
+    {
+      "titulo": "Warsh ve un \"impacto significativo\" de la IA en la economía; pide atención a los riesgos",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNelhUUkdsZVdMcFlHRzdyamZ5Yk1MQURtaS1uUF9sWFBMX2tUMTFKMzR4dGZCdlpUNzNTMzlOTXZoUlQ1RjFyVkdHLUxzNmhOSDY2RldUQTFEazFwek9IT1Q4VU1lR1RQMm1XNFdUNFFsN2ZwcVdwZG8tdngtdHlDUndBWXlZVlJlVEg4R2ROQ3lWM0pESVZtSF9aU3hCbm9zYURMQnpOTldTWUROcXoyOUg0NGpaaUprUkhtcjEtUTQxaXY5Si1LUjZZRzRMazDSAdQBQVVfeXFMUFlOam9heVlEWTJKRWU2Q1FZdDVCX3ZRYk94X3RiUkkwSWR3dGNYazRnSkRJb19uR09oSHA1b3pRMlNCWFZtNGNnRlZ3ZGlNdmxLLUtaOWdLSWdhcjhEMGV0ZEJZT2QwOENMUFJHa3JlTGFhejZDUEgtQ00xQjZPVXRCZjNZM05WRkFTMnNhSU81a2FXR3hueTM3LXNmbjBxTVItMUUzMGk3N1hOT2lCd25WN3lQTHp1bm9teUVpMDY1YmFTbFVqY1c4RFZpcHdybFRkNUs?oc=5",
+      "fecha": "2026-11-16T17:27:52.000Z"
+    },
+    {
+      "titulo": "Sheinbaum viaja a China para reunión con Xi Jinping; Rosa Icela Rodríguez encabeza la mañanera",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObmJaeW9McWZxNTVPN2FZWFNqQTJsbVZPcXd1RDFQcWpmVUJtNmx0NzFuVGo4NGNFZjhXdDhqdmdtSWpyVmtUOHZzUkU4ekJrRlNfUmIzeTBHaFJSbmIzQWM0Y3lUVVIyRFZsRTl4Z0RJQklndWFZeVJRUDhDYTY3NGwzRWkwVnZ2RmtzQmV0NHBuOHR6ZmZyZTRBdW9UM0szVkc1WFV0SXFhRl9ocFNJNU1XSi1XenNuTkR1REZhOFpaMldIVEp4X0xjS2tnT21EcDRnUHBZaG9BaUVYRVFF?oc=5",
+      "fecha": "2026-11-16T17:10:03.000Z"
+    },
+    {
+      "titulo": "Greer responde al WSJ que los aranceles en Estados Unidos fueron acertados",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTg5UWZsSmZIWnJRd2QyZXlZMWRMVXF3UjdRa0otaVN0ZUZYdTYwOFJNWmloUERuem5ZZ1RoZ0lhRUhod19GTkQzMU5tZ2tKVHN5WjVvSE96cjRidWtwSmx0SEdQbmtaZmdTNlZyME8zV19nMXlrYnIzcHR2dUxadHpFeDc3OUZMb3RiczJPeGMzSlBpU3pzc25vNmwxWUVMSUYzR0V2SHl0TklRMUVIcXpQY1NlZ9IBuwFBVV95cUxQNGx6aUZUNHJPVDFhXzJFRktlblFuNUdZdVctVkotdEI0QlY2NWRRTENnZ3ZXSjlldjhRWWx1aTNiV2FIUVZidnRiZjhyVTlZMmhvN01KeEh3MnNKQ2JNa1BTSm5ZZmFyS3BMX2M0RUZZbXlLMzZJQXVFXzg4aFZiSnNVcUN0b09mbkxFOFZicFdBRVRBUHZFbzdUUjRPdHJlQ05sTTBldk01MllQb0dEaVA3QnFnc2ZfLXVn?oc=5",
+      "fecha": "2026-11-16T17:06:32.000Z"
+    },
+    {
+      "titulo": "IA en el gobierno, el reto de mejorar los servicios en México",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMWlVXzNsRWIxcDVza1BsT3J0M3hlMGR6d2pHRTVrYXhtazdZaFJMLU1PWXU2cW9DRGJkR1lTdzhpTTd2eDNQbUZZajB0Q0RJTFVtYmxHcEtTWHJFVDBZdEgwSkRnYmxrZzBuWlhhaGtWWnF0Uk5aRDI3MHhOYlZBM0tuNWc4RVdSOWFvUGU2QVhMNk9DSEJHekFMZWoxZk94VFQzNzZ4bmc4R1hISHg0SGd2MXg0QdIBygFBVV95cUxNckp6T1BSeGhUbU1mcmhRcmxjQWdjMnl1Z2ZaZFJnWXZBOVhaUWoxZnBmRXBYeC1kaEY5TmNjYjViYjZqeW9GRXZfVWROdFdZTGI1ZHNzX2psRzJkNk9kdm5NeEtYbE15c0p4QWVCM3FwNUxVQzVLTFhHLWFWSnpocS1OMGVsVFJQbWMyZWZ6OUQwTm5Xa1kya0wwbUtPMkwyV2pxbDV6cFJxT3Q0d3h0VThyUDlrTE1DdHVoc2RwUmtURjh6WmRacFhn?oc=5",
+      "fecha": "2026-11-16T17:00:00.000Z"
+    },
+    {
+      "titulo": "Los gastos hormiga pueden ser parte de tu presupuesto: ¿cómo integrarlos sin afectar tu bolsillo?",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV25oX0pyV0RsZVpIYkV5UG1EcnFxQllNQ0xiSWlUaElFRVZXZGc2S254em5sdHd6TjZCNFAyTWR4ZjNsMDdVVHFRZXlRMVdURGY5STIybFVVdVRYS3ByUVRtdklpeFBYLUk2RUZDa2VUQnlSRWdiclJVa3VDSjJjZTBDNzhDb3RQbmJFb0FBMVVWa1A5YVdMU1JvejU2Nld5cTZaalJsRGNiUWNxTWNZeVZiT0Fvd2M4ZVlUN3Bvc0FJMU5sc1JNUUoyYXZxd9IB0wFBVV95cUxOOU1nZnN5cEoxeE9EaXE3Yy1Ha0dYem5qLThKTXFqdDlnZFNtSkowRmJ0aHBpUUFSX0ZNdEJJc2hyQm5sUnZqS1pxcnpqZ0hOX3ktSk9fWE9DVm04NkNabklNUVJENm9vSXdKczI0OUxSVkdFSDh0eE9keFNhUFRDakp5bUE2Ql9rc3ZpYXViSEx0N3hNZ1JjbjlCMzBKdmZfVHU0TWFMTGkxM2paR0ltSEhvaWlpX0QtRHE4NGJtVTRsYzRlUUZ3MDJFeldNLUMtNHp3?oc=5",
+      "fecha": "2026-11-16T16:55:00.000Z"
+    },
+    {
+      "titulo": "Condonación de multas y ampliación para RESICOS, conoce los incentivos fiscales que brindará el SAT en 2027",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU2FXUDNuYV9ubDJrdEFqM0pDME0yX3VseXM5VnE1a1oyb2xXSUd0Wm5hdWY5VXpMTjFwSTVCU0hMSE5WR2ZGRk9DRWdERk9sR1QxdWFSU1EyYTMydi1fUXFqREpUVmcyVld3TTdlM3o4NW1vRVVSUllNRnBreVZqeFdCVXpUODTSAZQBQVVfeXFMTlhIQ05ocUxxS2pMOTM5V2xjdGFUN0pxT2NOT2tUSTJ1M0RNM09GN3otM2RqUDBhR1dqdmxjdWpVeDc0QWxTSi1lbk5mUUxPX2d6TWxQdFlvRF9HdWVHTUprcWJDTGFHSkdOakRCOWkzbVpyTW50RTdkY2N5QXBvUUZVdEFSdm5Sa09sUHJIOFhpaDE1eg?oc=5",
+      "fecha": "2026-11-16T16:10:00.000Z"
+    },
+    {
+      "titulo": "Sofia Chierchio",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xX213Slp5b3ZDN0tBWVJKMDlOaVg3UDNrLUJtbXc3M2VSU2h2Tk02N3VzUXNRS0E5XzdzMnZ3WFhWX3FFWjZEY3FvbGRJbVhlNHJQaHRid0pZZE9MZXlieFltUVNsSTJfUm5FNQ?oc=5",
+      "fecha": "2026-11-16T16:08:04.000Z"
+    },
+    {
+      "titulo": "‘Si el peso se fuera con otro’: ¿Cuánto sube el tipo de cambio en el feriado de la Revolución?",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTVhidHoxNXdTZ0w3MHVRdXFSOXRvdmNuRkRSYjJXbHh4dlNXRUhPbVZQOThDcnJBQWlIbklpay1IWWF3clo5X1o4RnJiUzZscnpZaGthVjlMcUMybnNrV2hETEN2djA3d25kU0VMZDYyUmlyS0NFOHRoTk00a2I5M1FWWlJIOFZjaXBtV2UzWEtQRlVFZENyNGNoWXlJM3p5TW41bWE0VXpKaTM3X0FzSXhfdw?oc=5",
+      "fecha": "2026-11-16T15:32:03.000Z"
+    },
+    {
+      "titulo": "Latir con el mundo, trabajar por nuestra gente: el orgullo de ser México en el escenario global",
+      "fuente": "El Universal",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNODJQQkhXMUJBd3U5VU9BaU56dHRhTkJqMmZ5MFVlVWhIVmhIS21jaFB3bVZycl9QSGtfV01kOTBQX0piTEo0ekZhWXVndDcyc1lnbWxZSFlnR3E5ZTNrWTQxZGw3ZndidFhJRjFRaThRQWdpLXNfMGNQS0RSa1FPZDdZT2FTdUs3YWxFcEFaQUVZWk9IaG9MSFFaekI5ZUN2TVhsSTd4QmJqbjRhc1gxOS1LR1JkS09Od3hneG5ISHZHMGVEaW5IR2VEbTNjLTdTNk1qTFZYMEJFTTdOTGl3dkxlZ3FFakg1?oc=5",
+      "fecha": "2026-11-16T14:46:00.000Z"
+    },
+    {
+      "titulo": "Jesús Seade deja Embajada de México en China y entra al FMI: ‘Lo propuse y fue aceptado’, dice Sheinbaum",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcENkVFQycUFZTzl3ZTZxLWJkYVdiMllXeTFEWEZtRW5QOGg0am9Rdk93R19HSkVpVmVLRTc1QkhkVmpMY1lSaDA5NWpzUnF1Y0tNUTJJZnAweDJJdnZSTjRKc252QUVrLWpJQ3BUcXQxQXg1QkZ6R2EtRms0U25nUFVqRzNVV1FJYUVRb21GZjA3M2NlajF3aDdJQTZuYkN0cmVnd2NUeks3ZF8zYnVIazRwNG9VOEUxSFNCMXNPU2VfM2ZicF80VGdQRmpmeE96ajJ0QVJJVllSQ2RfTFg5eWJHUF9yTk9G?oc=5",
+      "fecha": "2026-11-16T14:14:21.000Z"
+    },
+    {
+      "titulo": "Sheinbaum fortalece vínculos y se reúne con mexicanos en China: \"Todos son un orgullo\"",
+      "fuente": "MILENIO",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLWkwNmZyZzJ1WlR3MUVQRXpPOXhVcUREczZDVmV4UnNQa0FCNnRuMkd1STliNXJabjRBbWEwZ1I4anV1MzNWVkdxSVJ5d09JdXFHWDI4UEZCMTRMcWRnRE4tWDJuVUVId1c1OGZlaFN0aWQzTXhaMG45dk1YaE1MR1c3NXlSV2ZITXBXb9IBjAFBVV95cUxNcFlLb0c3SWtELUU4eHYxd1pZTGVaazI4aHlOOHZGMS10eXBxQWo3elRrOXVEaW5ma2wxVWoyTWhxd2hKSDFDSVJMSVMxRi11VEdpNVBCX2Fnell5cnZkVkZtbnQwOW1ZOTllOTFvNUM4UjVIdWhQVzVoZV9CclRCdVg3T3pQbVljemNzTQ?oc=5",
+      "fecha": "2026-11-16T13:36:00.000Z"
+    },
+    {
+      "titulo": "Sheinbaum asiste al foro APEC y se reúne con Xi Jinping en China",
+      "fuente": "MILENIO",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUHdsbWsxc2UyTG1LQXV0ZW53bmxGWjJOYjB5RkptWkZ4YUJObWUxejBxZmszaHhkZTY3QXB5blk1Vml1YWNaeUYwSS0wcUFIUHljSWVZdjdtZXJ4UmZLMTZabzRyYUlTSmlaaVRDUU0zQnFzT2lmRDJRaWJPWFZHblo0cFVxajA5dEI3LTk5Q19qYWPSAZMBQVVfeXFMT0xUUUZfaWpRT2h3bFF4QVp1bGt1aHlmbE5SOWpLajVhT1JBUVV4bS1aYnFtTTY3alZ0THlrMlBINTRkV1hIVjVia21EbmgtOEtOcjFsWFBRSVJIams3Rkp6Nm1RclVEZGxVTmFzN2s1Q1pHT2g3RzJWR1B6VDdsUnhyX192ZlhJZFJBTzRJOGs4NE9v?oc=5",
+      "fecha": "2026-11-16T13:29:03.000Z"
     }
   ]
 }
