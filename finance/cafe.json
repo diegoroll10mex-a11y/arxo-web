@@ -1,11 +1,77 @@
 {
-  "actualizado": "2026-11-27T20:33:02.626Z",
+  "actualizado": "2026-11-28T01:44:57.091Z",
   "notas": [
     {
-      "titulo": "¿Quieres invertir en Anthropic? Desde la Bolsa mexicana ya puedes hacerlo",
+      "titulo": "Bolsa mexicana tiene mejor semana desde abril",
       "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYVdxQ3dIWWFtRGNiUkpkSjZqMmZFSlNnV0FUQXZBU09zeHQ4SzctVmo4WkYycmpwM1E3ZUhXMmhDc2dkS1JqVTNrQmRyOTJaeURmdGpVbjZ1VklKemdTNzNjdFNDd3hXSkhqTlRNcjYwV2NEbGVQT0xvUFFIdW9fYW9DcG5xbG9FcG1WSUhVSVMxX2N0WERibGdR?oc=5",
-      "fecha": "2026-11-27T20:11:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BS2Jkc1RDMEh2YW1lNlBxSVJrVEZKelZmTkVmWEtBdmNCOS1pNFRFOHpsY2VHTC1TQmIycUZNa1FRWFROYW1UdGVVT0tVX2YwQXRYVzNtYTg1R0IyN1JGenRzTl9hQkFuVXFsZ3lmS0REV28taHVN?oc=5",
+      "fecha": "2026-11-27T23:59:00.000Z"
+    },
+    {
+      "titulo": "CNA alerta por menos inspecciones sanitarias ante recorte de recursos al Senasica",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWFJyck10dUYySTFxQ0xIc3Q4WURDdFVyZUdxZlppU3JHSEtIS2pqNDByaWlGdnltdGZnbnhBang4VV84MkNveVVuaGZOTmVlU2RYdURlZy1MVXd6ZGs0a2NNeU4wZWMxLVBaVHlBNkpRbFI3OVdQZnRvTEVkVEJtQnhNQVNtUW9Zd2hjcWdOOHIxY09wR2RreWdWSThaS3ExYng3S2JqYTlYT0owVUZXVEpSNWFoakd4QnVDTUlaa9IBxAFBVV95cUxOYjlMaWctUnFNdkVCems2SkJCTGtXMGIyd09QLUpfNDJLNmxhM2ZzZWJmcVB4a3V4UldFd1JvMWhmeFNsZnRRV2JHZ2hwLW91WTA1bGw2MWhDTEZhUGdkdlFfX3BoVWoydHBEZDF2ZzV1RzAyQ045YjlnWEw3aFZNNnV6TENlSWVEQ0FpVmI0MGhVcF9LYXJ3ZzFLWE95ZTNrVWtDMjVqVWJ6ZUxXZGc5ZTk1eFZGNWo4SHVKbEFCWUxDNFBn?oc=5",
+      "fecha": "2026-11-27T23:30:23.000Z"
+    },
+    {
+      "titulo": "Anthropic llega a la Bolsa Mexicana de Valores: así puedes invertir en la desarrolladora de Claude",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaHN6YlFZUElxc01UVHVVeWJpbnRjUlFud3lkejg4NFJhY3JQakNJckhTeXRrOXhWeXhhRGo4MXItREx0d2lYMWFjWS1xOVVUeWU4STkzdE9LaFZRT0dqMkpqMVlwcDYzMDQ2YjdHTzJReGpySUNQTGJCZkhHNVdrRGZrU0ZnYnF0b3VhMm9YRGdfNzczT0dKZzA0S3doOVF6c1d6SzdaTjZiWk93cXc2bVVxdW1UbXB5MG9mSFVWRi1USl9hc253Q0VIWXFMYlNXLVpuYnZmbVVmbi1WMWhIVW9xSG5RMVHSAewBQVVfeXFMUHlERG9MdnU1akdGWTVMSXJvRU9uRkZ2Z3FVQmMzUEFrYkJtT3hNTjVWem9yLUdfVXZXczItWXY0a2M5aEkwYk5RRWJoVXBER0ljLUZ2Y3Q0dEExSTR6aHBJN0pKXzRsbTM1V2NBZXRzWVZvVmNnNkRJX3VKUmJ3WVRFYUx3ZG9yWk1WYlREeml5WHVvMk1GekpwbllfRkNMTlF5YkxEbGlPbGpVMHNXV0R2MGM3TjhEUEFWZkdRYXJhZDc1RXlDdTcwcVJub0Q5b2E1TTlzSTZIY3V1NXZtbWl3bGJLTWVVcnV0UXM?oc=5",
+      "fecha": "2026-11-27T23:12:58.000Z"
+    },
+    {
+      "titulo": "A los 70 años puedes quedarte sin ahorros en la Afore aunque no los retires: esta es la razón y cómo reclamarlos al IMSS",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSG8zT3hJWk1VRXBXeDJlWkV1OXJYTm5QWV9RcTlHZjNoaUxfTGp6a1JGT1lNMHdsbzltbWMyWjZKRnAySlRfUmx1RlNDX3JudUk5cGlaUmVGckdLYS1oMDg4UzkxMG5WVXJkNkRoa3FtbVIxZWw3YVVzOEN5bGhveUZTaldDRU44ejRHSGVneUtfMktsNm1NbVRhNG9oWmNCdEHSAa8BQVVfeXFMTVVPQmNnaGVtQmVsTGxOcy1EUHprVXVkRk4welh5d0dRZjZfdHhDT2VnOXFGZUFqR3d6d29lcURMMW9zaXpkOGFpc2tuNzd4RWN6QTdjTXpwdkdSWFgyaDNKY29OYjVhYk9ucFZLUXhVeDFWa2dhd00tbjFrVzFPZGNfWnNsZUN2eW5GOEdEX1QyZVNtSnpEeVB1a2FCTVYyLXR6Q3paZ2FVYVc3UHQ2NA?oc=5",
+      "fecha": "2026-11-27T23:05:00.000Z"
+    },
+    {
+      "titulo": "Policía Cibernética de la CDMX alerta por nueva estafa en WhatsApp: conoce qué hacer si eres víctima",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQekdYOHVJLWV0NG9ZWjN2X24xRVI4dW5GV0hsTkRjVlFyWnNVLWtPTDFOeXctcmVfNzFPcmlpQ25TUjcwVVFSX3RnTmI3VTFzd19PUnQyZFEybVA3VVhrTTNpOTVBdzBCSW5Hd0RZQklDTnRpQjI0X1o4WEN3eEY4bnZBM1Q5dUFVcFJDb3A1c2M4OXZqbFgtV3pNUXBOck1fd2xEczV1U2UxRVBNZm5peUJSVEFHS2laem5xeVV6TWxpNHpRTFHSAcsBQVVfeXFMUGFxa3pjN0FyMjNoYXN1SVU3QWVwdWU0Y2NQZ2pEYjd6aDItV0ZJOTQzWFotQVo0aUtnLThmWjFQQjVpRTg0N0ZyWFFmOEpsWmlFSGU4SXZxTkE3bGFCSXh2azdCbFBTRzlBanE2RllkV3U0VVNZeldCdGlSOWJVSHVBclREaG4xeXJPS2E0X2RCR2lIS2tZNG44bkxuU1RyWmNWdmtGQWZhR1F2U0hxN0lzUldQZFR0ZkZXTVliMFliN01EQXMwWm1GbWs?oc=5",
+      "fecha": "2026-11-27T22:21:07.000Z"
+    },
+    {
+      "titulo": "Uso del TAG, la apuesta del gobierno para sustituir el pago en efectivo en las casetas",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWRiXzBNeVhDTXF2dXY2cXpDcEE3a2JOTnE0VHFxRHFVODg5QVd3UzNOdzl5WUpqd1hhSGJHMHFCTHR5bEdxQWdoUV9tTFhBVFdLWWZXOFAtZURwQ0VDME1RT1ZCSWRLV1A3YWYxNU56ai1iSGkyUlQxWnlQM202eG1PNzVyRHVwY2VvY3pZNDVEd3hWTkZDZmxNWk9nZWJJOHJqUzlIZ1gwOGhpSXFNTTBnN2fSAboBQVVfeXFMUFVrbDdPX2FUbkRReXd6c2xUWU42Vi1JZ3RyRXI1b185NTBZZHdjNld2VE0zT0ZoNV9jQ2tCVFFzNlhvc2ZRdVU4UUswQ2xCZEw1RDFVc1lFbUo2cWxwMzMyUFBfZUdHQnVJWTdIcG03RHpvaEJodWh0eVR1YzJ4bjJUdzlfd1J0bmNWMTZSX1ZfUEY2bzJpcTdXYXlDS0Q3b0txdEhvdlZCRG1ERkxjTnlwbmNycXhBZWxn?oc=5",
+      "fecha": "2026-11-27T21:56:54.000Z"
+    },
+    {
+      "titulo": "‘Black Friday’ para el peso: Pierde 51 centavos ante el dólar en la semana",
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWUxWVjVnSjh6Y29Zb1QtYjZHWU9uSzJMUEhCT2lrODNCTC1MaW1nNmtTVjVFWTJraTNfODEwMFlKTkt5a2FnRzU3eDJncGxoNW1rUTQwN00wUGdOcTRkV04tUWlLbXBJUlRoc3lleFJpZWVxaHdPaWFUU2liWGhDUjFxSjBIZlB0NGI1YUo3dHVoQUl4dFpKRHFueVlQOHFUZGF1ZjBUZXZnTERneXdFblhwdw?oc=5",
+      "fecha": "2026-11-27T21:39:00.000Z"
+    },
+    {
+      "titulo": "El campo mexicano quiere evitar guerra comercial si EU limita la fresa",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnJFVlRtaWd4cjZ4WW1UalVCU2tseGJSdDcwWmpDMUE3RHROUnlLbWRST2hjSzFqWmNUTk1rYU9QTXRpaEFwRVN0eXRVM0VfQVpncThFXzcxT2JCZThXX2g4a2pESlpUSnZFS2FJYVlKTWV0LS1DWUlIcmV0VXJrVFk1aV81cXdmQ1JpN0k4bHR3alV1RXfSAaMBQVVfeXFMT2dsQ1B5M1Nkd3ZGWDFFYk94Y3V6R2d6Rl9WcDh0VjBwVFBSSXVLYzdYZ1A3SGZCMUM1MzRtVXVlYnpqNWlRSEgwN1dXV29vdDdnazg3SGxzdXRHNFRidkFnNmJxMjhzUVJlUVplc1dFVVQ4cGxFNDFaQ2FDNlozdG50em5WU3l0ck8yakVJOGFiWE1rSWhCLUxOZk1fQ3k1dkVsUQ?oc=5",
+      "fecha": "2026-11-27T21:08:00.000Z"
+    },
+    {
+      "titulo": "Peso rompe racha de siete jornadas con depreciaciones",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeFNzRXBEZmtWd2VPSGt3SVdjZ253aUVjazdiZ1pmNXpRNXhtbWlvbkhIZVk5eW5sRmhfNkQwQkh0dFY2WWRZQy0zZjlyTzVJVE9zYmpaU3N4S2F2T0dHMFU4OVlUSEtzaURUSExBSXhvcS1iTDB1ZXlzY1NONWNOZFF3?oc=5",
+      "fecha": "2026-11-27T20:37:00.000Z"
+    },
+    {
+      "titulo": "México y Malasia encabezarán grupo contra triangulación ilegal de exportaciones",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSHlZc2UtSkRkUXltRWtBVDBXOW5NZ0ZYNFBrZHJpRER4NnJoZzVSaFFwY1VHcG9MZFdsQU9BbmI0MTVfSFdqWDlSaHlfak9vVVpDZmF3d1ZoV0tZSTlvcU4xTzZ4WTFVM1lXNDlqVlNBTjl4VUZ1M3JNSFNHUnZVVDQ2UU9OMmZmMkhtbEYxbUo1NkVPc0hlTGxCSFZkTXpBLXZ4Tg?oc=5",
+      "fecha": "2026-11-27T20:31:00.000Z"
+    },
+    {
+      "titulo": "Restitución de Huang da empujón al Nasdaq: gana 6% en la semana",
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcnVxTEpEY2RDMHp4YXFwTVp0bnF2N2tXU2V5eVh3cmdIWHNKWXJXTGI3WDMyYmdUY21uWVhWM2pDTGRlWURHRkJfQ0ZqM1BBMHkxTy0yUF9yb2ZuejBMd0FHb1Zrd1dsOTgzZ1ZqQ0VMQ0haRXA5aks3SWZmdHVyS2loLWdxWDAzMGk3NA?oc=5",
+      "fecha": "2026-11-27T20:30:00.000Z"
+    },
+    {
+      "titulo": "Ley de Economía Digital; más vigilancia y menos tiempos de espera justifican la eliminación de efectivo en gasolineras y casetas para cobro de peajes",
+      "fuente": "Expansión",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3VCOXVaSnFFYi1UQm9DTTl0MDRPWmtqN2QxNzNhSm9GTWd2ZE85dndtbjlmalQxRm1QcTg4TkMxQV9LcDdiMXI1aUxNMFlUNUFaUDAwTmo3dnBIb3BlbmN6WlNrTGd1dFlISzgyZ2Y0MVhIbWhreUZJUUZuLXRsNXhEdGRqQmo1V254U0xoWjJKWGJKTGtQTNIBpgFBVV95cUxOT08zZzludVNibEtNeWZDc2I5TFJhTWF4T1lVUzlqRDlOUkhNdVF5T1MzRG1jMnVKRjdHajVvWFVhT3FYX0tOMTdPMm9QanV6djM1NU9uVDNYQjV3Vkp1LTlRUlE2TzVWVlVrbXNadFVVN1llWGlCVUFSQ25jVktNSV90UEE1eE9tMW9udGRmTklLbXItUDZGZnlBTGVVMFBQOGFRa1V3?oc=5",
+      "fecha": "2026-11-27T20:30:00.000Z"
     },
     {
       "titulo": "Vulcan impugna fallo arbitral en caso contra México; gobierno analiza reclamaciones y alista \"defensa sólida\"",
@@ -14,40 +80,10 @@
       "fecha": "2026-11-27T20:06:57.000Z"
     },
     {
-      "titulo": "México reclama a EU por líneas de denuncia de la DEA",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRllFekpNY3Z0b3RtcFhrUHcyNzZIMWZMZTFwVkZma2VwYzY1a0dUeFZNRnFHbzlCRkszaVFRR29IeGFEa0g0aTlzNVpnN3N6SUxnSEdRbDZST3ZNSVMyTTN4UURpeU9CRXM1R2lRVDJmeXBScmxMbGdUSDNJUmN6Q3BaZzEwTVlZR2tORUVzR2RvMU5pb3lzZy1hWEZ1QdIBowFBVV95cUxPZk1qbm1yMWdPbDhkV0ZwRUJSaVlKcEF3cXM5SXFEQ1hGcVlDb1o4U1NuSlNWN2dEV09OdXc0TXpUNG1aS0JRQTIxeHRtWGtkSmdGX2lsa0NVMVNoWU40NnpPOWVTOVVJLXJCUDFfdWZtbUJJUVJ0N0ZuVW1lcHpHQTFFUHpBTVp6YllIQ2s3SmJsYUVNYW9GV21DNEN6akpvdC1F?oc=5",
-      "fecha": "2026-11-27T19:51:24.000Z"
-    },
-    {
       "titulo": "Confirman fecha del segundo pago del aguinaldo ISSSTE 2026 para jubilados: va separado de la pensión",
       "fuente": "Expansión",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVkRZVExXSGNfWjMtalI4YjQ2NVZWdVdmUlBFemZfNkpJSjNyckNUV3ctWkhHbXpqMmhtbTdrMWNEaHBvMHU3NTlTZ3BLZUpCUzg5c01KSnB2MWgzUDlWbEdmNEliRFZYRUtWQUNLa1FaLTFOUk50SlNZN05mTTlUX0tuNDBRcU9YMEVUQml3cjhhdDVEbGR3T2o3emw1M0RSWGIwYVV2VXnSAbYBQVVfeXFMUHhfdjBCY3lzUGE1RmJrUlkyTi1JZ2lESVZzZmIxaV9QNlRkVkhyTU1FdWtDS0hrMDN3d2VBR19xX2JlUVlwc3VySG1FUDhRQXBfMUhLT3dDR0FQX1hZc0RRR0pPclJ6LWZXVUl0b1NRVHA0eElDNnhlSzNjR2hXeDFSZGZiQnRORFh5bUVtS2lJNm03aHVlRWlrUVhRaFoyYjFUOTdudnc3MTQ4WjVPekI5eXBHYkE?oc=5",
       "fecha": "2026-11-27T19:39:00.000Z"
-    },
-    {
-      "titulo": "Tendencias globales que perfilan el futuro de las inversiones en México",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZDBzX2xESGU2U0FJUmlneGtaSjRiWUJDTWlFWkVHWXdUZnZhUEdrVm1pendyODJZWlVPRUJaeF9lMkxHWk1KaVZfQThLOUZvMGl3Y2xFajBvY2lMS3NRZEwyYklfTl9VaGJrQ29wN0RvdXQzM3dnRkR6UDlHUFkxeEdCR3gybWEyQkx4dkxBVm5xc2JhcmFEalA4Skh0M1gzWUFMazR1VFpJVGxtYkhpRm5R0gG_AUFVX3lxTE0tVlBJWUpUb1J6YXJqQXBLS1FhODZiRE5rM2ctaHJLVWJSYkM4bHA5cmR0M1NWRE4yOERWN0h5X2VObDFwWHA4UGhJTWgyZHF2MlNlMUNCQVJZdUZhMnE4dm1ha0NFRjdNYk0yUjhxNlBRNkdSMmtnUmFacC1mcDBrUlpsamV4NG5hM1pnYy11di0ybkpPclhnaU9Hb0tPNnRyNkd1SXM2ekdSNThzLUhFcUM0MF9UWm5aVkMyQ2w4?oc=5",
-      "fecha": "2026-11-27T19:14:00.000Z"
-    },
-    {
-      "titulo": "Industria de centros de datos en México estudia compensar el agua que usa",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTE1DRWFVYWtZbkJfdzdFaEd5SEhPVzU4MEd1aUhZT0pwUno5bVRjbFdTR0ktMWNsT0UxVXR4ckZzdGE2U1RLVEVFOU5CRjZkNGZ1M0pVMHc0VHR3MnhuQl9vVk9GMFViWUExek9kdEp3VURNRUhNNkpkdHY1RFBqOWdwTFFJazB6b2IwLU5VV0hlamdKbVVCRFpwRGFFeE5vMTlpT2RWX1N1RmtkMHl6NElmUGlaNmM10gG-AUFVX3lxTE5KZXcxUWMtcmlaMm1MZ2ZEN0lSTWViR25VYTd6MjFMTTcxRWxKWnk5RUREdVpCRV9PZV9qZ0kyajhXNXVjRWJDMklHU01KdTNqNzd4Z2tlbV9WOWItSFYwY3F5MFpQdUxRRzJqaTMxV2kzdmxvQWl2TTNGdWZDNnVMOWVFOHltOUowbUdjNlpzcVpkRkZRTG1xLWpSbGRSS2xQckxyQmRqZlZ1Y3ZBaUlabmFtOEFheHZhSmM2clE?oc=5",
-      "fecha": "2026-11-27T19:01:14.000Z"
-    },
-    {
-      "titulo": "OpenAI presenta una demanda contra Apple por el robo de secretos comerciales",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSVFNVV91M0ZGR3ZPZW85cWh1Yzh1M1hXajJMVWphc09wb2NJOVN4RVF4TllTMEdGNjdMSnczb2d4MU93dHJvTkVYd1RuSXU5Y3dzRXRCM2xvbFVkWWFIYWJtX00zN1YwZlRVNXdrd0ZfejUyek4yNHlwUlBNbnlZV0NPRTQxT3czVzJzYUtSNFNhYXo0TkdBcExLZjBJWGtsLXlQVFNlbmZkWGZyYTJnWTR2cVJJdEtlUEFj0gHAAUFVX3lxTE9ZSUN4TURGOVVDanh6Sl81RnFFODE4LWVReTZGMkdKYi02UnV0eFpHLVVqbS1kSTZFVkpyUHZZaXBNV3p3cVVSc0d6b1ZGeEM0azBERWRXR2pfa1dMSWRET0c4alpBSHRpV0hmRGtUeXZSU2F5TWpmVmw0bmF0OE5jWWVBMHlLczY2YVcxbXpPRERQY3I4Z0I4dVZHQzRoWHZMaF8yZlZ4OWItRHpYQzlORUVNX01RUEd1azN5RmxONg?oc=5",
-      "fecha": "2026-11-27T18:53:16.000Z"
-    },
-    {
-      "titulo": "Pobreza laboral tocó mínimo histórico por alimentos más baratos y alza de ingresos: BBVA",
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPblhEWU9aWkxRdHR6ajMwZnJhVzY4TnlwaDdQakZIRDFPUWhMb0VmRzg0bV9SQ2hNekVBQ1FVdVFWVTRJOGpPUUlKTDlKZU95MHEzUE1wU0Q3RjUzLWxtQXZYMDY4WGF6NlpFSUZCUS1mMzVBN0RSYnVpakc3clQ1THFoY2tIWEo1Qk9VSFdZZ1oyMmt5RHhlcHd5WDNlSVdYS25yLWR5Q3FKdnNmM0lKZHhnLXBJc1Y4TXhEMmVxMlIwRUFCVzVadXc3cF9GWXJUdVHSAdcBQVVfeXFMTjhLeDBCbnRXRjBIYUFhLVRUUVpVOHVDWE92NWdoOXMyM3VRa0dpblQ5Y0pteUpBNkktU0gzNHhvWXpCWXpRZVNlZGQ3MHlyQlJhYnY2ZlJjZzNEYjI2Ymt5c1ZiX2FLNDN2ajZGd2F6VHVUWFN5cVNxX0FaNUhPd3JYcDRGMnFpN0FCSFFUamI4Nk9nZ3ZHaHpSS2N1OGR6VFFHcUliUE9EYVBfNUx1S05pbm9kNjJaS0g2ZlJKWGZ1dzRaNm9EOElEUlB3NVVmNU1jRVYyYTg?oc=5",
-      "fecha": "2026-11-27T18:37:10.000Z"
     },
     {
       "titulo": "Para el inminente aumento al salario mínimo: ¿qué pone el gobierno?, escribe Rogelio Gómez Hermosillo M.",
@@ -62,22 +98,10 @@
       "fecha": "2026-11-27T17:55:09.000Z"
     },
     {
-      "titulo": "Tras el fin de los pagos en efectivo en casetas y gasolineras ¿Dónde se compra el Tag PASE y como se hacen las recargas?",
-      "fuente": "Expansión",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQakFsZjhQQkFzT2tLdzhlLTh2OWd6V0Nkakp1Rlprd1ZnMWxSRWJTWkNicVlwTFF0ZG9od1RnNEpvM0R5NkYyTUZiZ0Fqa2phOGJqQjBjZ3ZzX0hEd3EzR292cDhYcFZfdXJheG1adDZtaldXaXRoNU1QVWh5bTZsMHlMOERPanJRdTNlS1dTbHBLUU9KdWduUHBVUWtiVmVNVUdlb2NfbWdOYzFvYlZUclRB0gG_AUFVX3lxTE9BRlBVZDk5b21FUW5zNmVRUTJlc2JiT0dud1hhM0tnaG5nTlNUQlBmRlZGTi1RZG5CbUVrQ1gzdWZPUVY2UzZPa1pQaGhnME5Ra2FuRElicHhRd0FrRjRXLXVOcjlGT2RGa3o4cXE4M0JGaWVGcC1pUXNPdWVielJqSllfV1dPLVF2bmFlNE5TNENjeUZYUER5enpSdEUtVEMzSm5pcHdJUi1JRjJqcmFqNXppN2l1d2NYNGoxQVV3?oc=5",
-      "fecha": "2026-11-27T17:41:00.000Z"
-    },
-    {
       "titulo": "México y Malasia encabezarán grupo del TIPAT para combatir triangulación ilegal de exportaciones",
-      "fuente": "MILENIO",
+      "fuente": "Milenio",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0w5ZmxmeF9fOWVnbEM2ckdwMFJIcDBmbkxUN2hfZjE2dUluV2xnSWo4SlBteC1MVndPNVplaEZjQlc2N29HZHdob2ItdWpMSnJMMnY5cVJ0anBFWHhnRmdIWnRMZlZjRFc0NDhUUi1CQVhMRDNKY3UzY1lybHNwVlJjSU1ZejBUV2RvczFfcUlEdTFHZGpDONIBmAFBVV95cUxPMVFRdnQ2RU42TFdKaF9iX1NLMmFheTZBNHY4blRybVFVcW5keHM3LTJ6MUxzNk5WX3JNY29Sc2d2YXF2eHh0NTBsN1Z1Z3dLZTBrcjg5anBHSjg0STBqTXY0bmJPNy14V25aVVBZb2J5SDVkT0FOd0JCYnljaEVEbW11ZnFlNFdWTU5DalJLYU1VYWt1SDI5TQ?oc=5",
       "fecha": "2026-11-27T16:28:00.000Z"
-    },
-    {
-      "titulo": "Peso se aprecia con regreso de la liquidez tras Día de Acción de Gracias: ¿Cuánto gana al dólar?",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWUxWVjVnSjh6Y29Zb1QtYjZHWU9uSzJMUEhCT2lrODNCTC1MaW1nNmtTVjVFWTJraTNfODEwMFlKTkt5a2FnRzU3eDJncGxoNW1rUTQwN00wUGdOcTRkV04tUWlLbXBJUlRoc3lleFJpZWVxaHdPaWFUU2liWGhDUjFxSjBIZlB0NGI1YUo3dHVoQUl4dFpKRHFueVlQOHFUZGF1ZjBUZXZnTERneXdFblhwdw?oc=5",
-      "fecha": "2026-11-27T16:08:22.000Z"
     },
     {
       "titulo": "MOWO Summit 2027 reunirá a nueve sectores para impulsar la movilidad en México",
@@ -87,39 +111,15 @@
     },
     {
       "titulo": "México eleva 34% sus exportaciones, pero con déficit petrolero",
-      "fuente": "MILENIO",
+      "fuente": "Milenio",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUFSS182MlVYTnhyUjc3Z2VYRFBKcG85MGNGanV2UFZOcm1iaE1HRVlWQ2pTYTUzczFRVkNxaFR5S1JJOFdKczd6LWxLUTlDY3Z1b1JJS3ZRY0lZakE0STRRUDVnY3hnVDRkamFxamVhUDNEWHNLRVlxR3ZjSV9CZlBDdkM1RHRRbkl0cmlDY2xON0NLOGhXbXdxRUnSAZwBQVVfeXFMTzBKOHdLNHIwbExXcnBpQXpFT29YRWZBUS1HcXc1ZEUzQXlVeWp4Y1p6bmZ2bURfVkpqVWM2dHp1ZWNtYVprMFplbmdsbElTMll1VlQ4cDcwTlA0R2o4U1drclhCM3RIQ01xczZVSG1NQ28tR3p5b0NlUVJ5bDYwYVB4MVQ5TF9VV3NNR3Z6Q2pEdXFNdnR2QlRmajBl?oc=5",
       "fecha": "2026-11-27T15:28:00.000Z"
-    },
-    {
-      "titulo": "Lisa Chambers",
-      "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80QWFGeFI5VzFMR3Z4OEVlWXBJVDFtcF9ZRkFmYjlydGUybUt2WjNSSzFqeGlMQmtCMy1DVGJXVWhJV3hFcFlhV0xWRE4wV0xxZVZNcHduYjdJTE82X1VrcFhZNjVzMl9SRkE?oc=5",
-      "fecha": "2026-11-27T15:15:39.000Z"
-    },
-    {
-      "titulo": "México registra un superávit comercial de 298.2 mdd en octubre",
-      "fuente": "Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSXlSQlRQOTBfeXN1dV9qd3JScnB5UjJlTjU4VmdrODlZWk1xektEd0JDVS1LbFEydHdBY3hTOVBjOWdLdTJuaHVtbUJ0RzlxSzRvZDdUZ282R0l3QUEwWlhOdU9kVklLcGFjY2JHeVZHUFlyUFVEd1FDYkN5X1U0RExZMlVFTEtLMzBncmF3?oc=5",
-      "fecha": "2026-11-27T15:10:00.000Z"
     },
     {
       "titulo": "México registra superávit comercial de 298 millones de dólares en octubre; exportaciones crecen 30.2%",
       "fuente": "El Universal",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUS1vT3JrMVlobElIQzdXN1hkb1JEd19yM0hiRVpPNHpnaFdJQmpJVkVuLXlIVFJ3RFl6WEpma21MeUpfYzNOM2JVZXUzS3Bad2pZS0x4REliUHlUeG4xcU0wMW1ZSkRzLTdyQjMxWUJyemZteDNrSHNkenZjSUR5MjBwQTF5Y05icXZzY21KeFVFVXZNVDNXdHZDVlNTWGtZX19ZNkttUlJ1bzAtd3JvTDRDVnpzMVhjM3dMa0FzcFk4S3Z1SU53cjNncHJkVGZOV3fSAeYBQVVfeXFMTXhaaG50dW42dkMxeTNVd25maTJHanYwSDZTaGZpRFRMWkNiZ0tKWVZiZUxHVF9scnRaZWdyMDlndU9sZVJLMnBkUTh4TEVJNTBtc2lIb3VDNHB2WldjSmRFNWoyYkpLRlNJYWtlZUM5M01ZdWxaeUFocGVRUWNkZFRjU29tdDk0MERUUnJ6X1JsYV9ua1lKRmdUeHdPckk0TnBLYjhlSnptQjBCS05SbDc1bHpPeHdKLTNuX3ctN2R3N1Z0THh3VVI0N21ycl9zWHU1WHBFdk85X0dnTFlPdS1qNm12aFE?oc=5",
       "fecha": "2026-11-27T14:57:25.000Z"
-    },
-    {
-      "titulo": "México copresidirá grupo de trabajo contra la triangulación ilegal de exportaciones; pide cumplir objetivos del TIPAT antes de ampliarlo",
-      "fuente": "El Universal",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMFNDZ0VtTENmOXZwdFZybUxZdGJRNlZ2UndHUGtFUWZVUk96QXd0SHlGM1VqUVY3TjhKTjJzM0dOeGZEaTJzdTFiUjVYN3dsdUFQZWVqdWp6OUJLOHYwWUdubm1mNTJFSC1oSnV5cXhSSzhqZjZhX0NFNkU4X3BGR1h1MUhCTVNVSEpMaVk0WGk5bDVrN0FINGpRVzBNX3VkU1VGcXY2TFkydkxGb0VzYm1tYkE0aXZnT0RhdFJhdGJ5YmdxaUxrZUlFM2QyZXAyYnQ0bTJaa2xTRmswWG1PRC1iV0ZOUXdTUGtocXFxenk4SWdEOU1LdjF2cy11aVFZN3FTNy1n0gGaAkFVX3lxTFAzNGNCdGF1TUxjS3BtYmRaam1qZEF2QnNScTczMUI1aVhPa05zNmNPOVFjX0d5OU1Ed204cm1fYjB6N2tsdVFNZkZzYmZGVHNaakI0N21tc0FBNmxsMXlCNy1nZmZFa1JtWHBjVWFtYkVUaWhGVDFSMzAxTFpJbmQ0ZWxZQ29tUWxoaGdvbW1jZFgzN0FhMTRzdmp4b3BscHBSX09Yak5fbHJuS1lUMDU3N3lOVTBWdUM1cy1kV3k5R3BrT2dGVWVuMFJRM0JHemRkMVQtOE5qTmtCVF9ZdEN3MVotczh5a2JUbEpOR1NQWHBaVVRPVS1ETjMtNkM2bHN2V3RlZ3FOSV92ZVowVlk2NE5McHZ0NWR5QQ?oc=5",
-      "fecha": "2026-11-27T14:28:53.000Z"
-    },
-    {
-      "titulo": "Startups digitales ganan terreno en el México informal",
-      "fuente": "El Financiero",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXZmRzNoaWo0Y2I1dW9ycFY5Qlp4S1dGWUVaTUxvUzFQU1E0VXZ5WHB4VlM1bkozaldKTmJfR2REdUVjQlZCdU1NNGxZbDItS0dqdHJ3V0J2X0hZUmR2TE9oemRhSkFQbGZlR3RPMF94XzBLNllmSXNuWkM4Z3dvRlV4X1lHaU8xZDUxejFNLURMaVpiUWFOcnM4ZzdrSW94UWNIQTFsNk1QbmRfQTlheXI5OFdwMHYyRlY1eU1n?oc=5",
-      "fecha": "2026-11-27T14:26:32.000Z"
     }
   ]
 }
